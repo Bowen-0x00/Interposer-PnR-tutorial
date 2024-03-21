@@ -1,0 +1,233 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Die Text-In Wizard                                               )
+(                                                                     )
+(    Drawing          : tutorial.sip                                  )
+(    Software Version : 17.4P001                                      )
+(    Date/Time        : Thu Feb 29 16:37:04 2024                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+WARNING(SPMHII-22):  is not a recognized units string for length measurement. [help]
+Text file contains a column header line. This has been used to pre-configure the columns for import.
+Beginning import of data. This may take some time.
+Beginning creation of logical component.
+Logical component creation completed.
+
+Attaching pins to their nets (creating new nets as required).
+   Pin INTERPOSER.1 was added to net DEBUG_O_4.
+   Pin INTERPOSER.2 was added to net DEBUG_O_6.
+   Pin INTERPOSER.3 was added to net DEBUG_O_8.
+   Pin INTERPOSER.4 was added to net HID_3.
+   Pin INTERPOSER.5 was added to net HID_2.
+   Pin INTERPOSER.6 was added to net HID_1.
+Created new net IPSR_DUM_1 from net name IPSR_DUM_1.
+   Pin INTERPOSER.7 was added to net IPSR_DUM_1.
+   Pin INTERPOSER.8 was added to net DEBUG_I_1.
+   Pin INTERPOSER.9 was added to net DEBUG_I_3.
+   Pin INTERPOSER.10 was added to net DEBUG_I_5.
+   Pin INTERPOSER.11 was added to net DEBUG_O_3.
+   Pin INTERPOSER.12 was added to net DEBUG_O_5.
+   Pin INTERPOSER.13 was added to net DEBUG_O_7.
+Created new net IPSR_DUM_3 from net name IPSR_DUM_3.
+   Pin INTERPOSER.14 was added to net IPSR_DUM_3.
+   Pin INTERPOSER.15 was added to net VSS.
+   Pin INTERPOSER.16 was added to net VDD.
+Created new net IPSR_DUM_2 from net name IPSR_DUM_2.
+   Pin INTERPOSER.17 was added to net IPSR_DUM_2.
+   Pin INTERPOSER.18 was added to net DEBUG_I_2.
+   Pin INTERPOSER.19 was added to net DEBUG_I_4.
+   Pin INTERPOSER.20 was added to net DEBUG_I_6.
+   Pin INTERPOSER.21 was added to net DEBUG_O_2.
+   Pin INTERPOSER.22 was added to net VSS.
+   Pin INTERPOSER.23 was added to net VDD.
+   Pin INTERPOSER.24 was added to net VSS.
+   Pin INTERPOSER.25 was added to net VDD.
+   Pin INTERPOSER.26 was added to net VSS.
+   Pin INTERPOSER.27 was added to net VDD.
+   Pin INTERPOSER.28 was added to net VSS.
+   Pin INTERPOSER.29 was added to net VDD.
+   Pin INTERPOSER.30 was added to net DEBUG_I_7.
+   Pin INTERPOSER.31 was added to net DEBUG_O_1.
+   Pin INTERPOSER.32 was added to net VDD.
+   Pin INTERPOSER.33 was added to net VSS.
+   Pin INTERPOSER.34 was added to net VDD.
+   Pin INTERPOSER.35 was added to net VSS.
+   Pin INTERPOSER.36 was added to net VDD.
+   Pin INTERPOSER.37 was added to net VSS.
+   Pin INTERPOSER.38 was added to net VDD.
+   Pin INTERPOSER.39 was added to net VSS.
+   Pin INTERPOSER.40 was added to net DEBUG_I_8.
+   Pin INTERPOSER.41 was added to net DRESET.
+   Pin INTERPOSER.42 was added to net VSS.
+   Pin INTERPOSER.43 was added to net VDD.
+   Pin INTERPOSER.44 was added to net VSS.
+   Pin INTERPOSER.45 was added to net RESET.
+   Pin INTERPOSER.46 was added to net VSS.
+   Pin INTERPOSER.47 was added to net VDD.
+   Pin INTERPOSER.48 was added to net VSS.
+   Pin INTERPOSER.49 was added to net VDD.
+   Pin INTERPOSER.50 was added to net DCLK.
+   Pin INTERPOSER.51 was added to net E_ID_O_2.
+   Pin INTERPOSER.52 was added to net VDD.
+   Pin INTERPOSER.53 was added to net VSS.
+   Pin INTERPOSER.54 was added to net VDD.
+   Pin INTERPOSER.55 was added to net VSS.
+   Pin INTERPOSER.56 was added to net CLK.
+   Pin INTERPOSER.57 was added to net VSS.
+   Pin INTERPOSER.58 was added to net VDD.
+   Pin INTERPOSER.59 was added to net VSS.
+   Pin INTERPOSER.60 was added to net E_ID_I_1.
+   Pin INTERPOSER.61 was added to net E_ID_O_1.
+   Pin INTERPOSER.62 was added to net VSS.
+   Pin INTERPOSER.63 was added to net VDD.
+   Pin INTERPOSER.64 was added to net VSS.
+   Pin INTERPOSER.65 was added to net VDD.
+   Pin INTERPOSER.66 was added to net VSS.
+   Pin INTERPOSER.67 was added to net VDD.
+   Pin INTERPOSER.68 was added to net VSS.
+   Pin INTERPOSER.69 was added to net VDD.
+   Pin INTERPOSER.70 was added to net E_ID_I_2.
+   Pin INTERPOSER.71 was added to net E_F_O.
+   Pin INTERPOSER.72 was added to net VDD.
+   Pin INTERPOSER.73 was added to net VSS.
+   Pin INTERPOSER.74 was added to net VDD.
+   Pin INTERPOSER.75 was added to net VSS.
+   Pin INTERPOSER.76 was added to net VDD.
+   Pin INTERPOSER.77 was added to net VSS.
+   Pin INTERPOSER.78 was added to net VDD.
+   Pin INTERPOSER.79 was added to net VSS.
+   Pin INTERPOSER.80 was added to net E_F_I.
+   Pin INTERPOSER.81 was added to net E_O_10.
+   Pin INTERPOSER.82 was added to net E_O_9.
+   Pin INTERPOSER.83 was added to net E_O_8.
+   Pin INTERPOSER.84 was added to net E_O_7.
+   Pin INTERPOSER.85 was added to net E_O_6.
+   Pin INTERPOSER.86 was added to net E_O_5.
+   Pin INTERPOSER.87 was added to net E_O_4.
+   Pin INTERPOSER.88 was added to net E_O_3.
+   Pin INTERPOSER.89 was added to net E_O_2.
+   Pin INTERPOSER.90 was added to net E_O_1.
+   Pin INTERPOSER.91 was added to net E_I_1.
+   Pin INTERPOSER.92 was added to net E_I_2.
+   Pin INTERPOSER.93 was added to net E_I_3.
+   Pin INTERPOSER.94 was added to net E_I_4.
+   Pin INTERPOSER.95 was added to net E_I_5.
+   Pin INTERPOSER.96 was added to net E_I_6.
+   Pin INTERPOSER.97 was added to net E_I_7.
+   Pin INTERPOSER.98 was added to net E_I_8.
+   Pin INTERPOSER.99 was added to net E_I_9.
+   Pin INTERPOSER.100 was added to net E_I_10.
+Net attachment phase completed.
+
+Beginning creation of physical symbol.
+The following symbol pins were created (coordinates relative to symbol origin):
+   "1" at (-810 810).
+   "2" at (-630 810).
+   "3" at (-450 810).
+   "4" at (-270 810).
+   "5" at (-90 810).
+   "6" at (90 810).
+   "7" at (270 810).
+   "8" at (450 810).
+   "9" at (630 810).
+   "10" at (810 810).
+   "11" at (-810 630).
+   "12" at (-630 630).
+   "13" at (-450 630).
+   "14" at (-270 630).
+   "15" at (-90 630).
+   "16" at (90 630).
+   "17" at (270 630).
+   "18" at (450 630).
+   "19" at (630 630).
+   "20" at (810 630).
+   "21" at (-810 450).
+   "22" at (-630 450).
+   "23" at (-450 450).
+   "24" at (-270 450).
+   "25" at (-90 450).
+   "26" at (90 450).
+   "27" at (270 450).
+   "28" at (450 450).
+   "29" at (630 450).
+   "30" at (810 450).
+   "31" at (-810 270).
+   "32" at (-630 270).
+   "33" at (-450 270).
+   "34" at (-270 270).
+   "35" at (-90 270).
+   "36" at (90 270).
+   "37" at (270 270).
+   "38" at (450 270).
+   "39" at (630 270).
+   "40" at (810 270).
+   "41" at (-810 90).
+   "42" at (-630 90).
+   "43" at (-450 90).
+   "44" at (-270 90).
+   "45" at (-90 90).
+   "46" at (90 90).
+   "47" at (270 90).
+   "48" at (450 90).
+   "49" at (630 90).
+   "50" at (810 90).
+   "51" at (-810 -90).
+   "52" at (-630 -90).
+   "53" at (-450 -90).
+   "54" at (-270 -90).
+   "55" at (-90 -90).
+   "56" at (90 -90).
+   "57" at (270 -90).
+   "58" at (450 -90).
+   "59" at (630 -90).
+   "60" at (810 -90).
+   "61" at (-810 -270).
+   "62" at (-630 -270).
+   "63" at (-450 -270).
+   "64" at (-270 -270).
+   "65" at (-90 -270).
+   "66" at (90 -270).
+   "67" at (270 -270).
+   "68" at (450 -270).
+   "69" at (630 -270).
+   "70" at (810 -270).
+   "71" at (-810 -450).
+   "72" at (-630 -450).
+   "73" at (-450 -450).
+   "74" at (-270 -450).
+   "75" at (-90 -450).
+   "76" at (90 -450).
+   "77" at (270 -450).
+   "78" at (450 -450).
+   "79" at (630 -450).
+   "80" at (810 -450).
+   "81" at (-810 -630).
+   "82" at (-630 -630).
+   "83" at (-450 -630).
+   "84" at (-270 -630).
+   "85" at (-90 -630).
+   "86" at (90 -630).
+   "87" at (270 -630).
+   "88" at (450 -630).
+   "89" at (630 -630).
+   "90" at (810 -630).
+   "91" at (-810 -810).
+   "92" at (-630 -810).
+   "93" at (-450 -810).
+   "94" at (-270 -810).
+   "95" at (-90 -810).
+   "96" at (90 -810).
+   "97" at (270 -810).
+   "98" at (450 -810).
+   "99" at (630 -810).
+   "100" at (810 -810).
+Physical symbol creation completed.
+
+Adding required pin and net properties.
+Property attachment phase completed.
+
+INFO(SPMHII-42): The data import successfully completed.
+Die Text-In Wizard completed.
+Thu Feb 29 16:37:06 2024

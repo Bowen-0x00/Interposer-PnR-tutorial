@@ -1,0 +1,268 @@
+# 
+# ===============================================================================
+#                               Allegro PCB Router                               
+# Copyright 1990-2010 Cadence Design Systems, Inc.  All Rights Reserved.
+# ===============================================================================
+# 
+# Software licensed for sale by Cadence Design Systems, Inc.
+# Current time = Thu Feb 29 16:40:56 2024
+# 
+# Allegro PCB Router v17-4-0 made 2019/09/12 at 15:39:59
+# Running on: desktop-0j55jav, OS Version: WindowsNT 6.2.9200, Architecture: Intel Pentium
+# Licensing: The program will not obey any unlicensed rules
+# No graphics will be displayed.
+# Design Name C:/Projects/Cadence/Interposer-PnR-tutorial/design\tutorial.dsn
+# Batch File Name: pasde.do
+# Did File Name: C:/Projects/Cadence/Interposer-PnR-tutorial/design/specctra.did
+# Current time = Thu Feb 29 16:40:56 2024
+# PCB C:/Projects/Cadence/Interposer-PnR-tutorial/design
+# Master Unit set up as: UM 1000
+# PCB Limits xlo=-990.0000 ylo=-990.0000 xhi=990.0000 yhi=990.0000
+# Total 2 Images Consolidated.
+# Via TSV z=3, 4 xlo= -6.0000 ylo= -6.0000 xhi=  6.0000 yhi=  6.0000
+# Via VIA1_0P4 z=1, 2 xlo= -0.3500 ylo= -0.3500 xhi=  0.3500 yhi=  0.3500
+# Via VIA2_0P4 z=2, 2 xlo= -0.3500 ylo= -0.3500 xhi=  0.3500 yhi=  0.3500
+# Via VIA3_0P4 z=3, 3 xlo= -0.3500 ylo= -0.3500 xhi=  0.3500 yhi=  0.3500
+# 
+# VIA     M1        M2        M4       UBM   
+# 
+#  M1  --------  VIA1_0P4  --------  --------
+#  M2  VIA1_0P4  VIA2_0P4  --------  --------
+#  M4  --------  --------  VIA3_0P4    TSV   
+# UBM  --------  --------    TSV     --------
+# 
+# <<WARNING:>> Net VSS is defined as a signal net and contains 107 pins.
+# This is more pins than most signal nets contain.
+# Please verify whether net VSS should be a signal net or a power net.
+# Note that a signal net will be routed as starburst or daisy chain.
+# Wires Processed 393, Vias Processed 300
+# Layers Processed: Signal Layers 4
+# Layers Processed: Power Layers 1
+# Components Placed 4, Images Processed 8, Padstacks Processed 6
+# Nets Processed 108, Net Terminals 831
+# PCB Area=3240000.000  EIC=30  Area/EIC=108000.000  SMDs=4
+# Total Pin Count: 428
+# Net VDD uses split power plane.
+# Signal Connections Created 159
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer M1 Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 0.4000, Clearance= 0.4000
+# Layer M2 Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 0.4000, Clearance= 0.4000
+# Layer M4 Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 0.4000, Clearance= 0.4000
+# Layer UBM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 0.4000, Clearance= 0.4000
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Wiring Statistics ----------------- C:/Projects/Cadence/Interposer-PnR-tutorial/design\tutorial.dsn
+# Nets 108 Connections 386 Unroutes 264
+# Signal Layers 4 Power Layers 1
+# Wire Junctions 19, at vias 16 Total Vias 300
+# Percent Connected   19.69
+# Manhattan Length 85159.2900 Horizontal 33867.0190 Vertical 51292.2710
+# Routed Length 69276.0600 Horizontal 25979.8100 Vertical 43296.2500
+# Ratio Actual / Manhattan   0.8135
+# Unconnected Length 16110.4400 Horizontal 6380.0000 Vertical 9730.4400
+# Total Conflicts: 23 (Cross: 0, Clear: 23, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Loading Do File pasde.do ...
+# Loading Do File C:/Projects/Cadence/Interposer-PnR-tutorial/design\tutorial_rules.do ...
+# Colormap Written to File _notify.std
+# Enter command <# Loading Do File C:/Users/Bowen/AppData/Local/Temp/#Taaaaaq09420.tmp ...
+# All Components Unselected.
+# All Nets Unselected.
+# Net VDD Selected.
+set route_diagonal 0
+grid wire 0.010000 (direction x) (offset 0.000000)
+grid wire 0.010000 (direction y) (offset 0.000000)
+grid via 0.010000 (direction x) (offset 0.000000)
+grid via 0.010000 (direction y) (offset 0.000000)
+protect all wires
+# All Wires Protected.
+direction M1 horizontal
+select layer M1
+protect layer_wires M1
+# Wires on layer M1 were Protected.
+direction M2 vertical
+select layer M2
+protect layer_wires M2
+# Wires on layer M2 were Protected.
+direction M4 vertical
+select layer M4
+protect layer_wires M4
+# Wires on layer M4 were Protected.
+direction UBM horizontal
+unselect layer UBM
+# <<WARNING:>> IRoute: Interactive layer(s) disabled for autorouting: UBM
+unprotect layer_wires UBM
+# Wires on layer UBM were Unprotected.
+cost via -1
+# System default cost will be used.
+set turbo_stagger off
+limit outside 1.600000
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+route 25 1
+# Current time = Thu Feb 29 16:41:19 2024
+# 
+# VIA     M1        M2        M4       UBM   
+# 
+#  M1  --------  VIA1_0P4  --------  --------
+#  M2  VIA1_0P4  VIA2_0P4  --------  --------
+#  M4  --------  --------  VIA3_0P4    TSV   
+# UBM  --------  --------    TSV     --------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer M1 Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 0.4000, Clearance= 0.4000
+# Layer M2 Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 0.4000, Clearance= 0.4000
+# Layer M4 Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 0.4000, Clearance= 0.4000
+# Layer UBM Off  Signal Wire Grid 0.0100 with offset 0.0000, Width= 0.4000, Clearance= 0.4000
+# 
+# Wiring Statistics ----------------- C:/Projects/Cadence/Interposer-PnR-tutorial/design\tutorial.dsn
+# Nets 108 Connections 386 Unroutes 264
+# Signal Layers 4 Power Layers 1
+# Wire Junctions 19, at vias 16 Total Vias 300
+# Percent Connected   19.69
+# Manhattan Length 85159.2900 Horizontal 33867.0190 Vertical 51292.2710
+# Routed Length 69276.0600 Horizontal 25979.8100 Vertical 43296.2500
+# Ratio Actual / Manhattan   0.8135
+# Unconnected Length 16110.4400 Horizontal 6380.0000 Vertical 9730.4400
+# Start Route Pass 1 of 25
+# Routing 82 wires.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 159
+# Attempts 82 Successes 82 Failures 0 Vias 441
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# End Pass 1 of 25
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer M1 Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 0.4000, Clearance= 0.4000
+# Layer M2 Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 0.4000, Clearance= 0.4000
+# Layer M4 Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 0.4000, Clearance= 0.4000
+# Layer UBM Off  Signal Wire Grid 0.0100 with offset 0.0000, Width= 0.4000, Clearance= 0.4000
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Route    |  1|     0|     0|   0|  159|  441|    0|   0|  0|  0:00:01|  0:00:01|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:01
+# 
+# Wiring Statistics ----------------- C:/Projects/Cadence/Interposer-PnR-tutorial/design\tutorial.dsn
+# Nets 108 Connections 386 Unroutes 159
+# Signal Layers 4 Power Layers 1
+# Wire Junctions 8, at vias 5 Total Vias 441
+# Percent Connected   58.81
+# Manhattan Length 85159.2900 Horizontal 33867.0190 Vertical 51292.2710
+# Routed Length 70320.6200 Horizontal 26161.3500 Vertical 44159.2700
+# Ratio Actual / Manhattan   0.8258
+# Unconnected Length 16027.3100 Horizontal 6380.0000 Vertical 9647.3100
+clean 2
+# Current time = Thu Feb 29 16:41:20 2024
+# 
+# VIA     M1        M2        M4       UBM   
+# 
+#  M1  --------  VIA1_0P4  --------  --------
+#  M2  VIA1_0P4  VIA2_0P4  --------  --------
+#  M4  --------  --------  VIA3_0P4    TSV   
+# UBM  --------  --------    TSV     --------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer M1 Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 0.4000, Clearance= 0.4000
+# Layer M2 Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 0.4000, Clearance= 0.4000
+# Layer M4 Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 0.4000, Clearance= 0.4000
+# Layer UBM Off  Signal Wire Grid 0.0100 with offset 0.0000, Width= 0.4000, Clearance= 0.4000
+# 
+# Wiring Statistics ----------------- C:/Projects/Cadence/Interposer-PnR-tutorial/design\tutorial.dsn
+# Nets 108 Connections 386 Unroutes 159
+# Signal Layers 4 Power Layers 1
+# Wire Junctions 8, at vias 5 Total Vias 441
+# Percent Connected   58.81
+# Manhattan Length 85159.2900 Horizontal 33867.0190 Vertical 51292.2710
+# Routed Length 70320.6200 Horizontal 26161.3500 Vertical 44159.2700
+# Ratio Actual / Manhattan   0.8258
+# Unconnected Length 16027.3100 Horizontal 6380.0000 Vertical 9647.3100
+# Start Clean Pass 1 of 2
+# Routing 164 wires.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 159
+# Attempts 82 Successes 82 Failures 0 Vias 441
+# Cpu Time = 0:00:03  Elapsed Time = 0:00:01
+# End Pass 1 of 2
+# Start Clean Pass 2 of 2
+# Routing 164 wires.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 159
+# Attempts 82 Successes 82 Failures 0 Vias 441
+# Cpu Time = 0:00:02  Elapsed Time = 0:00:01
+# End Pass 2 of 2
+# Cpu Time = 0:00:05  Elapsed Time = 0:00:02
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer M1 Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 0.4000, Clearance= 0.4000
+# Layer M2 Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 0.4000, Clearance= 0.4000
+# Layer M4 Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 0.4000, Clearance= 0.4000
+# Layer UBM Off  Signal Wire Grid 0.0100 with offset 0.0000, Width= 0.4000, Clearance= 0.4000
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Route    |  1|     0|     0|   0|  159|  441|    0|   0|  0|  0:00:01|  0:00:01|
+# Clean    |  2|     0|     0|   0|  159|  441|    0|   0|   |  0:00:03|  0:00:04|
+# Clean    |  3|     0|     0|   0|  159|  441|    0|   0|   |  0:00:02|  0:00:06|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:06
+# 
+# Wiring Statistics ----------------- C:/Projects/Cadence/Interposer-PnR-tutorial/design\tutorial.dsn
+# Nets 108 Connections 386 Unroutes 159
+# Signal Layers 4 Power Layers 1
+# Wire Junctions 8, at vias 5 Total Vias 441
+# Percent Connected   58.81
+# Manhattan Length 85159.2900 Horizontal 33867.0190 Vertical 51292.2710
+# Routed Length 70344.3700 Horizontal 26078.5300 Vertical 44265.8400
+# Ratio Actual / Manhattan   0.8260
+# Unconnected Length 16027.3100 Horizontal 6380.0000 Vertical 9647.3100
+write routes (changed_only) (reset_changed) C:/Users/Bowen/AppData/Local/Temp/#Taaaaar09420.tmp
+# <<WARNING:>> Non positive shape width (0) near the point 0/0.
+# <<WARNING:>> Non positive shape width (0) near the point 0/0.
+# <<WARNING:>> Non positive shape width (0) near the point 0/0.
+# <<WARNING:>> Non positive shape width (0) near the point 0/0.
+# <<WARNING:>> Non positive shape width (0) near the point 0/0.
+# <<WARNING:>> Non positive shape width (0) near the point 0/0.
+# <<WARNING:>> Non positive shape width (0) near the point 0/0.
+# <<WARNING:>> Non positive shape width (0) near the point 0/0.
+# <<WARNING:>> Non positive shape width (0) near the point 0/0.
+# <<WARNING:>> Non positive shape width (0) near the point 0/0.
+# <<WARNING:>> Number of warnings on non positive widths exceeded limit (10). No more messages will be printed.
+# Routing Written to File C:/Users/Bowen/AppData/Local/Temp/#Taaaaar09420.tmp
+quit

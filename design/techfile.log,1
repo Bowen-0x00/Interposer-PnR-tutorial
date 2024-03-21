@@ -1,0 +1,292 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Technology File READ                                             )
+(                                                                     )
+(    Drawing          : tutorial.sip                                  )
+(    Software Version : 22.1S005                                      )
+(    Date/Time        : Thu Feb 29 10:55:30 2024                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+techfile name: C:/Projects/Cadence/Interposer-PnR-tutorial/script/techfile/tutorial.tcfx
+  layout name: C:/Projects/Cadence/Interposer-PnR-tutorial/design/tutorial.sip
+
+Technology Difference Report
+============================
+
+Design        : tutorial
+Input File    : C:/Projects/Cadence/Interposer-PnR-tutorial/script/techfile/tutorial.tcfx
+Update Mode   : Merge (no deletions will be done)
+Constraint Information : CrossSection, Electrical, Physical, Spacing, Same Net Spacing, Assembly, Properties
+Notes:
+------
+  - Attribute updates are reported as additions, deletions, or changes.
+  - Association updates are reported as additions or deletions. Associations
+    are the members of a MatchGroup, Constraint Set references, the PinPairs
+    of a Net, the members of a Differential Pair, etc.
+  - Clearing an object implies that the object does not exist so all attributes
+    and associations for the object will be deleted. These attribute and association
+    deletions are not included in the Summary totals. Objects are Constraint Sets,
+    Buses, XNets, Nets, etc.
+
+
+---------------------------------------------------------
+Layer: M1
+	Changing: CDS_LAYER_NAME to "M1" from "TOP"
+	Changing: CDS_LAYER_ELECTRICAL_CONDUCTIVITY to "595900" from "596000"
+	Changing: CDS_LAYER_DIELECTRIC_CONSTANT to "4.5" from "1"
+	Changing: CDS_LAYER_THICKNESS to "1" from "30.48"
+	Changing: CDS_LAYER_LINE_WIDTH to "0.40" from "75.00"
+	Changing: CDS_LAYER_DIFF_SPACING to "0.40" from "1905.00"
+	Adding: CDS_LAYER_BIAS_INFO value "MASTER:0 UM,0 UM,0 UM,0 UM,0 UM,0 UM;"
+---------------------------------------------------------
+Layer: Dielectric (2)
+	Changing: CDS_LAYER_MATERIAL to "SILICON_DIOXIDE" from "FR-4"
+	Changing: CDS_LAYER_DIELECTRIC_CONSTANT to "4" from "4.5"
+	Changing: CDS_LAYER_LOSS_TANGENT to "0" from "0.035"
+	Changing: CDS_LAYER_THICKNESS to "1" from "203.2"
+---------------------------------------------------------
+Create Layer: Dielectric (3)
+	Adding: CDS_LAYER_MATERIAL value "SILICON_DIOXIDE"
+	Adding: CDS_LAYER_ELECTRICAL_CONDUCTIVITY value "0"
+	Adding: CDS_LAYER_DIELECTRIC_CONSTANT value "4"
+	Adding: CDS_LAYER_LOSS_TANGENT value "0"
+	Adding: CDS_LAYER_THICKNESS value "1"
+	Adding: CDS_LAYER_THICKNESS_PLUS value "0"
+	Adding: CDS_LAYER_THICKNESS_MINUS value "0"
+	Adding: CDS_LAYER_FUNCTION value "DIELECTRIC"
+---------------------------------------------------------
+Create Layer: Dielectric (4)
+	Adding: CDS_LAYER_MATERIAL value "SILICON_DIOXIDE"
+	Adding: CDS_LAYER_ELECTRICAL_CONDUCTIVITY value "0"
+	Adding: CDS_LAYER_DIELECTRIC_CONSTANT value "4"
+	Adding: CDS_LAYER_LOSS_TANGENT value "0"
+	Adding: CDS_LAYER_THICKNESS value "1"
+	Adding: CDS_LAYER_THICKNESS_PLUS value "0"
+	Adding: CDS_LAYER_THICKNESS_MINUS value "0"
+	Adding: CDS_LAYER_FUNCTION value "DIELECTRIC"
+---------------------------------------------------------
+Create Layer: Dielectric (5)
+	Adding: CDS_LAYER_MATERIAL value "SILICON"
+	Adding: CDS_LAYER_ELECTRICAL_CONDUCTIVITY value "0"
+	Adding: CDS_LAYER_DIELECTRIC_CONSTANT value "11.9"
+	Adding: CDS_LAYER_LOSS_TANGENT value "0"
+	Adding: CDS_LAYER_THICKNESS value "100"
+	Adding: CDS_LAYER_THICKNESS_PLUS value "0"
+	Adding: CDS_LAYER_THICKNESS_MINUS value "0"
+	Adding: CDS_LAYER_FUNCTION value "DIELECTRIC"
+---------------------------------------------------------
+Layer: UBM
+	Changing: CDS_LAYER_NAME to "UBM" from "BOTTOM"
+	Changing: CDS_LAYER_ELECTRICAL_CONDUCTIVITY to "595900" from "596000"
+	Changing: CDS_LAYER_DIELECTRIC_CONSTANT to "4.5" from "1"
+	Changing: CDS_LAYER_THICKNESS to "1" from "30.48"
+	Changing: CDS_LAYER_LINE_WIDTH to "0.40" from "75.00"
+	Changing: CDS_LAYER_DIFF_SPACING to "0.40" from "1905.00"
+	Adding: CDS_LAYER_BIAS_INFO value "MASTER:0 UM,0 UM,0 UM,0 UM,0 UM,0 UM;"
+---------------------------------------------------------
+Create Layer: M2
+	Adding: CDS_LAYER_MATERIAL value "COPPER"
+	Adding: CDS_LAYER_ELECTRICAL_CONDUCTIVITY value "595900"
+	Adding: CDS_LAYER_DIELECTRIC_CONSTANT value "4.5"
+	Adding: CDS_LAYER_LOSS_TANGENT value "0"
+	Adding: CDS_LAYER_THICKNESS value "1"
+	Adding: CDS_LAYER_THICKNESS_PLUS value "0"
+	Adding: CDS_LAYER_THICKNESS_MINUS value "0"
+	Adding: CDS_LAYER_EMBEDDED_STATUS value "Not embedded"
+	Adding: CDS_LAYER_ETCH_FACTOR value "90"
+	Adding: CDS_LAYER_LINE_WIDTH value "0.40"
+	Adding: CDS_LAYER_DIFF_SPACING value "0.40"
+	Adding: CDS_LAYER_DIFF_COUPLING value "None"
+	Adding: CDS_LAYER_FUNCTION value "CONDUCTOR"
+	Adding: CDS_LAYER_BIAS_INFO value "MASTER:0 UM,0 UM,0 UM,0 UM,0 UM,0 UM;"
+---------------------------------------------------------
+Create Layer: M3
+	Adding: CDS_LAYER_MATERIAL value "COPPER"
+	Adding: CDS_LAYER_ELECTRICAL_CONDUCTIVITY value "595900"
+	Adding: CDS_LAYER_DIELECTRIC_CONSTANT value "4.5"
+	Adding: CDS_LAYER_LOSS_TANGENT value "0"
+	Adding: CDS_LAYER_THICKNESS value "1"
+	Adding: CDS_LAYER_THICKNESS_PLUS value "0"
+	Adding: CDS_LAYER_THICKNESS_MINUS value "0"
+	Adding: CDS_LAYER_EMBEDDED_STATUS value "Not embedded"
+	Adding: CDS_LAYER_ETCH_FACTOR value "90"
+	Adding: CDS_LAYER_LINE_WIDTH value "0.40"
+	Adding: CDS_LAYER_DIFF_SPACING value "0.40"
+	Adding: CDS_LAYER_DIFF_COUPLING value "None"
+	Adding: CDS_LAYER_FUNCTION value "CONDUCTOR"
+	Adding: CDS_LAYER_BIAS_INFO value "MASTER:0 UM,0 UM,0 UM,0 UM,0 UM,0 UM;"
+---------------------------------------------------------
+Create Layer: M4
+	Adding: CDS_LAYER_MATERIAL value "COPPER"
+	Adding: CDS_LAYER_ELECTRICAL_CONDUCTIVITY value "595900"
+	Adding: CDS_LAYER_DIELECTRIC_CONSTANT value "4.5"
+	Adding: CDS_LAYER_LOSS_TANGENT value "0"
+	Adding: CDS_LAYER_THICKNESS value "1"
+	Adding: CDS_LAYER_THICKNESS_PLUS value "0"
+	Adding: CDS_LAYER_THICKNESS_MINUS value "0"
+	Adding: CDS_LAYER_EMBEDDED_STATUS value "Not embedded"
+	Adding: CDS_LAYER_ETCH_FACTOR value "90"
+	Adding: CDS_LAYER_LINE_WIDTH value "0.40"
+	Adding: CDS_LAYER_DIFF_SPACING value "0.40"
+	Adding: CDS_LAYER_DIFF_COUPLING value "None"
+	Adding: CDS_LAYER_FUNCTION value "CONDUCTOR"
+	Adding: CDS_LAYER_BIAS_INFO value "MASTER:0 UM,0 UM,0 UM,0 UM,0 UM,0 UM;"
+---------------------------------------------------------
+Stackup: PRIMARY
+	Adding: Layer association value "M2"
+	Adding: Layer association value "Dielectric (4)"
+	Adding: Layer association value "M3"
+	Adding: Layer association value "Dielectric (6)"
+	Adding: Layer association value "M4"
+	Adding: Layer association value "Dielectric (8)"
+---------------------------------------------------------
+Design: tutorial
+	Adding: CDS_DI_CONTROL_MASK value "0"
+	Changing: DRAWING_LOWER_LEFT to "-49460.00,-48150.00" from "-50000.00,-50000.00"
+	Changing: PROPAGATION_DELAY_MIN_VMODE to "ON" from "OFF"
+	Changing: RELATIVE_PROPAGATION_DELAY_VMODE to "ON" from "OFF"
+---------------------------------------------------------
+SpacingCSet: DEFAULT
+	Changing: THRUPIN_TO_THRUPIN_SPACING to "0.40" from "75.00"
+	Changing: THRUPIN_TO_SMDPIN_SPACING to "0.40" from "75.00"
+	Changing: THRUPIN_TO_THRUVIA_SPACING to "0.40" from "75.00"
+	Changing: LINE_TO_THRUPIN_SPACING to "0.40" from "75.00"
+	Changing: THRUPIN_TO_SHAPE_SPACING to "0.40" from "75.00"
+	Changing: SMDPIN_TO_SMDPIN_SPACING to "0.40" from "75.00"
+	Changing: SMDPIN_TO_THRUVIA_SPACING to "0.40" from "75.00"
+	Changing: LINE_TO_SMDPIN_SPACING to "0.40" from "75.00"
+	Changing: SHAPE_TO_SMDPIN_SPACING to "0.40" from "75.00"
+	Changing: THRUVIA_TO_THRUVIA_SPACING to "0.40" from "75.00"
+	Changing: LINE_TO_THRUVIA_SPACING to "0.40" from "75.00"
+	Changing: SHAPE_TO_THRUVIA_SPACING to "0.40" from "75.00"
+	Changing: LINE_TO_LINE_SPACING to "0.40" from "75.00"
+	Changing: LINE_TO_SHAPE_SPACING to "0.40" from "75.00"
+	Changing: SHAPE_TO_SHAPE_SPACING to "0.40" from "75.00"
+	Changing: BBV_TO_BBV_SPACING to "0.40" from "75.00"
+	Changing: BBV_TO_THRUPIN_SPACING to "0.40" from "75.00"
+	Changing: BBV_TO_SMDPIN_SPACING to "0.40" from "75.00"
+	Changing: BBV_TO_THRUVIA_SPACING to "0.40" from "75.00"
+	Changing: BBV_TO_LINE_SPACING to "0.40" from "75.00"
+	Changing: BBV_TO_SHAPE_SPACING to "0.40" from "75.00"
+	Changing: BBV_TO_TESTPIN_SPACING to "0.40" from "75.00"
+	Changing: BBV_TO_TESTVIA_SPACING to "0.40" from "75.00"
+	Changing: TESTPIN_TO_TESTPIN_SPACING to "0.40" from "75.00"
+	Changing: TESTPIN_TO_THRUPIN_SPACING to "0.40" from "75.00"
+	Changing: SMDPIN_TO_TESTPIN_SPACING to "0.40" from "75.00"
+	Changing: TESTPIN_TO_THRUVIA_SPACING to "0.40" from "75.00"
+	Changing: TESTPIN_TO_TESTVIA_SPACING to "0.40" from "75.00"
+	Changing: LINE_TO_TESTPIN_SPACING to "0.40" from "75.00"
+	Changing: SHAPE_TO_TESTPIN_SPACING to "0.40" from "75.00"
+	Changing: TESTVIA_TO_TESTVIA_SPACING to "0.40" from "75.00"
+	Changing: TESTVIA_TO_THRUPIN_SPACING to "0.40" from "75.00"
+	Changing: SMDPIN_TO_TESTVIA_SPACING to "0.40" from "75.00"
+	Changing: TESTVIA_TO_THRUVIA_SPACING to "0.40" from "75.00"
+	Changing: LINE_TO_TESTVIA_SPACING to "0.40" from "75.00"
+	Changing: SHAPE_TO_TESTVIA_SPACING to "0.40" from "75.00"
+	Changing: BONDPAD_TO_BONDPAD_SPACING to "0.40" from "75.00"
+	Changing: THRUPIN_TO_BONDPAD_SPACING to "0.40" from "75.00"
+	Changing: SMDPIN_TO_BONDPAD_SPACING to "0.40" from "75.00"
+	Changing: BONDPAD_TO_THRUVIA_SPACING to "0.40" from "75.00"
+	Changing: BONDPAD_TO_LINE_SPACING to "0.40" from "75.00"
+	Changing: BONDPAD_TO_SHAPE_SPACING to "0.40" from "75.00"
+	Changing: BONDPAD_TO_BBV_SPACING to "0.40" from "75.00"
+	Changing: BONDPAD_TO_TESTPIN_SPACING to "0.40" from "75.00"
+	Changing: BONDPAD_TO_TESTVIA_SPACING to "0.40" from "75.00"
+	Changing: HOLE_TO_PIN_SPACING to "0.40" from "75.00"
+	Changing: HOLE_TO_VIA_SPACING to "0.40" from "75.00"
+	Changing: HOLE_TO_LINE_SPACING to "0.40" from "75.00"
+	Changing: HOLE_TO_SHAPE_SPACING to "0.40" from "75.00"
+	Changing: HOLE_TO_HOLE_SPACING to "0.40" from "75.00"
+	Changing: MVIA_TO_MVIA_SPACING to "0.40" from "75.00"
+	Changing: MVIA_TO_THRUPIN_SPACING to "0.40" from "75.00"
+	Changing: MVIA_TO_SMDPIN_SPACING to "0.40" from "75.00"
+	Changing: MVIA_TO_THRUVIA_SPACING to "0.40" from "75.00"
+	Changing: MVIA_TO_BBV_SPACING to "0.40" from "75.00"
+	Changing: MVIA_TO_LINE_SPACING to "0.40" from "75.00"
+	Changing: MVIA_TO_SHAPE_SPACING to "0.40" from "75.00"
+	Changing: MVIA_TO_TESTPIN_SPACING to "0.40" from "75.00"
+	Changing: MVIA_TO_TESTVIA_SPACING to "0.40" from "75.00"
+	Changing: BONDPAD_TO_MVIA_SPACING to "0.40" from "75.00"
+	Changing: BONDPAD_TO_BONDPAD_DIFFP_SPC to "0.40" from "75.00"
+	Changing: MIN_BVIA_GAP to "0.00" from "75.00"
+---------------------------------------------------------
+PhysicalCSet: DEFAULT
+	Changing: MIN_LINE_WIDTH to "0.40" from "75.00"
+	Changing: MIN_NECK_WIDTH to "0.40" from "75.00"
+	Changing: MIN_BVIA_STAGGER to "0.00" from "75.00"
+	Adding: VIA_LIST value "VIA1_0P4,VIA2_0P4,VIA3_0P4,TSV"
+---------------------------------------------------------
+SameNetSpacingCSet: DEFAULT
+	Changing: SN_THRUPIN_TO_THRUPIN_SPACING to "-1.00" from "75.00"
+	Changing: SN_THRUPIN_TO_SMDPIN_SPACING to "-1.00" from "75.00"
+	Changing: SN_THRUPIN_TO_THRUVIA_SPACING to "-1.00" from "75.00"
+	Changing: SN_LINE_TO_THRUPIN_SPACING to "0.40" from "75.00"
+	Changing: SN_THRUPIN_TO_SHAPE_SPACING to "-1.00" from "75.00"
+	Changing: SN_SMDPIN_TO_SMDPIN_SPACING to "-1.00" from "75.00"
+	Changing: SN_SMDPIN_TO_THRUVIA_SPACING to "-1.00" from "75.00"
+	Changing: SN_LINE_TO_SMDPIN_SPACING to "0.40" from "75.00"
+	Changing: SN_SHAPE_TO_SMDPIN_SPACING to "-1.00" from "75.00"
+	Changing: SN_THRUVIA_TO_THRUVIA_SPACING to "-1.00" from "75.00"
+	Changing: SN_LINE_TO_THRUVIA_SPACING to "0.40" from "75.00"
+	Changing: SN_SHAPE_TO_THRUVIA_SPACING to "-1.00" from "75.00"
+	Changing: SN_LINE_TO_LINE_SPACING to "0.40" from "75.00"
+	Changing: SN_LINE_TO_SHAPE_SPACING to "0.40" from "75.00"
+	Changing: SN_SHAPE_TO_SHAPE_SPACING to "-1.00" from "75.00"
+	Changing: SN_BBV_TO_BBV_SPACING to "-1.00" from "75.00"
+	Changing: SN_BBV_TO_THRUPIN_SPACING to "-1.00" from "75.00"
+	Changing: SN_BBV_TO_SMDPIN_SPACING to "-1.00" from "75.00"
+	Changing: SN_BBV_TO_THRUVIA_SPACING to "-1.00" from "75.00"
+	Changing: SN_BBV_TO_LINE_SPACING to "0.40" from "75.00"
+	Changing: SN_BBV_TO_SHAPE_SPACING to "-1.00" from "75.00"
+	Changing: SN_BBV_TO_TESTPIN_SPACING to "-1.00" from "75.00"
+	Changing: SN_BBV_TO_TESTVIA_SPACING to "-1.00" from "75.00"
+	Changing: SN_TESTPIN_TO_TESTPIN_SPACING to "-1.00" from "75.00"
+	Changing: SN_TESTPIN_TO_THRUPIN_SPACING to "-1.00" from "75.00"
+	Changing: SN_SMDPIN_TO_TESTPIN_SPACING to "-1.00" from "75.00"
+	Changing: SN_TESTPIN_TO_THRUVIA_SPACING to "-1.00" from "75.00"
+	Changing: SN_TESTPIN_TO_TESTVIA_SPACING to "-1.00" from "75.00"
+	Changing: SN_LINE_TO_TESTPIN_SPACING to "0.40" from "75.00"
+	Changing: SN_SHAPE_TO_TESTPIN_SPACING to "-1.00" from "75.00"
+	Changing: SN_TESTVIA_TO_TESTVIA_SPACING to "-1.00" from "75.00"
+	Changing: SN_TESTVIA_TO_THRUPIN_SPACING to "-1.00" from "75.00"
+	Changing: SN_SMDPIN_TO_TESTVIA_SPACING to "-1.00" from "75.00"
+	Changing: SN_TESTVIA_TO_THRUVIA_SPACING to "-1.00" from "75.00"
+	Changing: SN_LINE_TO_TESTVIA_SPACING to "0.40" from "75.00"
+	Changing: SN_SHAPE_TO_TESTVIA_SPACING to "-1.00" from "75.00"
+	Changing: SN_BONDPAD_TO_BONDPAD_SPACING to "-1.00" from "75.00"
+	Changing: SN_THRUPIN_TO_BONDPAD_SPACING to "-1.00" from "75.00"
+	Changing: SN_SMDPIN_TO_BONDPAD_SPACING to "-1.00" from "75.00"
+	Changing: SN_BONDPAD_TO_THRUVIA_SPACING to "-1.00" from "75.00"
+	Changing: SN_BONDPAD_TO_LINE_SPACING to "0.40" from "75.00"
+	Changing: SN_BONDPAD_TO_SHAPE_SPACING to "-1.00" from "75.00"
+	Changing: SN_BONDPAD_TO_BBV_SPACING to "-1.00" from "75.00"
+	Changing: SN_BONDPAD_TO_TESTPIN_SPACING to "-1.00" from "75.00"
+	Changing: SN_BONDPAD_TO_TESTVIA_SPACING to "-1.00" from "75.00"
+	Changing: SN_HOLE_TO_PIN_SPACING to "-1.00" from "75.00"
+	Changing: SN_HOLE_TO_VIA_SPACING to "-1.00" from "75.00"
+	Changing: SN_HOLE_TO_LINE_SPACING to "0.40" from "75.00"
+	Changing: SN_HOLE_TO_SHAPE_SPACING to "-1.00" from "75.00"
+	Changing: SN_HOLE_TO_HOLE_SPACING to "-1.00" from "75.00"
+	Changing: SN_MVIA_TO_MVIA_SPACING to "-1.00" from "75.00"
+	Changing: SN_MVIA_TO_THRUPIN_SPACING to "-1.00" from "75.00"
+	Changing: SN_MVIA_TO_SMDPIN_SPACING to "-1.00" from "75.00"
+	Changing: SN_MVIA_TO_THRUVIA_SPACING to "-1.00" from "75.00"
+	Changing: SN_MVIA_TO_BBV_SPACING to "-1.00" from "75.00"
+	Changing: SN_MVIA_TO_LINE_SPACING to "0.40" from "75.00"
+	Changing: SN_MVIA_TO_SHAPE_SPACING to "-1.00" from "75.00"
+	Changing: SN_MVIA_TO_TESTPIN_SPACING to "-1.00" from "75.00"
+	Changing: SN_MVIA_TO_TESTVIA_SPACING to "-1.00" from "75.00"
+	Changing: SN_BONDPAD_TO_MVIA_SPACING to "-1.00" from "75.00"
+---------------------------------------------------------
+
+Summary:
+
+Constraint changes found: 70 additions, 0 deletions, 144 changes.
+
+Association changes found: 6 additions, 0 deletions.
+
+
+
+

@@ -1,0 +1,185 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Die Text-In Wizard                                               )
+(                                                                     )
+(    Drawing          : tutorial.sip                                  )
+(    Software Version : 17.4P001                                      )
+(    Date/Time        : Thu Feb 29 16:37:03 2024                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+WARNING(SPMHII-22):  is not a recognized units string for length measurement. [help]
+Text file contains a column header line. This has been used to pre-configure the columns for import.
+Beginning import of data. This may take some time.
+Beginning creation of logical component.
+Logical component creation completed.
+
+Attaching pins to their nets (creating new nets as required).
+Created new net T2_INT_5 from net name T2_INT_5.
+   Pin T2.1 was added to net T2_INT_5.
+Created new net T2_INT_4 from net name T2_INT_4.
+   Pin T2.2 was added to net T2_INT_4.
+Created new net T2_INT_3 from net name T2_INT_3.
+   Pin T2.3 was added to net T2_INT_3.
+Created new net T2_INT_2 from net name T2_INT_2.
+   Pin T2.4 was added to net T2_INT_2.
+Created new net T2_INT_1 from net name T2_INT_1.
+   Pin T2.5 was added to net T2_INT_1.
+   Pin T2.6 was added to net HID_3.
+   Pin T2.7 was added to net HID_2.
+   Pin T2.8 was added to net HID_1.
+Created new net T2_O_10 from net name T2_O_10.
+   Pin T2.9 was added to net T2_O_10.
+Created new net T2_F_O from net name T2_F_O.
+   Pin T2.10 was added to net T2_F_O.
+   Pin T2.11 was added to net VSS.
+   Pin T2.12 was added to net VDD.
+   Pin T2.13 was added to net VSS.
+   Pin T2.14 was added to net VDD.
+Created new net T2_F_I from net name T2_F_I.
+   Pin T2.15 was added to net T2_F_I.
+Created new net T2_I_10 from net name T2_I_10.
+   Pin T2.16 was added to net T2_I_10.
+Created new net T2_O_9 from net name T2_O_9.
+   Pin T2.17 was added to net T2_O_9.
+   Pin T2.18 was added to net VSS.
+   Pin T2.19 was added to net VDD.
+   Pin T2.20 was added to net VSS.
+   Pin T2.21 was added to net VDD.
+   Pin T2.22 was added to net VSS.
+   Pin T2.23 was added to net VDD.
+Created new net T2_I_9 from net name T2_I_9.
+   Pin T2.24 was added to net T2_I_9.
+Created new net T2_O_8 from net name T2_O_8.
+   Pin T2.25 was added to net T2_O_8.
+   Pin T2.26 was added to net VDD.
+   Pin T2.27 was added to net VSS.
+   Pin T2.28 was added to net VDD.
+   Pin T2.29 was added to net VSS.
+   Pin T2.30 was added to net VDD.
+   Pin T2.31 was added to net VSS.
+Created new net T2_I_8 from net name T2_I_8.
+   Pin T2.32 was added to net T2_I_8.
+Created new net T2_O_7 from net name T2_O_7.
+   Pin T2.33 was added to net T2_O_7.
+   Pin T2.34 was added to net VSS.
+   Pin T2.35 was added to net VDD.
+   Pin T2.36 was added to net VSS.
+   Pin T2.37 was added to net VDD.
+   Pin T2.38 was added to net VSS.
+   Pin T2.39 was added to net VDD.
+Created new net T2_I_7 from net name T2_I_7.
+   Pin T2.40 was added to net T2_I_7.
+Created new net T2_O_6 from net name T2_O_6.
+   Pin T2.41 was added to net T2_O_6.
+   Pin T2.42 was added to net VDD.
+   Pin T2.43 was added to net VSS.
+   Pin T2.44 was added to net VDD.
+   Pin T2.45 was added to net VSS.
+   Pin T2.46 was added to net VDD.
+   Pin T2.47 was added to net VSS.
+Created new net T2_I_6 from net name T2_I_6.
+   Pin T2.48 was added to net T2_I_6.
+Created new net T2_O_5 from net name T2_O_5.
+   Pin T2.49 was added to net T2_O_5.
+Created new net T2_O_4 from net name T2_O_4.
+   Pin T2.50 was added to net T2_O_4.
+   Pin T2.51 was added to net VDD.
+   Pin T2.52 was added to net VSS.
+   Pin T2.53 was added to net VDD.
+   Pin T2.54 was added to net VSS.
+Created new net T2_I_4 from net name T2_I_4.
+   Pin T2.55 was added to net T2_I_4.
+Created new net T2_I_5 from net name T2_I_5.
+   Pin T2.56 was added to net T2_I_5.
+Created new net T2_O_3 from net name T2_O_3.
+   Pin T2.57 was added to net T2_O_3.
+Created new net T2_O_2 from net name T2_O_2.
+   Pin T2.58 was added to net T2_O_2.
+Created new net T2_O_1 from net name T2_O_1.
+   Pin T2.59 was added to net T2_O_1.
+   Pin T2.60 was added to net RESET.
+   Pin T2.61 was added to net CLK.
+Created new net T2_I_1 from net name T2_I_1.
+   Pin T2.62 was added to net T2_I_1.
+Created new net T2_I_2 from net name T2_I_2.
+   Pin T2.63 was added to net T2_I_2.
+Created new net T2_I_3 from net name T2_I_3.
+   Pin T2.64 was added to net T2_I_3.
+Net attachment phase completed.
+
+Beginning creation of physical symbol.
+The following symbol pins were created (coordinates relative to symbol origin):
+   "1" at (-140 140).
+   "2" at (-100 140).
+   "3" at (-60 140).
+   "4" at (-20 140).
+   "5" at (20 140).
+   "6" at (60 140).
+   "7" at (100 140).
+   "8" at (140 140).
+   "9" at (-140 100).
+   "10" at (-100 100).
+   "11" at (-60 100).
+   "12" at (-20 100).
+   "13" at (20 100).
+   "14" at (60 100).
+   "15" at (100 100).
+   "16" at (140 100).
+   "17" at (-140 60).
+   "18" at (-100 60).
+   "19" at (-60 60).
+   "20" at (-20 60).
+   "21" at (20 60).
+   "22" at (60 60).
+   "23" at (100 60).
+   "24" at (140 60).
+   "25" at (-140 20).
+   "26" at (-100 20).
+   "27" at (-60 20).
+   "28" at (-20 20).
+   "29" at (20 20).
+   "30" at (60 20).
+   "31" at (100 20).
+   "32" at (140 20).
+   "33" at (-140 -20).
+   "34" at (-100 -20).
+   "35" at (-60 -20).
+   "36" at (-20 -20).
+   "37" at (20 -20).
+   "38" at (60 -20).
+   "39" at (100 -20).
+   "40" at (140 -20).
+   "41" at (-140 -60).
+   "42" at (-100 -60).
+   "43" at (-60 -60).
+   "44" at (-20 -60).
+   "45" at (20 -60).
+   "46" at (60 -60).
+   "47" at (100 -60).
+   "48" at (140 -60).
+   "49" at (-140 -100).
+   "50" at (-100 -100).
+   "51" at (-60 -100).
+   "52" at (-20 -100).
+   "53" at (20 -100).
+   "54" at (60 -100).
+   "55" at (100 -100).
+   "56" at (140 -100).
+   "57" at (-140 -140).
+   "58" at (-100 -140).
+   "59" at (-60 -140).
+   "60" at (-20 -140).
+   "61" at (20 -140).
+   "62" at (60 -140).
+   "63" at (100 -140).
+   "64" at (140 -140).
+Physical symbol creation completed.
+
+Adding required pin and net properties.
+Property attachment phase completed.
+
+INFO(SPMHII-42): The data import successfully completed.
+Die Text-In Wizard completed.
+Thu Feb 29 16:37:04 2024

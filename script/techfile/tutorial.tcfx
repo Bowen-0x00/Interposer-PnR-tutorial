@@ -1,0 +1,3305 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<cft:root-Cadence-Allegro-Technology-File xmlns:cft="http://www.cadence.com/xsd/wholeFile">
+
+  <cft:txt-FileType Name="FileType">Technology</cft:txt-FileType>
+
+  <cft:txt-FormatVersion Name="FormatVersion">17.211</cft:txt-FormatVersion>
+
+  <cft:xml-Header Name="Header">
+    <root xmlns="http://www.cadence.com/xsd/header" Key="physical" Name="tutorial">
+      <Contents>
+        <v>Stackup</v>
+        <v>Electrical</v>
+        <v>Spacing</v>
+        <v>Physical</v>
+        <v>UDprops</v>
+        <v>Drawing</v>
+        <v>OpFlags</v>
+        <v>SNSpacing</v>
+        <v>Assembly</v>
+        <v>Properties</v>
+      </Contents>
+      <revisionNumber logical="0" other="0" physical="8"/>
+      <precision numberOfDecimalPlaces="2" units="um"/>
+    </root>
+  </cft:xml-Header>
+
+  <cft:dir-objects Name="objects">
+    <cft:xml-objects Name="Design">
+      <root xmlns="http://www.cadence.com/xsd/objects">
+        <object Name="tutorial">
+          <attribute Name="CDS_DI_CONTROL_MASK">
+            <value Value="0"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MECH_PIN_TO_MECH_PIN_SPACING">
+            <value Value="75.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MECH_PIN_TO_CONDUCTOR_SPACING">
+            <value Value="75.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MINIMUM_LINE_TO_LINE_ANGLE">
+            <value Value="90"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MINIMUM_LINE_TO_SHAPE_ANGLE">
+            <value Value="90"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MINIMUM_LINE_TO_PAD_ANGLE">
+            <value Value="90"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MINIMUM_SHAPE_EDGE_ANGLE">
+            <value Value="90"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MAX_BOND_LENGTH">
+            <value Value="5000.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MIN_BOND_LENGTH">
+            <value Value="500.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="BONDWIRE_DIAMETER">
+            <value Value="75.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="BONDPAD_COMP_EDGE">
+            <value Value="75.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="BONDWIRE_BONDWIRE_CONNECT_SPC">
+            <value Value="75.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="BONDWIRE_BONDWIRE_SPC">
+            <value Value="75.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="BONDWIRE_BONDPAD_SPC">
+            <value Value="75.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="BONDWIRE_PIN_SPC">
+            <value Value="75.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MAX_LINE_EXIT_ANGLE">
+            <value Value="45"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="BOND_WIRE_CROSSING_LENGTH">
+            <value Value="50"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="DRAWING_LOWER_LEFT">
+            <value Value="-49460.00:-48150.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="DRAWING_EXTENTS">
+            <value Value="100000.00:100000.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <reference Kind="PhysicalCSet" Name="DEFAULT"/>
+          <reference Kind="SpacingCSet" Name="DEFAULT"/>
+          <reference Kind="SameNetSpacingCSet" Name="DEFAULT"/>
+          <config>
+            <v>XNetsDMLOn</v>
+          </config>
+          <x-section>
+            <generic>
+              <t>Conductor</t>
+            </generic>
+            <children BottomIndex="4" StackupOrder="0 " TopIndex="0">
+              <object Type="Surface">
+                <attribute Name="CDS_LAYER_MATERIAL">
+                  <value Value="AIR"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_PLUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_MINUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_ELECTRICAL_CONDUCTIVITY">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIELECTRIC_CONSTANT">
+                  <value Value="1"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_LOSS_TANGENT">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_FUNCTION">
+                  <value Value="SURFACE"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+              </object>
+              <object Type="Conductor">
+                <attribute Name="CDS_LAYER_NAME">
+                  <value Value="M1"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_MATERIAL">
+                  <value Value="COPPER"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_ELECTRICAL_CONDUCTIVITY">
+                  <value Value="595900"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIELECTRIC_CONSTANT">
+                  <value Value="4.5"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_LOSS_TANGENT">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS">
+                  <value Value="1"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_PLUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_MINUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_EMBEDDED_STATUS">
+                  <value Value="Not embedded"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_ETCH_FACTOR">
+                  <value Value="90"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_LINE_WIDTH">
+                  <value Value="0.40"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIFF_SPACING">
+                  <value Value="0.40"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIFF_COUPLING">
+                  <value Value="None"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_FUNCTION">
+                  <value Value="CONDUCTOR"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_BIAS_INFO">
+                  <value Value="MASTER:0 UM,0 UM,0 UM,0 UM,0 UM,0 UM;"/>
+                </attribute>
+              </object>
+              <object Type="Dielectric">
+                <attribute Name="CDS_LAYER_MATERIAL">
+                  <value Value="SILICON_DIOXIDE"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_ELECTRICAL_CONDUCTIVITY">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIELECTRIC_CONSTANT">
+                  <value Value="4"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_LOSS_TANGENT">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS">
+                  <value Value="1"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_PLUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_MINUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_FUNCTION">
+                  <value Value="DIELECTRIC"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+              </object>
+              <object Type="Conductor">
+                <attribute Name="CDS_LAYER_NAME">
+                  <value Value="M2"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_MATERIAL">
+                  <value Value="COPPER"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_ELECTRICAL_CONDUCTIVITY">
+                  <value Value="595900"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIELECTRIC_CONSTANT">
+                  <value Value="4.5"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_LOSS_TANGENT">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS">
+                  <value Value="1"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_PLUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_MINUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_EMBEDDED_STATUS">
+                  <value Value="Not embedded"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_ETCH_FACTOR">
+                  <value Value="90"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_LINE_WIDTH">
+                  <value Value="0.40"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIFF_SPACING">
+                  <value Value="0.40"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIFF_COUPLING">
+                  <value Value="None"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_FUNCTION">
+                  <value Value="CONDUCTOR"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_BIAS_INFO">
+                  <value Value="MASTER:0 UM,0 UM,0 UM,0 UM,0 UM,0 UM;"/>
+                </attribute>
+              </object>
+              <object Type="Dielectric">
+                <attribute Name="CDS_LAYER_MATERIAL">
+                  <value Value="SILICON_DIOXIDE"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_ELECTRICAL_CONDUCTIVITY">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIELECTRIC_CONSTANT">
+                  <value Value="4"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_LOSS_TANGENT">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS">
+                  <value Value="1"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_PLUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_MINUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_FUNCTION">
+                  <value Value="DIELECTRIC"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+              </object>
+              <object Type="Conductor">
+                <attribute Name="CDS_LAYER_NAME">
+                  <value Value="M3"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_MATERIAL">
+                  <value Value="COPPER"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_ELECTRICAL_CONDUCTIVITY">
+                  <value Value="595900"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIELECTRIC_CONSTANT">
+                  <value Value="4.5"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_LOSS_TANGENT">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS">
+                  <value Value="1"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_PLUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_MINUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_EMBEDDED_STATUS">
+                  <value Value="Not embedded"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_ETCH_FACTOR">
+                  <value Value="90"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_LINE_WIDTH">
+                  <value Value="0.40"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIFF_SPACING">
+                  <value Value="0.40"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIFF_COUPLING">
+                  <value Value="None"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_FUNCTION">
+                  <value Value="CONDUCTOR"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_BIAS_INFO">
+                  <value Value="MASTER:0 UM,0 UM,0 UM,0 UM,0 UM,0 UM;"/>
+                </attribute>
+              </object>
+              <object Type="Dielectric">
+                <attribute Name="CDS_LAYER_MATERIAL">
+                  <value Value="SILICON_DIOXIDE"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_ELECTRICAL_CONDUCTIVITY">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIELECTRIC_CONSTANT">
+                  <value Value="4"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_LOSS_TANGENT">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS">
+                  <value Value="1"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_PLUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_MINUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_FUNCTION">
+                  <value Value="DIELECTRIC"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+              </object>
+              <object Type="Conductor">
+                <attribute Name="CDS_LAYER_NAME">
+                  <value Value="M4"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_MATERIAL">
+                  <value Value="COPPER"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_ELECTRICAL_CONDUCTIVITY">
+                  <value Value="595900"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIELECTRIC_CONSTANT">
+                  <value Value="4.5"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_LOSS_TANGENT">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS">
+                  <value Value="1"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_PLUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_MINUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_EMBEDDED_STATUS">
+                  <value Value="Not embedded"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_ETCH_FACTOR">
+                  <value Value="90"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_LINE_WIDTH">
+                  <value Value="0.40"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIFF_SPACING">
+                  <value Value="0.40"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIFF_COUPLING">
+                  <value Value="None"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_FUNCTION">
+                  <value Value="CONDUCTOR"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_BIAS_INFO">
+                  <value Value="MASTER:0 UM,0 UM,0 UM,0 UM,0 UM,0 UM;"/>
+                </attribute>
+              </object>
+              <object Type="Dielectric">
+                <attribute Name="CDS_LAYER_MATERIAL">
+                  <value Value="SILICON"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_ELECTRICAL_CONDUCTIVITY">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIELECTRIC_CONSTANT">
+                  <value Value="11.9"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_LOSS_TANGENT">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS">
+                  <value Value="100"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_PLUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_MINUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_FUNCTION">
+                  <value Value="DIELECTRIC"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+              </object>
+              <object Type="Conductor">
+                <attribute Name="CDS_LAYER_NAME">
+                  <value Value="UBM"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_MATERIAL">
+                  <value Value="COPPER"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_ELECTRICAL_CONDUCTIVITY">
+                  <value Value="595900"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIELECTRIC_CONSTANT">
+                  <value Value="4.5"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_LOSS_TANGENT">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS">
+                  <value Value="1"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_PLUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_MINUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_EMBEDDED_STATUS">
+                  <value Value="Not embedded"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_ETCH_FACTOR">
+                  <value Value="90"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_LINE_WIDTH">
+                  <value Value="0.40"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIFF_SPACING">
+                  <value Value="0.40"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIFF_COUPLING">
+                  <value Value="None"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_FUNCTION">
+                  <value Value="CONDUCTOR"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_BIAS_INFO">
+                  <value Value="MASTER:0 UM,0 UM,0 UM,0 UM,0 UM,0 UM;"/>
+                </attribute>
+              </object>
+              <object Type="Surface">
+                <attribute Name="CDS_LAYER_MATERIAL">
+                  <value Value="AIR"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_PLUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_MINUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_ELECTRICAL_CONDUCTIVITY">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIELECTRIC_CONSTANT">
+                  <value Value="1"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_LOSS_TANGENT">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_FUNCTION">
+                  <value Value="SURFACE"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+              </object>
+            </children>
+          </x-section>
+        </object>
+      </root>
+    </cft:xml-objects>
+    <cft:xml-objects Name="PhysicalCSet">
+      <root xmlns="http://www.cadence.com/xsd/objects">
+        <object Name="DEFAULT">
+          <attribute Name="MIN_LINE_WIDTH">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MIN_NECK_WIDTH">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MIN_BVIA_STAGGER">
+            <value Generic="0.00" Value="0.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MAX_BVIA_STAGGER">
+            <value Generic="0.00" Value="0.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="TS_ALLOWED">
+            <value Generic="ANYWHERE" Value="ANYWHERE"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="DIFFP_PRIMARY_GAP">
+            <value Generic="0.00" Value="0.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="DIFFP_NECK_GAP">
+            <value Generic="0.00" Value="0.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MAX_LINE_WIDTH">
+            <value Generic="0.00" Value="0.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MAXIMUM_NECK_LENGTH">
+            <value Generic="0.00" Value="0.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="PAD_PAD_DIRECT_CONNECT">
+            <value Generic="ALL_ALLOWED" Value="ALL_ALLOWED"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="ALLOW_ON_ETCH_SUBCLASS">
+            <value Generic="TRUE" Value="TRUE"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="DIFFP_COUPLED_PLUS">
+            <value Generic="0.00" Value="0.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="DIFFP_COUPLED_MINUS">
+            <value Generic="0.00" Value="0.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="DIFFP_MIN_SPACE">
+            <value Generic="0.00" Value="0.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="VIA_LIST">
+            <value Value="VIA1_0P4:VIA2_0P4:VIA3_0P4:TSV"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+        </object>
+      </root>
+    </cft:xml-objects>
+    <cft:xml-objects Name="SameNetSpacingCSet">
+      <root xmlns="http://www.cadence.com/xsd/objects">
+        <object Name="DEFAULT">
+          <attribute Name="SN_THRUPIN_TO_THRUPIN_SPACING">
+            <value Generic="-1.00" Value="-1.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_THRUPIN_TO_SMDPIN_SPACING">
+            <value Generic="-1.00" Value="-1.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_THRUPIN_TO_THRUVIA_SPACING">
+            <value Generic="-1.00" Value="-1.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_LINE_TO_THRUPIN_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_THRUPIN_TO_SHAPE_SPACING">
+            <value Generic="-1.00" Value="-1.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_SMDPIN_TO_SMDPIN_SPACING">
+            <value Generic="-1.00" Value="-1.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_SMDPIN_TO_THRUVIA_SPACING">
+            <value Generic="-1.00" Value="-1.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_LINE_TO_SMDPIN_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_SHAPE_TO_SMDPIN_SPACING">
+            <value Generic="-1.00" Value="-1.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_THRUVIA_TO_THRUVIA_SPACING">
+            <value Generic="-1.00" Value="-1.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_LINE_TO_THRUVIA_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_SHAPE_TO_THRUVIA_SPACING">
+            <value Generic="-1.00" Value="-1.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_LINE_TO_LINE_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_LINE_TO_SHAPE_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_SHAPE_TO_SHAPE_SPACING">
+            <value Generic="-1.00" Value="-1.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_BBV_TO_BBV_SPACING">
+            <value Generic="-1.00" Value="-1.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_BBV_TO_THRUPIN_SPACING">
+            <value Generic="-1.00" Value="-1.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_BBV_TO_SMDPIN_SPACING">
+            <value Generic="-1.00" Value="-1.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_BBV_TO_THRUVIA_SPACING">
+            <value Generic="-1.00" Value="-1.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_BBV_TO_LINE_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_BBV_TO_SHAPE_SPACING">
+            <value Generic="-1.00" Value="-1.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_BBV_TO_TESTPIN_SPACING">
+            <value Generic="-1.00" Value="-1.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_BBV_TO_TESTVIA_SPACING">
+            <value Generic="-1.00" Value="-1.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_TESTPIN_TO_TESTPIN_SPACING">
+            <value Generic="-1.00" Value="-1.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_TESTPIN_TO_THRUPIN_SPACING">
+            <value Generic="-1.00" Value="-1.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_SMDPIN_TO_TESTPIN_SPACING">
+            <value Generic="-1.00" Value="-1.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_TESTPIN_TO_THRUVIA_SPACING">
+            <value Generic="-1.00" Value="-1.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_TESTPIN_TO_TESTVIA_SPACING">
+            <value Generic="-1.00" Value="-1.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_LINE_TO_TESTPIN_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_SHAPE_TO_TESTPIN_SPACING">
+            <value Generic="-1.00" Value="-1.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_TESTVIA_TO_TESTVIA_SPACING">
+            <value Generic="-1.00" Value="-1.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_TESTVIA_TO_THRUPIN_SPACING">
+            <value Generic="-1.00" Value="-1.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_SMDPIN_TO_TESTVIA_SPACING">
+            <value Generic="-1.00" Value="-1.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_TESTVIA_TO_THRUVIA_SPACING">
+            <value Generic="-1.00" Value="-1.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_LINE_TO_TESTVIA_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_SHAPE_TO_TESTVIA_SPACING">
+            <value Generic="-1.00" Value="-1.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_BONDPAD_TO_BONDPAD_SPACING">
+            <value Generic="-1.00" Value="-1.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_THRUPIN_TO_BONDPAD_SPACING">
+            <value Generic="-1.00" Value="-1.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_SMDPIN_TO_BONDPAD_SPACING">
+            <value Generic="-1.00" Value="-1.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_BONDPAD_TO_THRUVIA_SPACING">
+            <value Generic="-1.00" Value="-1.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_BONDPAD_TO_LINE_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_BONDPAD_TO_SHAPE_SPACING">
+            <value Generic="-1.00" Value="-1.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_BONDPAD_TO_BBV_SPACING">
+            <value Generic="-1.00" Value="-1.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_BONDPAD_TO_TESTPIN_SPACING">
+            <value Generic="-1.00" Value="-1.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_BONDPAD_TO_TESTVIA_SPACING">
+            <value Generic="-1.00" Value="-1.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SAME_NET">
+            <value Generic="TRUE" Value="TRUE"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_HOLE_TO_PIN_SPACING">
+            <value Generic="-1.00" Value="-1.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_HOLE_TO_VIA_SPACING">
+            <value Generic="-1.00" Value="-1.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_HOLE_TO_LINE_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_HOLE_TO_SHAPE_SPACING">
+            <value Generic="-1.00" Value="-1.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_HOLE_TO_HOLE_SPACING">
+            <value Generic="-1.00" Value="-1.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_MVIA_TO_MVIA_SPACING">
+            <value Generic="-1.00" Value="-1.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_MVIA_TO_THRUPIN_SPACING">
+            <value Generic="-1.00" Value="-1.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_MVIA_TO_SMDPIN_SPACING">
+            <value Generic="-1.00" Value="-1.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_MVIA_TO_THRUVIA_SPACING">
+            <value Generic="-1.00" Value="-1.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_MVIA_TO_BBV_SPACING">
+            <value Generic="-1.00" Value="-1.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_MVIA_TO_LINE_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_MVIA_TO_SHAPE_SPACING">
+            <value Generic="-1.00" Value="-1.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_MVIA_TO_TESTPIN_SPACING">
+            <value Generic="-1.00" Value="-1.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_MVIA_TO_TESTVIA_SPACING">
+            <value Generic="-1.00" Value="-1.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_BONDPAD_TO_MVIA_SPACING">
+            <value Generic="-1.00" Value="-1.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+        </object>
+      </root>
+    </cft:xml-objects>
+    <cft:xml-objects Name="SpacingCSet">
+      <root xmlns="http://www.cadence.com/xsd/objects">
+        <object Name="DEFAULT">
+          <attribute Name="THRUPIN_TO_THRUPIN_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="THRUPIN_TO_SMDPIN_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="THRUPIN_TO_THRUVIA_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="LINE_TO_THRUPIN_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="THRUPIN_TO_SHAPE_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SMDPIN_TO_SMDPIN_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SMDPIN_TO_THRUVIA_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="LINE_TO_SMDPIN_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SHAPE_TO_SMDPIN_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="THRUVIA_TO_THRUVIA_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="LINE_TO_THRUVIA_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SHAPE_TO_THRUVIA_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="LINE_TO_LINE_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="LINE_TO_SHAPE_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SHAPE_TO_SHAPE_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="BBV_TO_BBV_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="BBV_TO_THRUPIN_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="BBV_TO_SMDPIN_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="BBV_TO_THRUVIA_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="BBV_TO_LINE_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="BBV_TO_SHAPE_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="BBV_TO_TESTPIN_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="BBV_TO_TESTVIA_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="TESTPIN_TO_TESTPIN_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="TESTPIN_TO_THRUPIN_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SMDPIN_TO_TESTPIN_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="TESTPIN_TO_THRUVIA_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="TESTPIN_TO_TESTVIA_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="LINE_TO_TESTPIN_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SHAPE_TO_TESTPIN_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="TESTVIA_TO_TESTVIA_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="TESTVIA_TO_THRUPIN_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SMDPIN_TO_TESTVIA_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="TESTVIA_TO_THRUVIA_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="LINE_TO_TESTVIA_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SHAPE_TO_TESTVIA_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="BONDPAD_TO_BONDPAD_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="THRUPIN_TO_BONDPAD_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SMDPIN_TO_BONDPAD_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="BONDPAD_TO_THRUVIA_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="BONDPAD_TO_LINE_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="BONDPAD_TO_SHAPE_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="BONDPAD_TO_BBV_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="BONDPAD_TO_TESTPIN_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="BONDPAD_TO_TESTVIA_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="HOLE_TO_PIN_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="HOLE_TO_VIA_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="HOLE_TO_LINE_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="HOLE_TO_SHAPE_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="HOLE_TO_HOLE_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MVIA_TO_MVIA_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MVIA_TO_THRUPIN_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MVIA_TO_SMDPIN_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MVIA_TO_THRUVIA_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MVIA_TO_BBV_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MVIA_TO_LINE_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MVIA_TO_SHAPE_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MVIA_TO_TESTPIN_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MVIA_TO_TESTVIA_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="BONDPAD_TO_MVIA_SPACING">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="BONDPAD_TO_BONDPAD_DIFFP_SPC">
+            <value Generic="0.40" Value="0.40"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MIN_BVIA_GAP">
+            <value Value="0.00"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+        </object>
+      </root>
+    </cft:xml-objects>
+    <cft:xml-objects Name="Stackup">
+      <root xmlns="http://www.cadence.com/xsd/objects">
+        <object Name="PRIMARY">
+          <attribute Name="CDS_STACKUP_TYPE">
+            <value Value="Rigid"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <member Kind="Layer" Name="0"/>
+          <member Kind="Layer" Name="1"/>
+          <member Kind="Layer" Name="2"/>
+          <member Kind="Layer" Name="3"/>
+          <member Kind="Layer" Name="4"/>
+          <member Kind="Layer" Name="5"/>
+          <member Kind="Layer" Name="6"/>
+          <member Kind="Layer" Name="7"/>
+          <member Kind="Layer" Name="8"/>
+          <member Kind="Layer" Name="9"/>
+          <member Kind="Layer" Name="10"/>
+        </object>
+      </root>
+    </cft:xml-objects>
+    <cft:xml-objects Name="WireProfile">
+      <root xmlns="http://www.cadence.com/xsd/objects">
+        <object Name="PROFILE1"/>
+      </root>
+    </cft:xml-objects>
+  </cft:dir-objects>
+
+  <cft:xml-opFlags Name="opFlags">
+    <root xmlns="http://www.cadence.com/xsd/objects">
+      <attribute Name="MAX_XTALK_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MAX_PEAK_XTALK_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="IMPEDANCE_RULE_CNS_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="STUB_LENGTH_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MAX_VIA_COUNT_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MATCH_VIA_COUNT_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MAX_EXPOSED_LENGTH_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MAX_PARALLEL_CNS_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="LAYERSET_GROUP_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="PROPAGATION_DELAY_MIN_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="TOTAL_ETCH_LENGTH_MIN_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="RELATIVE_PROPAGATION_DELAY_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="DIFFP_PRIMARY_GAP_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MIN_LINE_WIDTH_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MAX_LINE_WIDTH_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ALLOW_ON_ETCH_SUBCLASS_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="TS_ALLOWED_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MIN_BVIA_STAGGER_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MAX_BVIA_STAGGER_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="PAD_PAD_DIRECT_CONNECT_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="THRUPIN_TO_THRUPIN_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="THRUPIN_TO_SMDPIN_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="TESTPIN_TO_THRUPIN_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="THRUPIN_TO_THRUVIA_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="TESTVIA_TO_THRUPIN_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="BBV_TO_THRUPIN_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="THRUPIN_TO_BONDPAD_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="LINE_TO_THRUPIN_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="THRUPIN_TO_SHAPE_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SMDPIN_TO_SMDPIN_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SMDPIN_TO_TESTPIN_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SMDPIN_TO_THRUVIA_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SMDPIN_TO_TESTVIA_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="BBV_TO_SMDPIN_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SMDPIN_TO_BONDPAD_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="LINE_TO_SMDPIN_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SHAPE_TO_SMDPIN_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="TESTPIN_TO_TESTPIN_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="TESTPIN_TO_THRUVIA_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="TESTPIN_TO_TESTVIA_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="BBV_TO_TESTPIN_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="BONDPAD_TO_TESTPIN_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="LINE_TO_TESTPIN_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SHAPE_TO_TESTPIN_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="THRUVIA_TO_THRUVIA_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="TESTVIA_TO_THRUVIA_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="BBV_TO_THRUVIA_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="BONDPAD_TO_THRUVIA_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="LINE_TO_THRUVIA_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SHAPE_TO_THRUVIA_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="TESTVIA_TO_TESTVIA_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="BBV_TO_TESTVIA_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="BONDPAD_TO_TESTVIA_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="LINE_TO_TESTVIA_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SHAPE_TO_TESTVIA_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="BBV_TO_BBV_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="BONDPAD_TO_BBV_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="BBV_TO_LINE_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="BBV_TO_SHAPE_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="BONDPAD_TO_BONDPAD_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="BONDPAD_TO_LINE_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="BONDPAD_TO_SHAPE_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="LINE_TO_LINE_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="LINE_TO_SHAPE_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SHAPE_TO_SHAPE_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="HOLE_TO_PIN_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="HOLE_TO_VIA_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="HOLE_TO_LINE_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="HOLE_TO_SHAPE_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="HOLE_TO_HOLE_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MVIA_TO_MVIA_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MVIA_TO_THRUPIN_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MVIA_TO_SMDPIN_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MVIA_TO_THRUVIA_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MVIA_TO_BBV_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MVIA_TO_LINE_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MVIA_TO_SHAPE_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MVIA_TO_TESTPIN_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MVIA_TO_TESTVIA_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="BONDPAD_TO_MVIA_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MIN_BVIA_GAP_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_THRUPIN_TO_THRUPIN_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_THRUPIN_TO_SMDPIN_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_TESTPIN_TO_THRUPIN_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_THRUPIN_TO_THRUVIA_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_TESTVIA_TO_THRUPIN_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_BBV_TO_THRUPIN_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_THRUPIN_TO_BONDPAD_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_LINE_TO_THRUPIN_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_THRUPIN_TO_SHAPE_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_SMDPIN_TO_SMDPIN_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_SMDPIN_TO_TESTPIN_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_SMDPIN_TO_THRUVIA_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_SMDPIN_TO_TESTVIA_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_BBV_TO_SMDPIN_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_SMDPIN_TO_BONDPAD_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_LINE_TO_SMDPIN_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_SHAPE_TO_SMDPIN_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_TESTPIN_TO_TESTPIN_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_TESTPIN_TO_THRUVIA_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_TESTPIN_TO_TESTVIA_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_BBV_TO_TESTPIN_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_BONDPAD_TO_TESTPIN_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_LINE_TO_TESTPIN_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_SHAPE_TO_TESTPIN_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_THRUVIA_TO_THRUVIA_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_TESTVIA_TO_THRUVIA_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_BBV_TO_THRUVIA_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_BONDPAD_TO_THRUVIA_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_LINE_TO_THRUVIA_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_SHAPE_TO_THRUVIA_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_TESTVIA_TO_TESTVIA_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_BBV_TO_TESTVIA_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_BONDPAD_TO_TESTVIA_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_LINE_TO_TESTVIA_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_SHAPE_TO_TESTVIA_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_BBV_TO_BBV_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_BONDPAD_TO_BBV_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_BBV_TO_LINE_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_BBV_TO_SHAPE_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_BONDPAD_TO_BONDPAD_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_BONDPAD_TO_LINE_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_BONDPAD_TO_SHAPE_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_LINE_TO_LINE_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_LINE_TO_SHAPE_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_SHAPE_TO_SHAPE_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_HOLE_TO_PIN_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_HOLE_TO_VIA_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_HOLE_TO_LINE_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_HOLE_TO_SHAPE_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_HOLE_TO_HOLE_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_MVIA_TO_MVIA_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_MVIA_TO_THRUPIN_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_MVIA_TO_SMDPIN_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_MVIA_TO_THRUVIA_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_MVIA_TO_BBV_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_MVIA_TO_LINE_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_MVIA_TO_SHAPE_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_MVIA_TO_TESTPIN_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_MVIA_TO_TESTVIA_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_BONDPAD_TO_MVIA_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="BONDPAD_TO_BONDPAD_DIFFP_SPC_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="BONDWIRE_BONDWIRE_SPC_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="BOND_WIRE_CROSSING_LENGTH_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="BONDWIRE_BONDWIRE_CONNECT_SPC_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="BONDWIRE_PIN_SPC_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="BONDWIRE_BONDPAD_SPC_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MIN_BOND_LENGTH_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MAX_BOND_LENGTH_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MAX_LINE_EXIT_ANGLE_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="BONDWIRE_DIAMETER_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="BONDPAD_COMP_EDGE_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="PACKAGE_PACKAGE_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="PACKAGE_KEEPIN_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="PACKAGE_KEEPOUT_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ROOM_TYPE_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="PACKAGE_TO_CAVITY_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="PACKAGE_TO_LAYER_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SHAPE_ISLAND_OVERSIZE_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SOLDERMASK_ALIGNMENT_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SOLDERMASK_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SOLDERMASK_CLINE_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SOLDERMASK_SHAPE_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="TPPAD_CMP_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="TPLOC_CMP_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="TESTPOINT_ALLOW_UNDER_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MECH_PIN_TO_MECH_PIN_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MECH_PIN_TO_CONDUCTOR_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="VIA_AT_SMD_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="VIA_AT_SMD_FIT_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="VIA_AT_SMD_THRU_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ETCH_TURN_UNDER_PAD_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="PASTEMASK_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="NEGATIVE_PLANE_SLIVER_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="VIA_LIST_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="PIN_TO_ROUTE_KEEPOUT_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MIN_METAL_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="DUP_DRILL_HOLE_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MAXIMUM_CAVITY_SIZE_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MAXIMUM_CAVITY_COMPONENT_COUNT_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_DIE_OVERHANG_XOVERLAP_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_DIE_PAD_LWR_DIE_MAX_LAP_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_DIE_PAD_TO_UPPER_DIE_SPC_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_DIE_TO_BOND_FNGR_SPC_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_DIE_TO_CNCTD_BOND_FNGR_SPC_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_DIE_TO_DIE_SPC_CNCTD_DIES_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_DIE_TO_DIE_SPC_UNCNCTD_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_DIE_TO_PACKAGE_EDGE_SPC_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_DIE_PAD_PITCH_SPC_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_DIE_STACK_TO_DIE_STACK_SPC_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_TOTAL_STACKING_HEIGHT_TOP_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_CNTR_TO_CNTR_DELTA_EXTS_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_CNTR_TO_CNTR_DELTA_PINS_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_WIRE_LEN_OVER_DIE_MAX_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_WIRE_LEN_OVER_PARENT_DIE_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_WIRE_MAX_ANGL_TO_BOND_FNGR_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_WIRE_TO_COMPONENT_SPC_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_WR_END_TO_S_MASK_SPC_SHAPE_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_WR_END_TO_S_MASK_SPC_FNGR_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_TACK_PT_ALONG_S_MASK_GAP_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_TACK_PT_TO_FINGER_EDGE_GAP_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_TACK_PT_TO_DIEPIN_EDGE_GAP_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_TACK_PT_TO_SHAPE_GAP_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_TACK_PT_ALONG_METAL_GAP_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_WIRE_TO_CAVITY_SPC_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_TACK_PT_TO_CAVITY_SPC_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_OPT_SHRT_DIE_TO_SBSTR_MIN_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_OPT_SHRT_DIE_TO_DIE_MIN_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_WIRE_TO_PIN_OPT_SHRT_MIN_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_WIRE_TO_FNGR_OPT_SHRT_MIN_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_DIE_FL_TO_DSCR_CMP_PAD_SPC_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_DIE_FLAG_TO_DIE_FLAG_SPC_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_DIE_FLAG_TO_BOND_FNGR_SPC_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_DIE_FLAG_TO_PACK_EDGE_SPC_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_MINIMUM_SHAPE_CHECK_SPC_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_MINIMUM_VOID_CHECK_SPC_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_ACUTE_ANGLE_SHAPE_BOUNDARY_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_COND_SHAPE_VOID_OVERLAP_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_ACUTE_ANGLE_METAL_CHECK_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_ACUTE_ANGLE_ROUTING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_TRACE_MIN_ANG_TO_PAD_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_TRACE_MIN_ANGLE_TO_SHAPE_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_TRACE_MIN_ANGLE_TO_TRACE_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_CONTINUES_S_MASK_COVERAGE_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_S_MASK_TO_DIE_EDGE_SPC_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_S_MASK_TO_PACK_EDGE_SPC_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_S_MASK_TO_S_MASK_SPC_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_MIN_SM_SHAPE_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_MIN_SM_VOID_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_SM_TO_UNFILLED_DRILL_SPC_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_SM_TO_FILLED_DRILL_SPC_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_METAL_TO_METAL_SPC_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_BOND_FNGR_TO_PACK_EDGE_SPC_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_COND_TO_PACKAGE_EDGE_SPC_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_EXP_METAL_TO_EXP_METAL_SPC_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_VIA_TO_PACKAGE_EDGE_SPC_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_CLINE_TO_VIA_OVERLAP_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_DEGAS_VOID_OVERLAP_SPC_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_DCR_COMP_PAD_BOND_FNGR_SPC_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_DCR_COMP_PAD_PACK_EDGE_SPC_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_MIN_CLINE_SEG_MIN_LEN_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_TOMBSTONE_CHECK_TOLERANCE_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_CLINE_EXT_MIN_LEN_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_FINGER_TO_CAVITY_SPC_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_COMPONENT_TO_CAVITY_SPC_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_ADRC_ACUTE_ANGLE_CAVITY_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_MIN_SIZE_CAVITY_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_OBJECT_EXPOSURE_CAVITY_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_ROUTING_ANGLE_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MINIMUM_SHAPE_EDGE_ANGLE_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MINIMUM_LINE_TO_PAD_ANGLE_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MINIMUM_LINE_TO_SHAPE_ANGLE_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MINIMUM_LINE_TO_LINE_ANGLE_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+    </root>
+  </cft:xml-opFlags>
+
+</cft:root-Cadence-Allegro-Technology-File>

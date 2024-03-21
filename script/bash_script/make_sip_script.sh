@@ -43,7 +43,7 @@ echo -e "generaledit" >> $file
 # Import chiplet.
 for chiplet in `cat $chiplet_list`
 do
-	$((iter++))
+	((iter++))
 	echo -e "die text in" >> $file
 	echo -e "fillin \"$diedata_path/$chiplet"_data.txt"\"" >> $file
 	echo -e "setwindow form.ptwdselection" >> $file

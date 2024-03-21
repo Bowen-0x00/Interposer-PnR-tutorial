@@ -1,0 +1,3 @@
+replay C:/Projects/Cadence/Interposer-PnR-tutorial/script/sip_script/import_techfile.scr
+replay C:/Projects/Cadence/Interposer-PnR-tutorial/script/sip_script/set_grid.scr
+replay C:/Projects/Cadence/Interposer-PnR-tutorial/script/sip_script/import_chiplet.scr

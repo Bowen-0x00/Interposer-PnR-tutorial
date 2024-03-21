@@ -1,0 +1,54 @@
+\t (00:00:06) cdnsip 22.1 S005 Windows SPB 64-bit Edition
+\t (00:00:06)     Journal start - Thu Feb 29 23:36:25 2024
+\t (00:00:06)         Host=BOWEN-FLOW User=Bowen Pid=33700 CPUs=16
+\t (00:00:06) CmdLine= d:\cadence\cadence_spb_22.1\tools\bin\allegro.exe D:\Project\Interposer-PnR-tutorial-17.4\design\tutorial.sip
+\t (00:00:06) 
+   (00:00:06) Loading axlcore.cxt 
+\t (00:00:08) Opening existing design...
+\i (00:00:16) fillin yes 
+\d (00:00:17) Design opened: D:/Project/Interposer-PnR-tutorial-17.4/design/tutorial.sip
+\i (00:00:17) trapsize 1700
+\i (00:00:17) trapsize 1745
+\i (00:00:17) trapsize 1793
+\i (00:00:17) trapsize 1745
+\i (00:00:17) trapsize 1810
+\i (00:00:17) trapsize 1810
+\t (00:00:17) Loading NV GPU Plugin
+\i (00:00:17) trapsize 1700
+\i (00:00:17) trapsize 1745
+\i (00:00:17) trapsize 1793
+\i (00:00:17) trapsize 1745
+\i (00:00:17) trapsize 1810
+\i (00:00:17) etchedit 
+\i (00:00:20) status 
+\i (00:00:20) etchedit 
+\i (00:00:21) setwindow form.status
+\i (00:00:21) FORM status drc_update  
+\t (00:00:21) Running DRC, wait...
+\t (00:00:21) Performing DRC...
+\t (00:00:21) Multithreaded DRC update (16 threads).
+\t (00:00:21) No DRC errors detected.
+\t (00:00:21) DRC done.
+\i (00:00:25) FORM status refresh  
+\i (00:00:25) FORM status done  
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom in 1 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom in 372.19 166.10
+\i (00:00:26) trapsize 905
+\i (00:00:26) zoom in 1 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom in 372.19 166.10
+\i (00:00:26) trapsize 453
+\i (00:00:27) zoom out 1 
+\i (00:00:27) setwindow pcb
+\i (00:00:27) zoom out 78.92 35.76
+\i (00:00:27) trapsize 905
+\i (00:00:28) zoom out 1 
+\i (00:00:28) setwindow pcb
+\i (00:00:28) zoom out -9.79 -14.93
+\i (00:00:28) trapsize 1810
+\i (00:14:07) exit 
+\e (00:14:07) Do you want to save the changes you made to tutorial.sip?
+\i (00:14:09) fillin no 
+\t (00:14:10)     Journal end - Thu Feb 29 23:50:29 2024

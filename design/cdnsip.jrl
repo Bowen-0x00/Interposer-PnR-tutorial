@@ -1,0 +1,3860 @@
+\t (00:00:15) cdnsip 22.1 S005 Windows SPB 64-bit Edition
+\t (00:00:15)     Journal start - Mon Mar  4 09:56:34 2024
+\t (00:00:15)         Host=BOWEN-FLOW User=Bowen Pid=55936 CPUs=16
+\t (00:00:15) CmdLine= d:\cadence\cadence_spb_22.1\tools\bin\allegro.exe D:\Project\Interposer-PnR-tutorial-17.4\design\tutorial.sip
+\t (00:00:15) 
+   (00:00:15) Loading axlcore.cxt 
+\t (00:00:15) Opening existing design...
+\d (00:00:16) Design opened: D:/Project/Interposer-PnR-tutorial-17.4/design/tutorial.sip
+\i (00:00:16) trapsize 1761
+\i (00:00:16) trapsize 1810
+\i (00:00:16) trapsize 1862
+\i (00:00:16) trapsize 1810
+\i (00:00:16) trapsize 1810
+\t (00:00:17) Loading NV GPU Plugin
+\i (00:00:17) trapsize 1761
+\i (00:00:17) trapsize 1810
+\i (00:00:17) trapsize 1862
+\i (00:00:17) trapsize 1810
+\i (00:00:17) etchedit 
+\i (00:00:18) trapsize 1201
+\i (00:00:20) zoom in 1 
+\i (00:00:20) setwindow pcb
+\i (00:00:20) zoom in 1287.70 28.28
+\i (00:00:20) trapsize 600
+\i (00:00:21) zoom out 1 
+\i (00:00:21) setwindow pcb
+\i (00:00:21) zoom out -307.81 -121.78
+\i (00:00:21) trapsize 1201
+\i (00:00:24) status 
+\i (00:00:24) etchedit 
+\i (00:00:26) setwindow form.status
+\i (00:00:26) FORM status drc_update  
+\t (00:00:26) Running DRC, wait...
+\t (00:00:26) Performing DRC...
+\t (00:00:26) Multithreaded DRC update (16 threads).
+\t (00:00:26) No DRC errors detected.
+\t (00:00:26) DRC done.
+\i (00:00:29) FORM status done  
+\i (00:00:32) setwindow pcb
+\i (00:00:32) zoom in 1 
+\i (00:00:32) setwindow pcb
+\i (00:00:32) zoom in -552.71 -121.79
+\i (00:00:32) trapsize 600
+\i (00:00:32) zoom in 1 
+\i (00:00:32) setwindow pcb
+\i (00:00:32) zoom in -468.67 -151.80
+\i (00:00:32) trapsize 300
+\i (00:00:33) zoom out 1 
+\i (00:00:33) setwindow pcb
+\i (00:00:33) zoom out -251.38 -148.19
+\i (00:00:33) trapsize 600
+\i (00:00:33) zoom out 1 
+\i (00:00:33) setwindow pcb
+\i (00:00:33) zoom out -251.38 -148.19
+\i (00:00:33) trapsize 1201
+\i (00:00:34) QtSignal CVPLayerGrid CVPBoxAllM2 clicked true
+\i (00:00:34) QtSignal CVPLayerGrid CVPBoxAllM3 clicked true
+\i (00:00:34) QtSignal CVPLayerGrid CVPBoxAllM4 clicked true
+\i (00:00:35) QtSignal CVPLayerGrid CVPBoxAllUbm clicked true
+\i (00:00:36) QtSignal CVPLayerGrid CVPBoxAllAll clicked true
+\i (00:00:36) updateport CVPane
+\i (00:00:37) zoom in 1 
+\i (00:00:37) setwindow pcb
+\i (00:00:37) zoom in -140.93 -97.78
+\i (00:00:37) trapsize 600
+\i (00:00:37) zoom in 1 
+\i (00:00:37) setwindow pcb
+\i (00:00:37) zoom in -139.73 -106.18
+\i (00:00:37) trapsize 300
+\i (00:00:38) zoom in 1 
+\i (00:00:38) setwindow pcb
+\i (00:00:38) zoom in -183.54 -55.16
+\i (00:00:38) trapsize 150
+\i (00:00:39) zoom in 1 
+\i (00:00:39) setwindow pcb
+\i (00:00:39) zoom in -227.66 -142.80
+\i (00:00:39) trapsize 75
+\i (00:00:44) QtSignal CVPLayerGrid CVPBoxAllM2 clicked false
+\i (00:00:44) QtSignal CVPLayerGrid CVPBoxAllM3 clicked false
+\i (00:00:45) QtSignal CVPLayerGrid CVPBoxAllM4 clicked false
+\i (00:00:45) QtSignal CVPLayerGrid CVPBoxAllUbm clicked false
+\i (00:00:45) QtSignal CVPLayerGrid CVPBoxAllAll clicked false
+\i (00:00:45) updateport CVPane
+\i (00:00:46) zoom out 1 
+\i (00:00:46) setwindow pcb
+\i (00:00:46) zoom out -124.11 -115.18
+\i (00:00:46) trapsize 150
+\i (00:00:46) zoom out 1 
+\i (00:00:46) setwindow pcb
+\i (00:00:46) zoom out -161.34 -102.57
+\i (00:00:46) trapsize 300
+\i (00:00:47) zoom out 1 
+\i (00:00:47) setwindow pcb
+\i (00:00:47) zoom out -161.33 -102.57
+\i (00:00:47) trapsize 600
+\i (00:00:48) zoom in 1 
+\i (00:00:48) setwindow pcb
+\i (00:00:48) zoom in 128.01 16.29
+\i (00:00:48) trapsize 300
+\i (00:00:48) zoom in 1 
+\i (00:00:48) setwindow pcb
+\i (00:00:48) zoom in 128.01 16.29
+\i (00:00:48) trapsize 150
+\i (00:00:49) zoom out 1 
+\i (00:00:49) setwindow pcb
+\i (00:00:49) zoom out 94.69 12.09
+\i (00:00:49) trapsize 300
+\i (00:00:54) status 
+\i (00:00:54) etchedit 
+\i (00:00:56) setwindow form.status
+\i (00:00:56) FORM status done  
+\i (00:00:56) setwindow pcb
+\i (00:00:56) zoom out 1 
+\i (00:00:56) setwindow pcb
+\i (00:00:56) zoom out -262.48 10.29
+\i (00:00:56) trapsize 600
+\i (00:00:58) setwindow form.mini
+\i (00:00:58) FORM mini subcolor 1 
+\i (00:00:58) setwindow pcb
+\i (00:00:58) updateport CVPane
+\i (00:00:59) setwindow form.mini
+\i (00:00:59) FORM mini subcolor 0 
+\i (00:00:59) setwindow pcb
+\i (00:00:59) updateport CVPane
+\i (00:00:59) setwindow form.mini
+\i (00:00:59) FORM mini subcolor 1 
+\i (00:00:59) setwindow pcb
+\i (00:00:59) updateport CVPane
+\i (00:01:00) setwindow form.mini
+\i (00:01:00) FORM mini subcolor 0 
+\i (00:01:00) setwindow pcb
+\i (00:01:00) updateport CVPane
+\i (00:01:00) setwindow form.mini
+\i (00:01:00) FORM mini subcolor 1 
+\i (00:01:00) setwindow pcb
+\i (00:01:00) updateport CVPane
+\i (00:01:01) setwindow form.mini
+\i (00:01:01) FORM mini subcolor 0 
+\i (00:01:01) setwindow pcb
+\i (00:01:01) updateport CVPane
+\i (00:01:01) setwindow form.mini
+\i (00:01:01) FORM mini subcolor 1 
+\i (00:01:01) setwindow pcb
+\i (00:01:01) updateport CVPane
+\i (00:01:02) setwindow form.mini
+\i (00:01:02) FORM mini subcolor 0 
+\i (00:01:02) setwindow pcb
+\i (00:01:02) updateport CVPane
+\i (00:01:03) setwindow form.mini
+\i (00:01:03) FORM mini subcolor 1 
+\i (00:01:03) setwindow pcb
+\i (00:01:03) updateport CVPane
+\i (00:01:03) setwindow form.mini
+\i (00:01:03) FORM mini subcolor 0 
+\i (00:01:03) setwindow pcb
+\i (00:01:03) updateport CVPane
+\i (00:01:04) setwindow form.mini
+\i (00:01:04) FORM mini subclass M1 
+\i (00:01:04) setwindow pcb
+\i (00:01:04) updateport CVPane
+\i (00:01:04) setwindow form.mini
+\i (00:01:04) FORM mini subcolor 0 
+\i (00:01:04) setwindow pcb
+\i (00:01:04) updateport CVPane
+\i (00:01:05) setwindow form.mini
+\i (00:01:05) FORM mini subcolor 1 
+\i (00:01:05) setwindow pcb
+\i (00:01:05) updateport CVPane
+\i (00:01:06) setwindow form.mini
+\i (00:01:06) FORM mini subcolor 0 
+\i (00:01:06) setwindow pcb
+\i (00:01:06) updateport CVPane
+\i (00:01:06) setwindow form.mini
+\i (00:01:06) FORM mini subcolor 1 
+\i (00:01:06) setwindow pcb
+\i (00:01:06) updateport CVPane
+\i (00:01:07) setwindow form.mini
+\i (00:01:07) FORM mini subcolor 0 
+\i (00:01:07) setwindow pcb
+\i (00:01:07) updateport CVPane
+\i (00:01:15) setwindow form.find
+\i (00:01:15) FORM find all_off  
+\i (00:01:19) setwindow pcb
+\i (00:01:19) QtSignal CVPLayerGrid CVPConductorsLabel clicked false
+\i (00:01:20) QtSignal CVPLayerGrid CVPConductorsLabel clicked true
+\i (00:01:22) QtSignal ColorVisibilityPane CVPGlobalVisOff clicked
+\i (00:01:27) QtSignal CVPLayerGrid CVPButtonPlanM1 clicked
+\i (00:01:27) updateport CVPane
+\i (00:01:27) QtSignal CVPLayerGrid CVPButtonCondM1 clicked
+\i (00:01:27) updateport CVPane
+\i (00:01:28) QtSignal CVPLayerGrid CVPButtonViaM1 clicked
+\i (00:01:28) updateport CVPane
+\i (00:01:29) QtSignal CVPLayerGrid CVPButtonPinM1 clicked
+\i (00:01:29) updateport CVPane
+\i (00:01:29) QtSignal CVPLayerGrid CVPButtonDrcM1 clicked
+\i (00:01:29) updateport CVPane
+\i (00:01:30) QtSignal CVPLayerGrid CVPBoxAllM1 clicked false
+\i (00:01:30) QtSignal CVPLayerGrid CVPBoxAllM1 clicked true
+\i (00:01:31) zoom in 1 
+\i (00:01:31) setwindow pcb
+\i (00:01:31) zoom in -95.60 -114.56
+\i (00:01:31) trapsize 300
+\i (00:01:33) zoom out 1 
+\i (00:01:33) setwindow pcb
+\i (00:01:33) zoom out -329.11 -163.18
+\i (00:01:33) trapsize 600
+\i (00:01:33) zoom in 1 
+\i (00:01:33) setwindow pcb
+\i (00:01:33) zoom in -434.77 -62.33
+\i (00:01:33) trapsize 300
+\i (00:01:34) zoom in 1 
+\i (00:01:34) setwindow pcb
+\i (00:01:34) zoom in -427.56 -58.12
+\i (00:01:34) trapsize 150
+\i (00:01:39) zoom in 1 
+\i (00:01:39) setwindow pcb
+\i (00:01:39) zoom in -321.01 -122.65
+\i (00:01:39) trapsize 75
+\i (00:01:39) zoom in 1 
+\i (00:01:39) setwindow pcb
+\i (00:01:39) zoom in -321.46 -122.95
+\i (00:01:39) trapsize 38
+\i (00:01:39) zoom in 1 
+\i (00:01:39) setwindow pcb
+\i (00:01:39) zoom in -321.46 -122.95
+\i (00:01:39) trapsize 19
+\i (00:01:41) QtSignal CVPLayerGrid CVPBoxAllM2 clicked true
+\i (00:01:41) QtSignal CVPLayerGrid CVPBoxAllM2 clicked false
+\i (00:01:41) QtSignal CVPLayerGrid CVPBoxAllM2 clicked true
+\i (00:01:42) QtSignal CVPLayerGrid CVPBoxAllM2 clicked false
+\i (00:01:43) zoom out 1 
+\i (00:01:43) setwindow pcb
+\i (00:01:43) zoom out -317.53 -111.95
+\i (00:01:43) trapsize 38
+\i (00:01:43) zoom out 1 
+\i (00:01:43) setwindow pcb
+\i (00:01:43) zoom out -316.02 -112.92
+\i (00:01:43) trapsize 75
+\i (00:01:44) QtSignal CVPLayerGrid CVPBoxAllM2 clicked true
+\i (00:01:45) QtSignal CVPLayerGrid CVPBoxAllM2 clicked false
+\i (00:01:45) QtSignal CVPLayerGrid CVPBoxAllM2 clicked true
+\i (00:01:46) QtSignal CVPLayerGrid CVPBoxAllM2 clicked false
+\i (00:01:46) QtSignal CVPLayerGrid CVPBoxAllM2 clicked true
+\i (00:01:47) zoom out 1 
+\i (00:01:47) setwindow pcb
+\i (00:01:47) zoom out -358.35 -94.31
+\i (00:01:47) trapsize 150
+\i (00:01:48) zoom out 1 
+\i (00:01:48) setwindow pcb
+\i (00:01:48) zoom out -364.36 -103.62
+\i (00:01:48) trapsize 300
+\i (00:01:49) zoom out 1 
+\i (00:01:49) setwindow pcb
+\i (00:01:49) zoom out -414.20 -137.24
+\i (00:01:49) trapsize 600
+\i (00:01:56) zoom in 1 
+\i (00:01:56) setwindow pcb
+\i (00:01:56) zoom in -386.58 -318.57
+\i (00:01:56) trapsize 300
+\i (00:01:57) zoom in 1 
+\i (00:01:57) setwindow pcb
+\i (00:01:57) zoom in -391.38 -311.36
+\i (00:01:57) trapsize 150
+\i (00:02:02) QtSignal CVPLayerGrid CVPBoxAllM2 clicked false
+\i (00:02:09) setwindow form.mini
+\i (00:02:09) FORM mini class 'COMPONENT VALUE' 
+\i (00:02:11) FORM mini class ANALYSIS 
+\i (00:02:12) FORM mini class 'ANTI CONDUCTOR' 
+\i (00:02:13) FORM mini class BOUNDARY 
+\i (00:02:14) FORM mini class ANALYSIS 
+\i (00:02:17) FORM mini class CONDUCTOR 
+\i (00:02:53) FORM mini subclass M2 
+\i (00:02:53) setwindow pcb
+\i (00:02:53) updateport CVPane
+\i (00:02:57) setwindow form.mini
+\i (00:02:57) FORM mini subcolor 0 
+\i (00:02:57) setwindow pcb
+\i (00:02:57) updateport CVPane
+\i (00:02:57) setwindow form.mini
+\i (00:02:57) FORM mini subcolor 1 
+\i (00:02:57) setwindow pcb
+\i (00:02:57) updateport CVPane
+\i (00:02:58) setwindow form.mini
+\i (00:02:58) FORM mini subcolor 0 
+\i (00:02:58) setwindow pcb
+\i (00:02:58) updateport CVPane
+\i (00:03:20) pick grid -288.71 -282.84
+\t (00:03:20) last pick:  -288.71 -282.84
+\i (00:03:48) setwindow form.mini
+\i (00:03:48) FORM mini class BOUNDARY 
+\i (00:03:54) FORM mini class CONDUCTOR 
+\i (00:03:55) FORM mini subclass M1 
+\i (00:03:55) setwindow pcb
+\i (00:03:55) updateport CVPane
+\i (00:03:55) setwindow form.mini
+\i (00:03:55) FORM mini subcolor 0 
+\i (00:03:55) setwindow pcb
+\i (00:03:55) updateport CVPane
+\i (00:03:57) setwindow form.mini
+\i (00:03:57) FORM mini class ANALYSIS 
+\i (00:03:57) FORM mini class 'ANTI CONDUCTOR' 
+\i (00:03:59) FORM mini class BOUNDARY 
+\i (00:04:00) FORM mini subclass M1 
+\i (00:04:00) setwindow pcb
+\i (00:04:00) updateport CVPane
+\i (00:04:00) setwindow form.mini
+\i (00:04:00) FORM mini subcolor 0 
+\i (00:04:00) setwindow pcb
+\i (00:04:00) updateport CVPane
+\i (00:04:01) setwindow form.mini
+\i (00:04:01) FORM mini subcolor 1 
+\i (00:04:01) setwindow pcb
+\i (00:04:01) updateport CVPane
+\i (00:04:02) setwindow form.mini
+\i (00:04:02) FORM mini subcolor 0 
+\i (00:04:02) setwindow pcb
+\i (00:04:02) updateport CVPane
+\i (00:04:04) setwindow form.mini
+\i (00:04:04) FORM mini class 'COMPONENT GEOMETRY' 
+\i (00:04:10) FORM mini subclass DISPLAY_TOP 
+\i (00:04:10) setwindow pcb
+\i (00:04:10) updateport CVPane
+\i (00:04:10) setwindow form.mini
+\i (00:04:10) FORM mini subcolor 0 
+\i (00:04:10) setwindow pcb
+\i (00:04:10) updateport CVPane
+\i (00:04:10) setwindow form.mini
+\i (00:04:10) FORM mini subcolor 1 
+\i (00:04:10) setwindow pcb
+\i (00:04:10) updateport CVPane
+\i (00:04:15) setwindow form.mini
+\i (00:04:15) FORM mini subclass PIN_NUMBER 
+\i (00:04:15) setwindow pcb
+\i (00:04:15) updateport CVPane
+\i (00:04:17) setwindow form.mini
+\i (00:04:17) FORM mini subclass SYMBOL_GRIDS 
+\i (00:04:17) setwindow pcb
+\i (00:04:17) updateport CVPane
+\i (00:04:20) setwindow form.mini
+\i (00:04:20) FORM mini subclass SOLDERMASK_TOP 
+\i (00:04:20) setwindow pcb
+\i (00:04:20) updateport CVPane
+\i (00:04:22) setwindow form.mini
+\i (00:04:22) FORM mini subclass SILKSCREEN_TOP 
+\i (00:04:22) setwindow pcb
+\i (00:04:22) updateport CVPane
+\i (00:04:26) QtSignal ColorVisibilityPane CVPGlobalVisOn clicked
+\i (00:04:27) zoom out 1 
+\i (00:04:27) setwindow pcb
+\i (00:04:27) zoom out 0.99 -243.51
+\i (00:04:27) trapsize 300
+\i (00:04:27) zoom out 1 
+\i (00:04:27) setwindow pcb
+\i (00:04:27) zoom out -42.84 -254.32
+\i (00:04:27) trapsize 600
+\i (00:04:31) setwindow form.mini
+\i (00:04:31) FORM mini subclass ASSEMBLY_BOTTOM 
+\i (00:04:31) setwindow pcb
+\i (00:04:31) updateport CVPane
+\i (00:04:32) setwindow form.mini
+\i (00:04:32) FORM mini subcolor 0 
+\i (00:04:32) setwindow pcb
+\i (00:04:32) updateport CVPane
+\i (00:04:32) setwindow form.mini
+\i (00:04:32) FORM mini subcolor 1 
+\i (00:04:32) setwindow pcb
+\i (00:04:32) updateport CVPane
+\i (00:04:33) setwindow form.mini
+\i (00:04:33) FORM mini subcolor 0 
+\i (00:04:33) setwindow pcb
+\i (00:04:33) updateport CVPane
+\i (00:04:34) setwindow form.mini
+\i (00:04:34) FORM mini subcolor 1 
+\i (00:04:34) setwindow pcb
+\i (00:04:34) updateport CVPane
+\i (00:04:37) zoom in 1 
+\i (00:04:37) setwindow pcb
+\i (00:04:37) zoom in -908.65 -896.78
+\i (00:04:37) trapsize 300
+\i (00:04:37) zoom in 1 
+\i (00:04:37) setwindow pcb
+\i (00:04:37) zoom in -908.65 -896.78
+\i (00:04:37) trapsize 150
+\i (00:04:38) zoom in 1 
+\i (00:04:38) setwindow pcb
+\i (00:04:38) zoom in -842.60 -865.86
+\i (00:04:38) trapsize 75
+\i (00:04:38) zoom in 1 
+\i (00:04:38) setwindow pcb
+\i (00:04:38) zoom in -843.35 -865.71
+\i (00:04:38) trapsize 38
+\i (00:04:39) prepopup -840.42 -874.71
+\i (00:04:40) prepopup -841.09 -875.09
+\i (00:04:41) pick grid -909.76 -855.27
+\t (00:04:41) last pick:  -900.00 -900.00
+\i (00:04:43) pick grid -909.31 -858.20
+\t (00:04:43) last pick:  -900.00 -900.00
+\i (00:04:43) zoom out 1 
+\i (00:04:43) setwindow pcb
+\i (00:04:43) zoom out -894.45 -859.85
+   (00:04:43) Loading apt.cxt 
+\i (00:04:43) trapsize 75
+\i (00:04:43) zoom out 1 
+\i (00:04:43) setwindow pcb
+\i (00:04:43) zoom out -894.31 -860.45
+\i (00:04:43) trapsize 150
+\i (00:04:44) prepopup -884.70 -881.47
+\i (00:04:45) pick grid -921.02 -887.17
+\t (00:04:45) last pick:  -900.00 -900.00
+\i (00:04:49) setwindow form.mini
+\i (00:04:49) FORM mini class 'COMPONENT KEEPIN' 
+\i (00:04:52) FORM mini subcolor 0 
+\i (00:04:52) setwindow pcb
+\i (00:04:52) updateport CVPane
+\i (00:04:52) setwindow form.mini
+\i (00:04:52) FORM mini subcolor 1 
+\i (00:04:52) setwindow pcb
+\i (00:04:52) updateport CVPane
+\i (00:04:53) setwindow form.mini
+\i (00:04:53) FORM mini subcolor 0 
+\i (00:04:53) setwindow pcb
+\i (00:04:53) updateport CVPane
+\i (00:04:55) setwindow form.mini
+\i (00:04:55) FORM mini class 'COMPONENT GEOMETRY' 
+\i (00:04:56) FORM mini subcolor 0 
+\i (00:04:56) setwindow pcb
+\i (00:04:56) updateport CVPane
+\i (00:04:56) setwindow form.mini
+\i (00:04:56) FORM mini subcolor 1 
+\i (00:04:56) setwindow pcb
+\i (00:04:56) updateport CVPane
+\i (00:05:00) setwindow form.mini
+\i (00:05:00) FORM mini subclass BODY_CENTER 
+\i (00:05:00) setwindow pcb
+\i (00:05:00) updateport CVPane
+\i (00:05:01) setwindow form.mini
+\i (00:05:01) FORM mini subcolor 0 
+\i (00:05:01) setwindow pcb
+\i (00:05:01) updateport CVPane
+\i (00:05:01) setwindow form.mini
+\i (00:05:01) FORM mini subcolor 1 
+\i (00:05:01) setwindow pcb
+\i (00:05:01) updateport CVPane
+\i (00:05:05) setwindow form.mini
+\i (00:05:05) FORM mini subclass DISPLAY_BOTTOM 
+\i (00:05:05) setwindow pcb
+\i (00:05:05) updateport CVPane
+\i (00:05:06) setwindow form.mini
+\i (00:05:06) FORM mini subcolor 0 
+\i (00:05:06) setwindow pcb
+\i (00:05:06) updateport CVPane
+\i (00:05:06) setwindow form.mini
+\i (00:05:06) FORM mini subcolor 1 
+\i (00:05:06) setwindow pcb
+\i (00:05:06) updateport CVPane
+\i (00:05:10) setwindow form.mini
+\i (00:05:10) FORM mini subclass SYMBOL_GRIDS 
+\i (00:05:10) setwindow pcb
+\i (00:05:10) updateport CVPane
+\i (00:05:11) setwindow form.mini
+\i (00:05:11) FORM mini subcolor 0 
+\i (00:05:11) setwindow pcb
+\i (00:05:11) updateport CVPane
+\i (00:05:11) setwindow form.mini
+\i (00:05:11) FORM mini subcolor 1 
+\i (00:05:11) setwindow pcb
+\i (00:05:11) updateport CVPane
+\i (00:05:12) setwindow form.mini
+\i (00:05:12) FORM mini subcolor 0 
+\i (00:05:12) setwindow pcb
+\i (00:05:12) updateport CVPane
+\i (00:05:14) setwindow form.mini
+\i (00:05:14) FORM mini subclass ASSEMBLY_BOTTOM 
+\i (00:05:14) setwindow pcb
+\i (00:05:14) updateport CVPane
+\i (00:05:15) setwindow form.mini
+\i (00:05:15) FORM mini subcolor 0 
+\i (00:05:15) setwindow pcb
+\i (00:05:15) updateport CVPane
+\i (00:05:20) setwindow form.mini
+\i (00:05:20) FORM mini subclass SOLDERMASK_TOP 
+\i (00:05:20) setwindow pcb
+\i (00:05:20) updateport CVPane
+\i (00:05:21) setwindow form.mini
+\i (00:05:21) FORM mini subcolor 0 
+\i (00:05:21) setwindow pcb
+\i (00:05:21) updateport CVPane
+\i (00:05:21) setwindow form.mini
+\i (00:05:21) FORM mini subcolor 1 
+\i (00:05:21) setwindow pcb
+\i (00:05:21) updateport CVPane
+\i (00:05:24) setwindow form.mini
+\i (00:05:24) FORM mini subcolor 0 
+\i (00:05:24) setwindow pcb
+\i (00:05:24) updateport CVPane
+\i (00:05:26) setwindow form.mini
+\i (00:05:26) FORM mini subclass SOLDERMASK_BOTTOM 
+\i (00:05:26) setwindow pcb
+\i (00:05:26) updateport CVPane
+\i (00:05:27) setwindow form.mini
+\i (00:05:27) FORM mini subcolor 0 
+\i (00:05:27) setwindow pcb
+\i (00:05:27) updateport CVPane
+\i (00:05:28) setwindow form.mini
+\i (00:05:28) FORM mini subclass SILKSCREEN_TOP 
+\i (00:05:28) setwindow pcb
+\i (00:05:28) updateport CVPane
+\i (00:05:29) setwindow form.mini
+\i (00:05:29) FORM mini subcolor 0 
+\i (00:05:29) setwindow pcb
+\i (00:05:29) updateport CVPane
+\i (00:05:30) setwindow form.mini
+\i (00:05:30) FORM mini subclass SILKSCREEN_BOTTOM 
+\i (00:05:30) setwindow pcb
+\i (00:05:30) updateport CVPane
+\i (00:05:31) setwindow form.mini
+\i (00:05:31) FORM mini subcolor 0 
+\i (00:05:31) setwindow pcb
+\i (00:05:31) updateport CVPane
+\i (00:05:32) setwindow form.mini
+\i (00:05:32) FORM mini subclass PLACE_BOUND_TOP 
+\i (00:05:32) setwindow pcb
+\i (00:05:32) updateport CVPane
+\i (00:05:33) setwindow form.mini
+\i (00:05:33) FORM mini subcolor 0 
+\i (00:05:33) setwindow pcb
+\i (00:05:33) updateport CVPane
+\i (00:05:35) setwindow form.mini
+\i (00:05:35) FORM mini subclass PLACE_BOUND_BOTTOM 
+\i (00:05:35) setwindow pcb
+\i (00:05:35) updateport CVPane
+\i (00:05:35) setwindow form.mini
+\i (00:05:35) FORM mini subcolor 0 
+\i (00:05:35) setwindow pcb
+\i (00:05:35) updateport CVPane
+\i (00:05:38) setwindow form.mini
+\i (00:05:38) FORM mini subclass PIN_NUMBER 
+\i (00:05:38) setwindow pcb
+\i (00:05:38) updateport CVPane
+\i (00:05:38) setwindow form.mini
+\i (00:05:38) FORM mini subcolor 0 
+\i (00:05:38) setwindow pcb
+\i (00:05:38) updateport CVPane
+\i (00:05:40) setwindow form.mini
+\i (00:05:40) FORM mini subclass PASTEMASK_TOP 
+\i (00:05:40) setwindow pcb
+\i (00:05:40) updateport CVPane
+\i (00:05:40) setwindow form.mini
+\i (00:05:40) FORM mini subcolor 0 
+\i (00:05:40) setwindow pcb
+\i (00:05:40) updateport CVPane
+\i (00:05:43) setwindow form.mini
+\i (00:05:43) FORM mini subclass PASTEMASK_BOTTOM 
+\i (00:05:43) setwindow pcb
+\i (00:05:43) updateport CVPane
+\i (00:05:44) setwindow form.mini
+\i (00:05:44) FORM mini subcolor 0 
+\i (00:05:44) setwindow pcb
+\i (00:05:44) updateport CVPane
+\i (00:05:45) setwindow form.mini
+\i (00:05:45) FORM mini subclass PAD_STACK_NAME 
+\i (00:05:45) setwindow pcb
+\i (00:05:45) updateport CVPane
+\i (00:05:46) setwindow form.mini
+\i (00:05:46) FORM mini subcolor 0 
+\i (00:05:46) setwindow pcb
+\i (00:05:46) updateport CVPane
+\i (00:05:48) setwindow form.mini
+\i (00:05:48) FORM mini subclass MODULES 
+\i (00:05:48) setwindow pcb
+\i (00:05:48) updateport CVPane
+\i (00:05:49) setwindow form.mini
+\i (00:05:49) FORM mini subcolor 0 
+\i (00:05:49) setwindow pcb
+\i (00:05:49) updateport CVPane
+\i (00:05:52) setwindow form.mini
+\i (00:05:52) FORM mini subclass MODEL_OUTLINE 
+\i (00:05:52) setwindow pcb
+\i (00:05:52) updateport CVPane
+\i (00:05:53) setwindow form.mini
+\i (00:05:53) FORM mini subcolor 0 
+\i (00:05:53) setwindow pcb
+\i (00:05:53) updateport CVPane
+\i (00:05:55) setwindow form.mini
+\i (00:05:55) FORM mini subclass DISPLAY_TOP 
+\i (00:05:55) setwindow pcb
+\i (00:05:55) updateport CVPane
+\i (00:05:56) setwindow form.mini
+\i (00:05:56) FORM mini subcolor 0 
+\i (00:05:56) setwindow pcb
+\i (00:05:56) updateport CVPane
+\i (00:05:57) setwindow form.mini
+\i (00:05:57) FORM mini subclass DISPLAY_BOTTOM 
+\i (00:05:57) setwindow pcb
+\i (00:05:57) updateport CVPane
+\i (00:05:58) setwindow form.mini
+\i (00:05:58) FORM mini subcolor 0 
+\i (00:05:58) setwindow pcb
+\i (00:05:58) updateport CVPane
+\i (00:06:00) setwindow form.mini
+\i (00:06:00) FORM mini subclass DFA_BOUND_TOP 
+\i (00:06:00) setwindow pcb
+\i (00:06:00) updateport CVPane
+\i (00:06:01) setwindow form.mini
+\i (00:06:01) FORM mini subcolor 0 
+\i (00:06:01) setwindow pcb
+\i (00:06:01) updateport CVPane
+\i (00:06:02) setwindow form.mini
+\i (00:06:02) FORM mini subclass DFA_BOUND_BOTTOM 
+\i (00:06:02) setwindow pcb
+\i (00:06:02) updateport CVPane
+\i (00:06:03) setwindow form.mini
+\i (00:06:03) FORM mini subcolor 0 
+\i (00:06:03) setwindow pcb
+\i (00:06:03) updateport CVPane
+\i (00:06:04) setwindow form.mini
+\i (00:06:04) FORM mini subcolor 1 
+\i (00:06:04) setwindow pcb
+\i (00:06:04) updateport CVPane
+\i (00:06:05) setwindow form.mini
+\i (00:06:05) FORM mini subcolor 0 
+\i (00:06:05) setwindow pcb
+\i (00:06:05) updateport CVPane
+\i (00:06:06) setwindow form.mini
+\i (00:06:06) FORM mini subcolor 1 
+\i (00:06:06) setwindow pcb
+\i (00:06:06) updateport CVPane
+\i (00:06:06) setwindow form.mini
+\i (00:06:06) FORM mini subcolor 0 
+\i (00:06:06) setwindow pcb
+\i (00:06:06) updateport CVPane
+\i (00:06:06) setwindow form.mini
+\i (00:06:06) FORM mini subcolor 1 
+\i (00:06:06) setwindow pcb
+\i (00:06:06) updateport CVPane
+\i (00:06:46) zoom out 1 
+\i (00:06:46) setwindow pcb
+\i (00:06:46) zoom out -716.28 -819.02
+\i (00:06:46) trapsize 300
+\i (00:06:46) zoom out 1 
+\i (00:06:46) setwindow pcb
+\i (00:06:46) zoom out -721.08 -824.43
+\i (00:06:46) trapsize 600
+\i (00:06:47) zoom in 1 
+\i (00:06:47) setwindow pcb
+\i (00:06:47) zoom in -329.61 -711.54
+\i (00:06:47) trapsize 300
+\i (00:07:00) setwindow form.mini
+\i (00:07:00) FORM mini subcolor 0 
+\i (00:07:00) setwindow pcb
+\i (00:07:00) updateport CVPane
+\i (00:07:02) setwindow form.mini
+\i (00:07:02) FORM mini subclass BODY_CENTER 
+\i (00:07:02) setwindow pcb
+\i (00:07:02) updateport CVPane
+\i (00:07:03) zoom out 1 
+\i (00:07:03) setwindow pcb
+\i (00:07:03) zoom out -227.53 -706.73
+\i (00:07:03) trapsize 600
+\i (00:07:03) zoom out 1 
+\i (00:07:03) setwindow pcb
+\i (00:07:03) zoom out -229.94 -705.54
+\i (00:07:03) trapsize 1201
+\i (00:07:03) zoom out 1 
+\i (00:07:03) setwindow pcb
+\i (00:07:03) zoom out -237.14 -703.13
+\i (00:07:03) trapsize 2402
+\i (00:07:04) zoom in 1 
+\i (00:07:04) setwindow pcb
+\i (00:07:04) zoom in 867.64 -69.08
+\i (00:07:04) trapsize 1201
+\i (00:07:05) setwindow form.mini
+\i (00:07:05) FORM mini subcolor 0 
+\i (00:07:05) setwindow pcb
+\i (00:07:05) updateport CVPane
+\i (00:07:05) setwindow form.mini
+\i (00:07:05) FORM mini subcolor 1 
+\i (00:07:05) setwindow pcb
+\i (00:07:05) updateport CVPane
+\i (00:07:06) setwindow form.mini
+\i (00:07:06) FORM mini subcolor 0 
+\i (00:07:06) setwindow pcb
+\i (00:07:06) updateport CVPane
+\i (00:07:06) setwindow form.mini
+\i (00:07:06) FORM mini subcolor 1 
+\i (00:07:06) setwindow pcb
+\i (00:07:06) updateport CVPane
+\i (00:07:07) setwindow form.mini
+\i (00:07:07) FORM mini subcolor 0 
+\i (00:07:07) setwindow pcb
+\i (00:07:07) updateport CVPane
+\i (00:07:09) setwindow form.mini
+\i (00:07:09) FORM mini subclass ASSEMBLY_TOP 
+\i (00:07:09) setwindow pcb
+\i (00:07:09) updateport CVPane
+\i (00:07:09) setwindow form.mini
+\i (00:07:09) FORM mini subcolor 0 
+\i (00:07:09) setwindow pcb
+\i (00:07:09) updateport CVPane
+\i (00:07:10) setwindow form.mini
+\i (00:07:10) FORM mini subcolor 1 
+\i (00:07:10) setwindow pcb
+\i (00:07:10) updateport CVPane
+\i (00:07:11) zoom in 1 
+\i (00:07:11) setwindow pcb
+\i (00:07:11) zoom in 670.70 243.15
+\i (00:07:11) trapsize 600
+\i (00:07:22) setwindow form.mini
+\i (00:07:22) FORM mini subcolor 0 
+\i (00:07:22) setwindow pcb
+\i (00:07:22) updateport CVPane
+\i (00:07:23) zoom out 1 
+\i (00:07:23) setwindow pcb
+\i (00:07:23) zoom out 591.45 0.58
+\i (00:07:23) trapsize 1201
+\i (00:07:24) zoom in 1 
+\i (00:07:24) setwindow pcb
+\i (00:07:24) zoom in 1115.02 -710.33
+\i (00:07:24) trapsize 600
+\i (00:07:24) zoom in 1 
+\i (00:07:24) setwindow pcb
+\i (00:07:24) zoom in 1115.02 -710.33
+\i (00:07:24) trapsize 300
+\i (00:07:24) zoom out 1 
+\i (00:07:24) setwindow pcb
+\i (00:07:24) zoom out 1104.82 -653.88
+\i (00:07:24) trapsize 600
+\i (00:07:28) QtSignal CVPLayerGrid CVPBoxAllM4 clicked false
+\i (00:07:29) QtSignal CVPLayerGrid CVPBoxAllM3 clicked false
+\i (00:07:30) QtSignal CVPLayerGrid CVPBoxAllM3 clicked true
+\i (00:07:30) QtSignal CVPLayerGrid CVPBoxAllM4 clicked true
+\i (00:07:31) QtSignal CVPLayerGrid CVPBoxAllM4 clicked false
+\i (00:07:36) zoom in 1 
+\i (00:07:36) setwindow pcb
+\i (00:07:36) zoom in 847.83 -543.41
+\i (00:07:36) trapsize 300
+\i (00:07:36) zoom out 1 
+\i (00:07:36) setwindow pcb
+\i (00:07:36) zoom out 851.44 -547.61
+\i (00:07:36) trapsize 600
+\i (00:07:40) setwindow form.find
+\i (00:07:40) FORM find clines YES 
+\i (00:07:42) setwindow pcb
+\i (00:07:42) pick grid 955.91 -554.81
+\t (00:07:42) last pick:  1000.00 -600.00
+\i (00:07:43) prepopup 852.63 -544.00
+\i (00:07:43) pick grid 994.33 -468.35
+\t (00:07:43) last pick:  1000.00 -500.00
+\i (00:07:49) zoom in 1 
+\i (00:07:49) setwindow pcb
+\i (00:07:49) zoom in 480.37 -671.29
+\i (00:07:49) trapsize 300
+\i (00:07:50) zoom out 1 
+\i (00:07:50) setwindow pcb
+\i (00:07:50) zoom out 529.01 -673.09
+\i (00:07:50) trapsize 600
+\i (00:07:52) QtSignal CVPLayerGrid CVPBoxAllUbm clicked false
+\i (00:07:53) QtSignal CVPLayerGrid CVPBoxAllUbm clicked true
+\i (00:07:53) QtSignal CVPLayerGrid CVPBoxAllUbm clicked false
+\i (00:07:54) QtSignal CVPLayerGrid CVPBoxAllAll clicked false
+\i (00:07:54) updateport CVPane
+\i (00:07:56) QtSignal CVPLayerGrid CVPBoxAllM2 clicked false
+\i (00:07:56) QtSignal CVPLayerGrid CVPBoxAllM3 clicked false
+\i (00:07:57) QtSignal CVPLayerGrid CVPBoxAllM3 clicked true
+\i (00:07:57) QtSignal CVPLayerGrid CVPBoxAllM3 clicked false
+\i (00:07:58) QtSignal CVPLayerGrid CVPBoxAllM3 clicked true
+\i (00:07:59) QtSignal CVPLayerGrid CVPBoxAllM3 clicked false
+\i (00:07:59) QtSignal CVPLayerGrid CVPBoxAllM3 clicked true
+\i (00:08:01) zoom in 1 
+\i (00:08:01) setwindow pcb
+\i (00:08:01) zoom in 842.43 -802.79
+\i (00:08:01) trapsize 300
+\i (00:08:03) prepopup 716.34 -718.73
+\i (00:08:04) pick grid 929.49 -667.69
+\t (00:08:04) last pick:  900.00 -700.00
+\i (00:08:05) zoom in 1 
+\i (00:08:05) setwindow pcb
+\i (00:08:05) zoom in 851.44 -722.33
+\i (00:08:05) trapsize 150
+\i (00:08:05) zoom in 1 
+\i (00:08:05) setwindow pcb
+\i (00:08:05) zoom in 851.44 -722.33
+\i (00:08:05) trapsize 75
+\i (00:08:06) zoom out 1 
+\i (00:08:06) setwindow pcb
+\i (00:08:06) zoom out 851.29 -722.33
+\i (00:08:06) trapsize 150
+\i (00:08:06) zoom out 1 
+\i (00:08:06) setwindow pcb
+\i (00:08:06) zoom out 850.09 -723.83
+\i (00:08:06) trapsize 300
+\i (00:08:06) zoom out 1 
+\i (00:08:06) setwindow pcb
+\i (00:08:06) zoom out 850.08 -723.83
+\i (00:08:06) trapsize 600
+\i (00:08:07) zoom out 1 
+\i (00:08:07) setwindow pcb
+\i (00:08:07) zoom out 836.88 -721.43
+\i (00:08:07) trapsize 1201
+\i (00:08:07) zoom in 1 
+\i (00:08:07) setwindow pcb
+\i (00:08:07) zoom in 834.48 -721.44
+\i (00:08:07) trapsize 600
+\i (00:08:08) QtSignal CVPLayerGrid CVPBoxAllM4 clicked true
+\i (00:08:09) QtSignal CVPLayerGrid CVPBoxAllM3 clicked false
+\i (00:08:11) QtSignal CVPLayerGrid CVPBoxAllM4 clicked false
+\i (00:08:11) QtSignal CVPLayerGrid CVPBoxAllM4 clicked true
+\i (00:08:13) QtSignal CVPLayerGrid CVPBoxAllM3 clicked true
+\i (00:08:13) QtSignal CVPLayerGrid CVPBoxAllM3 clicked false
+\i (00:08:14) QtSignal CVPLayerGrid CVPBoxAllM3 clicked true
+\i (00:08:15) QtSignal CVPLayerGrid CVPBoxAllM3 clicked false
+\i (00:08:15) QtSignal CVPLayerGrid CVPBoxAllM3 clicked true
+\i (00:08:16) QtSignal CVPLayerGrid CVPBoxAllM3 clicked false
+\i (00:08:17) QtSignal CVPLayerGrid CVPBoxAllM4 clicked false
+\i (00:08:18) QtSignal CVPLayerGrid CVPBoxAllM4 clicked true
+\i (00:08:19) QtSignal CVPLayerGrid CVPBoxAllM3 clicked true
+\i (00:08:20) QtSignal CVPLayerGrid CVPBoxAllM3 clicked false
+\i (00:08:20) QtSignal CVPLayerGrid CVPBoxAllM3 clicked true
+\i (00:08:21) QtSignal CVPLayerGrid CVPBoxAllM4 clicked false
+\i (00:08:23) QtSignal CVPLayerGrid CVPBoxAllM4 clicked true
+\i (00:08:24) QtSignal CVPLayerGrid CVPBoxAllM4 clicked false
+\i (00:08:30) QtSignal CVPLayerGrid CVPBoxAllM3 clicked false
+\i (00:08:31) QtSignal CVPLayerGrid CVPBoxAllM4 clicked true
+\i (00:08:37) zoom in 1 
+\i (00:08:37) setwindow pcb
+\i (00:08:37) zoom in 87.55 -441.64
+\i (00:08:37) trapsize 300
+\i (00:08:38) zoom out 1 
+\i (00:08:38) setwindow pcb
+\i (00:08:38) zoom out 107.97 -450.04
+\i (00:08:38) trapsize 600
+\i (00:08:38) zoom out 1 
+\i (00:08:38) setwindow pcb
+\i (00:08:38) zoom out 107.97 -450.04
+\i (00:08:38) trapsize 1201
+\i (00:08:39) zoom in 1 
+\i (00:08:39) setwindow pcb
+\i (00:08:39) zoom in 100.76 -428.42
+\i (00:08:39) trapsize 600
+\i (00:08:39) zoom in 1 
+\i (00:08:39) setwindow pcb
+\i (00:08:39) zoom in 100.77 -428.42
+\i (00:08:39) trapsize 300
+\i (00:08:39) zoom out 1 
+\i (00:08:39) setwindow pcb
+\i (00:08:39) zoom out 97.17 -440.42
+\i (00:08:39) trapsize 600
+\i (00:08:41) QtSignal CVPLayerGrid CVPBoxAllM4 clicked false
+\i (00:08:41) QtSignal CVPLayerGrid CVPBoxAllUbm clicked true
+\i (00:17:38) setwindow form.mini
+\i (00:17:38) FORM mini class 'VIA KEEPOUT' 
+\i (00:17:39) FORM mini subcolor 0 
+\i (00:17:39) setwindow pcb
+\i (00:17:39) updateport CVPane
+\i (00:17:40) setwindow form.mini
+\i (00:17:40) FORM mini subcolor 1 
+\i (00:17:40) setwindow pcb
+\i (00:17:40) updateport CVPane
+\i (00:17:41) setwindow form.mini
+\i (00:17:41) FORM mini subcolor 0 
+\i (00:17:41) setwindow pcb
+\i (00:17:41) updateport CVPane
+\i (00:17:41) setwindow form.mini
+\i (00:17:41) FORM mini subcolor 1 
+\i (00:17:41) setwindow pcb
+\i (00:17:41) updateport CVPane
+\i (00:17:42) setwindow form.mini
+\i (00:17:42) FORM mini subcolor 0 
+\i (00:17:42) setwindow pcb
+\i (00:17:42) updateport CVPane
+\i (00:17:42) setwindow form.mini
+\i (00:17:42) FORM mini subcolor 1 
+\i (00:17:42) setwindow pcb
+\i (00:17:42) updateport CVPane
+\i (00:17:46) setwindow form.mini
+\i (00:17:46) FORM mini subcolor 0 
+\i (00:17:46) setwindow pcb
+\i (00:17:46) updateport CVPane
+\i (00:17:47) setwindow form.mini
+\i (00:17:47) FORM mini subcolor 1 
+\i (00:17:47) setwindow pcb
+\i (00:17:47) updateport CVPane
+\i (00:17:47) setwindow form.mini
+\i (00:17:47) FORM mini subcolor 0 
+\i (00:17:47) setwindow pcb
+\i (00:17:47) updateport CVPane
+\i (00:17:48) setwindow form.mini
+\i (00:17:48) FORM mini subcolor 1 
+\i (00:17:48) setwindow pcb
+\i (00:17:48) updateport CVPane
+\i (00:17:48) setwindow form.mini
+\i (00:17:48) FORM mini subcolor 0 
+\i (00:17:48) setwindow pcb
+\i (00:17:48) updateport CVPane
+\i (00:17:50) setwindow form.mini
+\i (00:17:50) FORM mini class 'VIA CLASS' 
+\i (00:17:50) FORM mini subcolor 0 
+\i (00:17:50) setwindow pcb
+\i (00:17:50) updateport CVPane
+\i (00:17:51) setwindow form.mini
+\i (00:17:51) FORM mini subcolor 1 
+\i (00:17:51) setwindow pcb
+\i (00:17:51) updateport CVPane
+\i (00:17:54) setwindow form.mini
+\i (00:17:54) FORM mini subclass M1 
+\i (00:17:54) setwindow pcb
+\i (00:17:54) updateport CVPane
+\i (00:17:55) setwindow form.mini
+\i (00:17:55) FORM mini subcolor 0 
+\i (00:17:55) setwindow pcb
+\i (00:17:55) updateport CVPane
+\i (00:17:55) setwindow form.mini
+\i (00:17:55) FORM mini subcolor 1 
+\i (00:17:55) setwindow pcb
+\i (00:17:55) updateport CVPane
+\i (00:17:56) setwindow form.mini
+\i (00:17:56) FORM mini subcolor 0 
+\i (00:17:56) setwindow pcb
+\i (00:17:56) updateport CVPane
+\i (00:17:56) setwindow form.mini
+\i (00:17:56) FORM mini subcolor 1 
+\i (00:17:56) setwindow pcb
+\i (00:17:56) updateport CVPane
+\i (00:17:57) setwindow form.mini
+\i (00:17:57) FORM mini subcolor 0 
+\i (00:17:57) setwindow pcb
+\i (00:17:57) updateport CVPane
+\i (00:17:57) setwindow form.mini
+\i (00:17:57) FORM mini subcolor 1 
+\i (00:17:57) setwindow pcb
+\i (00:17:57) updateport CVPane
+\i (00:18:00) setwindow form.mini
+\i (00:18:00) FORM mini subclass M2 
+\i (00:18:00) setwindow pcb
+\i (00:18:00) updateport CVPane
+\i (00:18:01) setwindow form.mini
+\i (00:18:01) FORM mini subcolor 0 
+\i (00:18:01) setwindow pcb
+\i (00:18:01) updateport CVPane
+\i (00:18:02) setwindow form.mini
+\i (00:18:02) FORM mini subcolor 1 
+\i (00:18:02) setwindow pcb
+\i (00:18:02) updateport CVPane
+\i (00:18:03) setwindow form.mini
+\i (00:18:03) FORM mini subcolor 0 
+\i (00:18:03) setwindow pcb
+\i (00:18:03) updateport CVPane
+\i (00:18:03) setwindow form.mini
+\i (00:18:03) FORM mini subcolor 1 
+\i (00:18:03) setwindow pcb
+\i (00:18:03) updateport CVPane
+\i (00:18:04) zoom in 1 
+\i (00:18:04) setwindow pcb
+\i (00:18:04) zoom in -239.08 -263.90
+\i (00:18:04) trapsize 300
+\i (00:18:04) zoom in 1 
+\i (00:18:04) setwindow pcb
+\i (00:18:04) zoom in -241.48 -272.31
+\i (00:18:04) trapsize 150
+\i (00:18:04) zoom in 1 
+\i (00:18:04) setwindow pcb
+\i (00:18:04) zoom in -240.28 -275.31
+\i (00:18:04) trapsize 75
+\i (00:18:04) zoom in 1 
+\i (00:18:04) setwindow pcb
+\i (00:18:04) zoom in -240.27 -275.31
+\i (00:18:04) trapsize 38
+\i (00:18:04) zoom in 1 
+\i (00:18:04) setwindow pcb
+\i (00:18:04) zoom in -239.59 -275.53
+\i (00:18:04) trapsize 19
+\i (00:18:04) zoom out 1 
+\i (00:18:04) setwindow pcb
+\i (00:18:04) zoom out -225.25 -276.35
+\i (00:18:04) trapsize 38
+\i (00:18:05) setwindow form.mini
+\i (00:18:05) FORM mini subcolor 0 
+\i (00:18:05) setwindow pcb
+\i (00:18:05) updateport CVPane
+\i (00:18:06) setwindow form.mini
+\i (00:18:06) FORM mini subcolor 1 
+\i (00:18:06) setwindow pcb
+\i (00:18:06) updateport CVPane
+\i (00:18:06) setwindow form.mini
+\i (00:18:06) FORM mini subcolor 0 
+\i (00:18:06) setwindow pcb
+\i (00:18:06) updateport CVPane
+\i (00:18:07) setwindow form.mini
+\i (00:18:07) FORM mini subcolor 1 
+\i (00:18:07) setwindow pcb
+\i (00:18:07) updateport CVPane
+\i (00:18:11) setwindow form.mini
+\i (00:18:11) FORM mini subclass SOLDERMASK_TOP 
+\i (00:18:11) setwindow pcb
+\i (00:18:11) updateport CVPane
+\i (00:18:13) setwindow form.mini
+\i (00:18:13) FORM mini subcolor 0 
+\i (00:18:13) setwindow pcb
+\i (00:18:13) updateport CVPane
+\i (00:18:14) setwindow form.mini
+\i (00:18:14) FORM mini subclass SOLDERMASK_BOTTOM 
+\i (00:18:14) setwindow pcb
+\i (00:18:14) updateport CVPane
+\i (00:18:14) setwindow form.mini
+\i (00:18:14) FORM mini subcolor 0 
+\i (00:18:14) setwindow pcb
+\i (00:18:14) updateport CVPane
+\i (00:18:16) setwindow form.mini
+\i (00:18:16) FORM mini subclass PASTEMASK_TOP 
+\i (00:18:16) setwindow pcb
+\i (00:18:16) updateport CVPane
+\i (00:18:16) setwindow form.mini
+\i (00:18:16) FORM mini subcolor 0 
+\i (00:18:16) setwindow pcb
+\i (00:18:16) updateport CVPane
+\i (00:18:19) setwindow form.mini
+\i (00:18:19) FORM mini subclass UBM 
+\i (00:18:19) setwindow pcb
+\i (00:18:19) updateport CVPane
+\i (00:18:21) zoom out 1 
+\i (00:18:21) setwindow pcb
+\i (00:18:21) zoom out -211.89 -273.73
+\i (00:18:21) trapsize 75
+\i (00:18:22) zoom out 1 
+\i (00:18:22) setwindow pcb
+\i (00:18:22) zoom out -211.89 -273.73
+\i (00:18:22) trapsize 150
+\i (00:18:23) zoom in 1 
+\i (00:18:23) setwindow pcb
+\i (00:18:23) zoom in -89.11 -261.41
+\i (00:18:23) trapsize 75
+\i (00:18:27) setwindow form.mini
+\i (00:18:27) FORM mini subclass M1 
+\i (00:18:27) setwindow pcb
+\i (00:18:27) updateport CVPane
+\i (00:18:27) setwindow form.mini
+\i (00:18:27) FORM mini subcolor 0 
+\i (00:18:27) setwindow pcb
+\i (00:18:27) updateport CVPane
+\i (00:18:28) setwindow form.mini
+\i (00:18:28) FORM mini subcolor 1 
+\i (00:18:28) setwindow pcb
+\i (00:18:28) updateport CVPane
+\i (00:18:28) setwindow form.mini
+\i (00:18:28) FORM mini subcolor 0 
+\i (00:18:28) setwindow pcb
+\i (00:18:28) updateport CVPane
+\i (00:18:29) setwindow form.mini
+\i (00:18:29) FORM mini subcolor 1 
+\i (00:18:29) setwindow pcb
+\i (00:18:29) updateport CVPane
+\i (00:18:31) setwindow form.mini
+\i (00:18:31) FORM mini subclass M2 
+\i (00:18:31) setwindow pcb
+\i (00:18:31) updateport CVPane
+\i (00:18:31) setwindow form.mini
+\i (00:18:31) FORM mini subcolor 0 
+\i (00:18:31) setwindow pcb
+\i (00:18:31) updateport CVPane
+\i (00:18:34) setwindow form.mini
+\i (00:18:34) FORM mini subclass PASTEMASK_BOTTOM 
+\i (00:18:34) setwindow pcb
+\i (00:18:34) updateport CVPane
+\i (00:18:35) setwindow form.mini
+\i (00:18:35) FORM mini subcolor 0 
+\i (00:18:35) setwindow pcb
+\i (00:18:35) updateport CVPane
+\i (00:18:36) setwindow form.mini
+\i (00:18:36) FORM mini subclass FILMMASKTOP 
+\i (00:18:36) setwindow pcb
+\i (00:18:36) updateport CVPane
+\i (00:18:37) setwindow form.mini
+\i (00:18:37) FORM mini subcolor 0 
+\i (00:18:37) setwindow pcb
+\i (00:18:37) updateport CVPane
+\i (00:18:38) setwindow form.mini
+\i (00:18:38) FORM mini subclass FILMMASKBOTTOM 
+\i (00:18:38) setwindow pcb
+\i (00:18:38) updateport CVPane
+\i (00:18:38) setwindow form.mini
+\i (00:18:38) FORM mini subcolor 0 
+\i (00:18:38) setwindow pcb
+\i (00:18:38) updateport CVPane
+\i (00:18:41) setwindow form.mini
+\i (00:18:41) FORM mini subclass UBM 
+\i (00:18:41) setwindow pcb
+\i (00:18:41) updateport CVPane
+\i (00:18:42) zoom out 1 
+\i (00:18:42) setwindow pcb
+\i (00:18:42) zoom out -217.30 -281.98
+\i (00:18:42) trapsize 150
+\i (00:18:42) zoom out 1 
+\i (00:18:42) setwindow pcb
+\i (00:18:42) zoom out -219.10 -284.07
+\i (00:18:42) trapsize 300
+\i (00:18:42) zoom in 1 
+\i (00:18:42) setwindow pcb
+\i (00:18:42) zoom in -208.91 -278.67
+\i (00:18:42) trapsize 150
+\i (00:18:43) zoom in 1 
+\i (00:18:43) setwindow pcb
+\i (00:18:43) zoom in -259.65 -285.57
+\i (00:18:43) trapsize 75
+\i (00:18:43) zoom in 1 
+\i (00:18:43) setwindow pcb
+\i (00:18:43) zoom in -259.65 -285.57
+\i (00:18:43) trapsize 38
+\i (00:18:43) zoom in 1 
+\i (00:18:43) setwindow pcb
+\i (00:18:43) zoom in -259.65 -285.57
+\i (00:18:43) trapsize 19
+\i (00:18:43) zoom out 1 
+\i (00:18:43) setwindow pcb
+\i (00:18:43) zoom out -259.35 -285.49
+\i (00:18:43) trapsize 38
+\i (00:18:45) setwindow form.mini
+\i (00:18:45) FORM mini subcolor 0 
+\i (00:18:45) setwindow pcb
+\i (00:18:45) updateport CVPane
+\i (00:18:45) setwindow form.mini
+\i (00:18:45) FORM mini subcolor 1 
+\i (00:18:45) setwindow pcb
+\i (00:18:45) updateport CVPane
+\i (00:18:47) setwindow form.mini
+\i (00:18:47) FORM mini subcolor 0 
+\i (00:18:48) setwindow pcb
+\i (00:18:48) updateport CVPane
+\i (00:18:48) setwindow form.mini
+\i (00:18:48) FORM mini subcolor 1 
+\i (00:18:48) setwindow pcb
+\i (00:18:48) updateport CVPane
+\i (00:18:49) zoom in 1 
+\i (00:18:49) setwindow pcb
+\i (00:18:49) zoom in -235.86 -275.29
+\i (00:18:49) trapsize 19
+\i (00:18:49) zoom in 1 
+\i (00:18:49) setwindow pcb
+\i (00:18:49) zoom in -235.22 -275.44
+\i (00:18:49) trapsize 9
+\i (00:18:49) zoom out 1 
+\i (00:18:49) setwindow pcb
+\i (00:18:49) zoom out -235.03 -275.44
+\i (00:18:49) trapsize 19
+\i (00:18:49) zoom out 1 
+\i (00:18:49) setwindow pcb
+\i (00:18:49) zoom out -234.98 -275.63
+\i (00:18:49) trapsize 38
+\i (00:18:50) setwindow form.mini
+\i (00:18:50) FORM mini subcolor 0 
+\i (00:18:50) setwindow pcb
+\i (00:18:50) updateport CVPane
+\i (00:18:51) setwindow form.mini
+\i (00:18:51) FORM mini subcolor 1 
+\i (00:18:51) setwindow pcb
+\i (00:18:51) updateport CVPane
+\i (00:18:51) setwindow form.mini
+\i (00:18:51) FORM mini subcolor 0 
+\i (00:18:51) setwindow pcb
+\i (00:18:51) updateport CVPane
+\i (00:18:52) setwindow form.mini
+\i (00:18:52) FORM mini subcolor 1 
+\i (00:18:52) setwindow pcb
+\i (00:18:52) updateport CVPane
+\i (00:18:53) setwindow form.mini
+\i (00:18:53) FORM mini subcolor 0 
+\i (00:18:53) setwindow pcb
+\i (00:18:53) updateport CVPane
+\i (00:18:55) zoom out 1 
+\i (00:18:55) setwindow pcb
+\i (00:18:55) zoom out -177.80 -270.07
+\i (00:18:55) trapsize 75
+\i (00:18:58) QtSignal CVPLayerGrid CVPButtonPlanUbm clicked
+\i (00:18:58) updateport CVPane
+\i (00:18:59) QtSignal CVPLayerGrid CVPButtonCondUbm clicked
+\i (00:18:59) updateport CVPane
+\i (00:18:59) QtSignal CVPLayerGrid CVPButtonPinUbm clicked
+\i (00:18:59) updateport CVPane
+\i (00:19:03) QtSignal CVPLayerGrid CVPButtonPinUbm clicked
+\i (00:19:03) updateport CVPane
+\i (00:19:03) QtSignal CVPLayerGrid CVPButtonPinUbm clicked
+\i (00:19:03) updateport CVPane
+\i (00:19:04) QtSignal CVPLayerGrid CVPButtonPinUbm clicked
+\i (00:19:04) updateport CVPane
+\i (00:19:04) QtSignal CVPLayerGrid CVPButtonPinUbm clicked
+\i (00:19:05) updateport CVPane
+\i (00:19:06) QtSignal CVPLayerGrid CVPButtonPinM1 clicked
+\i (00:19:06) updateport CVPane
+\i (00:19:06) QtSignal CVPLayerGrid CVPButtonPinM1 clicked
+\i (00:19:06) updateport CVPane
+\i (00:19:08) QtSignal CVPLayerGrid CVPButtonPinUbm clicked
+\i (00:19:08) updateport CVPane
+\i (00:19:08) zoom in 1 
+\i (00:19:08) setwindow pcb
+\i (00:19:08) zoom in -199.11 -291.99
+\i (00:19:08) trapsize 38
+\i (00:19:09) zoom out 1 
+\i (00:19:09) setwindow pcb
+\i (00:19:09) zoom out -211.79 -294.47
+\i (00:19:09) trapsize 75
+\i (00:19:09) zoom out 1 
+\i (00:19:09) setwindow pcb
+\i (00:19:09) zoom out -224.09 -280.36
+\i (00:19:09) trapsize 150
+\i (00:19:53) QtSignal CVPLayerGrid CVPButtonPinUbm clicked
+\i (00:19:53) updateport CVPane
+\i (00:19:54) QtSignal CVPLayerGrid CVPButtonDrcUbm clicked
+\i (00:19:54) updateport CVPane
+\i (00:19:56) zoom out 1 
+\i (00:19:56) setwindow pcb
+\i (00:19:56) zoom out -115.42 -295.96
+\i (00:19:56) trapsize 300
+\i (00:20:01) setwindow form.mini
+\i (00:20:01) FORM mini subclass M1 
+\i (00:20:01) setwindow pcb
+\i (00:20:01) updateport CVPane
+\i (00:20:01) zoom in 1 
+\i (00:20:01) setwindow pcb
+\i (00:20:01) zoom in -165.25 -258.73
+\i (00:20:01) trapsize 150
+\i (00:20:01) zoom in 1 
+\i (00:20:01) setwindow pcb
+\i (00:20:01) zoom in -155.35 -256.03
+\i (00:20:01) trapsize 75
+\i (00:20:01) zoom in 1 
+\i (00:20:01) setwindow pcb
+\i (00:20:01) zoom in -154.60 -255.57
+\i (00:20:01) trapsize 38
+\i (00:20:02) zoom in 1 
+\i (00:20:02) setwindow pcb
+\i (00:20:02) zoom in -192.95 -261.13
+\i (00:20:02) trapsize 19
+\i (00:20:02) zoom in 1 
+\i (00:20:02) setwindow pcb
+\i (00:20:02) zoom in -195.76 -261.16
+\i (00:20:02) trapsize 9
+\i (00:20:02) zoom out 1 
+\i (00:20:02) setwindow pcb
+\i (00:20:02) zoom out -184.86 -260.78
+\i (00:20:02) trapsize 19
+\i (00:20:02) zoom out 1 
+\i (00:20:02) setwindow pcb
+\i (00:20:02) zoom out -185.76 -260.97
+\i (00:20:02) trapsize 38
+\i (00:20:03) zoom in 1 
+\i (00:20:03) setwindow pcb
+\i (00:20:03) zoom in -180.35 -258.64
+\i (00:20:03) trapsize 19
+\i (00:20:03) zoom in 1 
+\i (00:20:03) setwindow pcb
+\i (00:20:03) zoom in -177.57 -258.67
+\i (00:20:03) trapsize 9
+\i (00:20:04) setwindow form.mini
+\i (00:20:04) FORM mini subcolor 0 
+\i (00:20:04) setwindow pcb
+\i (00:20:04) updateport CVPane
+\i (00:20:04) setwindow form.mini
+\i (00:20:04) FORM mini subcolor 1 
+\i (00:20:04) setwindow pcb
+\i (00:20:04) updateport CVPane
+\i (00:20:11) setwindow form.mini
+\i (00:20:11) FORM mini subclass M2 
+\i (00:20:11) setwindow pcb
+\i (00:20:11) updateport CVPane
+\i (00:20:13) setwindow form.mini
+\i (00:20:13) FORM mini subclass M3 
+\i (00:20:13) setwindow pcb
+\i (00:20:13) updateport CVPane
+\i (00:20:14) zoom out 1 
+\i (00:20:14) setwindow pcb
+\i (00:20:14) zoom out -186.14 -259.82
+\i (00:20:14) trapsize 19
+\i (00:20:14) zoom out 1 
+\i (00:20:14) setwindow pcb
+\i (00:20:14) zoom out -186.22 -260.19
+\i (00:20:14) trapsize 38
+\i (00:20:14) zoom out 1 
+\i (00:20:14) setwindow pcb
+\i (00:20:14) zoom out -189.30 -256.58
+\i (00:20:14) trapsize 75
+\i (00:20:14) zoom out 1 
+\i (00:20:14) setwindow pcb
+\i (00:20:14) zoom out -189.31 -256.58
+\i (00:20:14) trapsize 150
+\i (00:20:15) zoom in 1 
+\i (00:20:15) setwindow pcb
+\i (00:20:15) zoom in -282.67 -298.31
+\i (00:20:15) trapsize 75
+\i (00:20:16) zoom in 1 
+\i (00:20:16) setwindow pcb
+\i (00:20:16) zoom in -299.03 -313.31
+\i (00:20:16) trapsize 38
+\i (00:20:17) zoom in 1 
+\i (00:20:17) setwindow pcb
+\i (00:20:17) zoom in -301.95 -333.87
+\i (00:20:17) trapsize 19
+\i (00:20:17) zoom out 1 
+\i (00:20:17) setwindow pcb
+\i (00:20:17) zoom out -299.13 -332.85
+\i (00:20:17) trapsize 38
+\i (00:20:50) setwindow form.mini
+\i (00:20:50) FORM mini class 'USER PART NUMBER' 
+\i (00:20:52) FORM mini subcolor 0 
+\i (00:20:52) setwindow pcb
+\i (00:20:52) updateport CVPane
+\i (00:20:53) zoom out 1 
+\i (00:20:53) setwindow pcb
+\i (00:20:53) zoom out -265.21 -304.41
+\i (00:20:53) trapsize 75
+\i (00:20:53) zoom out 1 
+\i (00:20:53) setwindow pcb
+\i (00:20:53) zoom out -269.87 -309.36
+\i (00:20:53) trapsize 150
+\i (00:20:53) zoom out 1 
+\i (00:20:53) setwindow pcb
+\i (00:20:53) zoom out -271.06 -309.97
+\i (00:20:53) trapsize 300
+\e (00:20:58) Stroke not recognized.
+\i (00:20:59) roam start
+\i (00:20:59) roam x -16
+\i (00:20:59) roam x -16
+\i (00:20:59) roam x -16
+\i (00:20:59) roam x -16
+\i (00:20:59) roam x -16
+\i (00:20:59) roam x -16
+\i (00:20:59) roam y 16
+\i (00:20:59) roam x -16
+\i (00:20:59) roam x -16
+\i (00:20:59) roam x -16
+\i (00:20:59) roam x -32
+\i (00:20:59) roam y 16
+\i (00:20:59) roam x -16
+\i (00:20:59) roam x -16
+\i (00:20:59) roam x -16
+\i (00:20:59) roam y 16
+\i (00:20:59) roam x -32
+\i (00:20:59) roam x -16
+\i (00:20:59) roam x -32
+\i (00:20:59) roam y 16
+\i (00:20:59) roam x -16
+\i (00:20:59) roam x -16
+\i (00:20:59) roam x -16
+\i (00:20:59) roam x -16
+\i (00:20:59) roam y 16
+\i (00:20:59) roam x -16
+\i (00:20:59) roam x -16
+\i (00:20:59) roam x -32
+\i (00:20:59) roam x -16
+\i (00:20:59) roam y 16
+\i (00:20:59) roam x -16
+\i (00:20:59) roam x -32
+\i (00:20:59) roam x -16
+\i (00:20:59) roam y 16
+\i (00:20:59) roam x -16
+\i (00:20:59) roam x -16
+\i (00:20:59) roam x -16
+\i (00:20:59) roam x -16
+\i (00:20:59) roam x -16
+\i (00:20:59) roam x -32
+\i (00:20:59) roam x -16
+\i (00:20:59) roam x -32
+\i (00:20:59) roam y 16
+\i (00:20:59) roam x -16
+\i (00:20:59) roam x -16
+\i (00:20:59) roam x -16
+\i (00:20:59) roam x -16
+\i (00:20:59) roam x -16
+\i (00:20:59) roam x -16
+\i (00:20:59) roam x -16
+\i (00:20:59) roam x -32
+\i (00:20:59) roam x -16
+\i (00:20:59) roam x -16
+\i (00:20:59) roam x -32
+\i (00:20:59) roam x -16
+\i (00:20:59) roam y 16
+\i (00:20:59) roam x -16
+\i (00:20:59) roam x -16
+\i (00:20:59) roam x -16
+\i (00:20:59) roam x -16
+\i (00:20:59) roam x -16
+\i (00:20:59) roam x -16
+\i (00:20:59) roam x -16
+\i (00:20:59) roam x -16
+\i (00:20:59) roam x -16
+\i (00:20:59) roam x -16
+\i (00:20:59) roam x -16
+\i (00:20:59) roam x -32
+\i (00:20:59) roam x -16
+\i (00:20:59) roam x -16
+\i (00:20:59) roam x -16
+\i (00:20:59) roam x -16
+\i (00:20:59) roam x -16
+\i (00:20:59) roam x -16
+\i (00:20:59) roam x -16
+\i (00:20:59) roam x -16
+\i (00:20:59) roam x -16
+\i (00:20:59) roam x -16
+\i (00:20:59) roam y 16
+\i (00:20:59) roam x 16
+\i (00:20:59) roam x 16
+\i (00:20:59) roam x 16
+\i (00:20:59) roam x 16
+\i (00:20:59) roam x 16
+\i (00:20:59) roam x 16
+\i (00:20:59) roam x 16
+\i (00:20:59) roam x 16
+\i (00:20:59) roam x 16
+\i (00:20:59) roam y -16
+\i (00:20:59) roam x 16
+\i (00:20:59) roam x 16
+\i (00:20:59) roam x 16
+\i (00:20:59) roam x 16
+\i (00:20:59) roam x 16
+\i (00:20:59) roam x 16
+\i (00:20:59) roam x 16
+\i (00:20:59) roam x 16
+\i (00:20:59) roam x 16
+\i (00:20:59) roam x 16
+\i (00:20:59) roam y -16
+\i (00:20:59) roam x 16
+\i (00:20:59) roam x 16
+\i (00:20:59) roam x 16
+\i (00:20:59) roam x 16
+\i (00:20:59) roam x 16
+\i (00:20:59) roam y -16
+\i (00:20:59) roam x 16
+\i (00:20:59) roam x 16
+\i (00:20:59) roam x 16
+\i (00:20:59) roam x 16
+\i (00:20:59) roam y -16
+\i (00:20:59) roam x 16
+\i (00:20:59) roam x 16
+\i (00:20:59) roam y -16
+\i (00:20:59) roam x 16
+\i (00:20:59) roam x 16
+\i (00:20:59) roam x 16
+\i (00:20:59) roam x 16
+\i (00:20:59) roam y -16
+\i (00:20:59) roam x 16
+\i (00:20:59) roam x 16
+\i (00:20:59) roam y -16
+\i (00:20:59) roam x 16
+\i (00:20:59) roam x 16
+\i (00:20:59) roam y -16
+\i (00:20:59) roam x 16
+\i (00:20:59) roam y -16
+\i (00:20:59) roam x 16
+\i (00:20:59) roam y -16
+\i (00:20:59) roam x 16
+\i (00:20:59) roam y -16
+\i (00:20:59) roam x 16
+\i (00:20:59) roam x 16
+\i (00:20:59) roam y -16
+\i (00:20:59) roam y -16
+\i (00:20:59) roam x 16
+\i (00:20:59) roam x 16
+\i (00:20:59) roam y -16
+\i (00:21:00) roam y -16
+\i (00:21:00) roam y -16
+\i (00:21:00) roam x 16
+\i (00:21:00) roam y -16
+\i (00:21:00) roam y -16
+\i (00:21:00) roam y -16
+\i (00:21:00) roam y -16
+\i (00:21:00) roam x 16
+\i (00:21:00) roam y -16
+\i (00:21:00) roam y -16
+\i (00:21:00) roam y -16
+\i (00:21:00) roam y -16
+\i (00:21:00) roam y -16
+\i (00:21:00) roam y -16
+\i (00:21:00) roam y -16
+\i (00:21:00) roam y -16
+\i (00:21:00) roam y -16
+\i (00:21:00) roam x 16
+\i (00:21:00) roam x 16
+\i (00:21:00) roam x 16
+\i (00:21:00) roam x 16
+\i (00:21:00) roam y 16
+\i (00:21:00) roam x 16
+\i (00:21:00) roam y 16
+\i (00:21:00) roam x 16
+\i (00:21:00) roam y 16
+\i (00:21:00) roam x 16
+\i (00:21:00) roam x 16
+\i (00:21:00) roam x 16
+\i (00:21:00) roam x 16
+\i (00:21:00) roam x 16
+\i (00:21:00) roam y -16
+\i (00:21:00) roam x 16
+\i (00:21:00) roam y -16
+\i (00:21:00) roam x 16
+\i (00:21:00) roam x 16
+\i (00:21:00) roam x 16
+\i (00:21:00) roam x 16
+\i (00:21:00) roam y -16
+\i (00:21:00) roam x 16
+\i (00:21:00) roam x 16
+\i (00:21:00) roam x 16
+\i (00:21:00) roam x 16
+\i (00:21:00) roam x 16
+\i (00:21:00) roam x 16
+\i (00:21:00) roam x 16
+\i (00:21:00) roam x 16
+\i (00:21:00) roam x 16
+\i (00:21:00) roam x 16
+\i (00:21:00) roam x 16
+\i (00:21:00) roam x 16
+\i (00:21:00) roam x 16
+\i (00:21:01) roam x 16
+\i (00:21:01) roam x 16
+\i (00:21:01) roam x 16
+\i (00:21:01) roam y -16
+\i (00:21:01) roam x 16
+\i (00:21:01) roam x 16
+\i (00:21:01) roam x 16
+\i (00:21:01) roam x 16
+\i (00:21:01) roam x 16
+\i (00:21:01) roam x 16
+\i (00:21:01) roam x 16
+\i (00:21:01) roam x 16
+\i (00:21:01) roam y -16
+\i (00:21:01) roam end
+\i (00:21:01) zoom out 1 
+\i (00:21:01) setwindow pcb
+\i (00:21:01) zoom out -483.82 -102.09
+\i (00:21:01) trapsize 600
+\i (00:21:01) zoom out 1 
+\i (00:21:01) setwindow pcb
+\i (00:21:01) zoom out -428.59 -110.49
+\i (00:21:01) trapsize 1201
+\i (00:21:02) zoom in 1 
+\i (00:21:02) setwindow pcb
+\i (00:21:02) zoom in 188.66 28.81
+\i (00:21:02) trapsize 600
+\i (00:21:02) zoom in 1 
+\i (00:21:02) setwindow pcb
+\i (00:21:02) zoom in 141.83 40.82
+\i (00:21:02) trapsize 300
+\i (00:21:02) zoom in 1 
+\i (00:21:02) setwindow pcb
+\i (00:21:02) zoom in 37.36 30.01
+\i (00:21:02) trapsize 150
+\i (00:21:03) zoom out 1 
+\i (00:21:03) setwindow pcb
+\i (00:21:03) zoom out 19.94 19.81
+\i (00:21:03) trapsize 300
+\i (00:21:03) zoom out 1 
+\i (00:21:03) setwindow pcb
+\i (00:21:03) zoom out 8.53 14.40
+\i (00:21:03) trapsize 600
+\i (00:21:03) zoom out 1 
+\i (00:21:03) setwindow pcb
+\i (00:21:03) zoom out -59.91 -3.60
+\i (00:21:03) trapsize 1201
+\i (00:21:03) zoom out 1 
+\i (00:21:03) setwindow pcb
+\i (00:21:03) zoom out -446.59 -49.24
+\i (00:21:03) trapsize 2402
+\i (00:21:03) zoom in 1 
+\i (00:21:03) setwindow pcb
+\i (00:21:03) zoom in 225.89 -10.81
+\i (00:21:03) trapsize 1201
+\i (00:21:03) zoom in 1 
+\i (00:21:03) setwindow pcb
+\i (00:21:03) zoom in 225.89 -10.81
+\i (00:21:03) trapsize 600
+\i (00:21:04) zoom out 1 
+\i (00:21:04) setwindow pcb
+\i (00:21:04) zoom out -415.37 -18.01
+\i (00:21:04) trapsize 1201
+\i (00:21:04) zoom out 1 
+\i (00:21:04) setwindow pcb
+\i (00:21:04) zoom out -415.36 -18.01
+\i (00:21:04) trapsize 2402
+\i (00:21:05) zoom in 1 
+\i (00:21:05) setwindow pcb
+\i (00:21:05) zoom in -785.22 20.42
+\i (00:21:05) trapsize 1201
+\i (00:21:05) zoom in 1 
+\i (00:21:05) setwindow pcb
+\i (00:21:05) zoom in -785.22 20.43
+\i (00:21:05) trapsize 600
+\i (00:21:05) zoom in 1 
+\i (00:21:05) setwindow pcb
+\i (00:21:05) zoom in -784.02 19.23
+\i (00:21:05) trapsize 300
+\i (00:21:05) zoom out 1 
+\i (00:21:05) setwindow pcb
+\i (00:21:05) zoom out -267.05 52.26
+\i (00:21:05) trapsize 600
+\i (00:21:05) zoom out 1 
+\i (00:21:05) setwindow pcb
+\i (00:21:05) zoom out -265.86 52.25
+\i (00:21:05) trapsize 1201
+\i (00:21:06) zoom in 1 
+\i (00:21:06) setwindow pcb
+\i (00:21:06) zoom in -20.88 16.23
+\i (00:21:06) trapsize 600
+\i (00:21:06) zoom in 1 
+\i (00:21:06) setwindow pcb
+\i (00:21:06) zoom in -16.07 12.63
+\i (00:21:06) trapsize 300
+\i (00:21:06) zoom out 1 
+\i (00:21:06) setwindow pcb
+\i (00:21:06) zoom out -2.86 8.43
+\i (00:21:06) trapsize 600
+\i (00:21:07) zoom out 1 
+\i (00:21:07) setwindow pcb
+\i (00:21:07) zoom out -2.86 8.42
+\i (00:21:07) trapsize 1201
+\i (00:21:07) zoom out 1 
+\i (00:21:07) setwindow pcb
+\i (00:21:07) zoom out -2.85 8.43
+\i (00:21:07) trapsize 2402
+\i (00:21:07) zoom in 1 
+\i (00:21:07) setwindow pcb
+\i (00:21:07) zoom in -2.85 3.62
+\i (00:21:07) trapsize 1201
+\i (00:21:07) zoom in 1 
+\i (00:21:07) setwindow pcb
+\i (00:21:07) zoom in -2.85 3.62
+\i (00:21:07) trapsize 600
+\i (00:21:07) zoom in 1 
+\i (00:21:07) setwindow pcb
+\i (00:21:07) zoom in -2.85 3.62
+\i (00:21:07) trapsize 300
+\i (00:21:08) zoom out 1 
+\i (00:21:08) setwindow pcb
+\i (00:21:08) zoom out 337.59 54.66
+\i (00:21:08) trapsize 600
+\i (00:21:08) zoom out 1 
+\i (00:21:08) setwindow pcb
+\i (00:21:08) zoom out 337.60 54.66
+\i (00:21:08) trapsize 1201
+\i (00:21:08) zoom out 1 
+\i (00:21:08) setwindow pcb
+\i (00:21:08) zoom out 337.59 52.27
+\i (00:21:08) trapsize 2402
+\i (00:21:08) zoom out 1 
+\i (00:21:08) setwindow pcb
+\i (00:21:08) zoom out 332.80 52.27
+\i (00:21:08) trapsize 4803
+\i (00:21:08) zoom in 1 
+\i (00:21:08) setwindow pcb
+\i (00:21:08) zoom in 380.83 359.68
+\i (00:21:08) trapsize 2402
+\i (00:21:09) zoom in 1 
+\i (00:21:09) setwindow pcb
+\i (00:21:09) zoom in 380.83 359.69
+\i (00:21:09) trapsize 1201
+\i (00:21:09) zoom in 1 
+\i (00:21:09) setwindow pcb
+\i (00:21:09) zoom in 380.83 359.69
+\i (00:21:09) trapsize 600
+\i (00:21:09) zoom in 1 
+\i (00:21:09) setwindow pcb
+\i (00:21:09) zoom in 380.83 359.69
+\i (00:21:09) trapsize 300
+\i (00:21:09) zoom in 1 
+\i (00:21:09) setwindow pcb
+\i (00:21:09) zoom in 380.84 359.70
+\i (00:21:09) trapsize 150
+\i (00:21:09) zoom out 1 
+\i (00:21:09) setwindow pcb
+\i (00:21:09) zoom out 371.53 357.30
+\i (00:21:09) trapsize 300
+\i (00:21:09) zoom out 1 
+\i (00:21:09) setwindow pcb
+\i (00:21:09) zoom out 328.29 347.70
+\i (00:21:09) trapsize 600
+\i (00:21:09) zoom out 1 
+\i (00:21:09) setwindow pcb
+\i (00:21:09) zoom out 60.50 316.47
+\i (00:21:09) trapsize 1201
+\i (00:21:10) zoom out 1 
+\i (00:21:10) setwindow pcb
+\i (00:21:10) zoom out -141.24 275.64
+\i (00:21:10) trapsize 2402
+\i (00:21:10) zoom in 1 
+\i (00:21:10) setwindow pcb
+\i (00:21:10) zoom in -938.60 290.05
+\i (00:21:10) trapsize 1201
+\i (00:21:10) zoom in 1 
+\i (00:21:10) setwindow pcb
+\i (00:21:10) zoom in -933.80 292.46
+\i (00:21:10) trapsize 600
+\i (00:21:10) zoom out 1 
+\i (00:21:10) setwindow pcb
+\i (00:21:10) zoom out -808.91 286.45
+\i (00:21:10) trapsize 1201
+\i (00:21:11) zoom out 1 
+\i (00:21:11) setwindow pcb
+\i (00:21:11) zoom out -806.51 284.05
+\i (00:21:11) trapsize 2402
+\i (00:21:11) zoom out 1 
+\i (00:21:11) setwindow pcb
+\i (00:21:11) zoom out -806.51 284.06
+\i (00:21:11) trapsize 4803
+\i (00:21:11) zoom out 1 
+\i (00:21:11) setwindow pcb
+\i (00:21:11) zoom out -806.50 284.06
+\i (00:21:11) trapsize 9607
+\i (00:21:11) zoom out 1 
+\i (00:21:11) setwindow pcb
+\i (00:21:11) zoom out -806.50 264.85
+\i (00:21:11) trapsize 19214
+\i (00:21:11) zoom in 1 
+\i (00:21:11) setwindow pcb
+\i (00:21:11) zoom in -580.49 -4.15
+\i (00:21:11) trapsize 9607
+\i (00:21:11) zoom in 1 
+\i (00:21:11) setwindow pcb
+\i (00:21:11) zoom in -580.49 -4.15
+\i (00:21:11) trapsize 4803
+\i (00:21:11) zoom in 1 
+\i (00:21:11) setwindow pcb
+\i (00:21:11) zoom in -542.06 -4.15
+\i (00:21:11) trapsize 2402
+\i (00:21:12) zoom in 1 
+\i (00:21:12) setwindow pcb
+\i (00:21:12) zoom in -287.48 274.45
+\i (00:21:12) trapsize 1201
+\i (00:21:12) zoom in 1 
+\i (00:21:12) setwindow pcb
+\i (00:21:12) zoom in -280.27 274.45
+\i (00:21:12) trapsize 600
+\i (00:21:12) zoom in 1 
+\i (00:21:12) setwindow pcb
+\i (00:21:12) zoom in -262.25 282.86
+\i (00:21:12) trapsize 300
+\i (00:21:12) zoom in 1 
+\i (00:21:12) setwindow pcb
+\i (00:21:12) zoom in -262.25 283.46
+\i (00:21:12) trapsize 150
+\i (00:21:12) zoom in 1 
+\i (00:21:12) setwindow pcb
+\i (00:21:12) zoom in -262.25 283.46
+\i (00:21:12) trapsize 75
+\i (00:21:13) zoom in 1 
+\i (00:21:13) setwindow pcb
+\i (00:21:13) zoom in -272.01 275.35
+\i (00:21:13) trapsize 38
+\i (00:21:13) zoom in 1 
+\i (00:21:13) setwindow pcb
+\i (00:21:13) zoom in -272.08 275.06
+\i (00:21:13) trapsize 19
+\i (00:21:13) zoom out 1 
+\i (00:21:13) setwindow pcb
+\i (00:21:13) zoom out -271.63 273.71
+\i (00:21:13) trapsize 38
+\i (00:21:13) zoom out 1 
+\i (00:21:13) setwindow pcb
+\i (00:21:13) zoom out -271.63 273.41
+\i (00:21:13) trapsize 75
+\i (00:21:13) zoom out 1 
+\i (00:21:13) setwindow pcb
+\i (00:21:13) zoom out -271.47 273.12
+\i (00:21:13) trapsize 150
+\i (00:21:13) zoom out 1 
+\i (00:21:13) setwindow pcb
+\i (00:21:13) zoom out -271.48 272.82
+\i (00:21:13) trapsize 300
+\i (00:21:13) zoom out 1 
+\i (00:21:13) setwindow pcb
+\i (00:21:13) zoom out -271.48 271.62
+\i (00:21:13) trapsize 600
+\i (00:21:14) zoom in 1 
+\i (00:21:14) setwindow pcb
+\i (00:21:14) zoom in 123.60 272.81
+\i (00:21:14) trapsize 300
+\i (00:21:14) zoom in 1 
+\i (00:21:14) setwindow pcb
+\i (00:21:14) zoom in 114.60 272.82
+\i (00:21:14) trapsize 150
+\i (00:21:14) zoom in 1 
+\i (00:21:14) setwindow pcb
+\i (00:21:14) zoom in 114.60 272.82
+\i (00:21:14) trapsize 75
+\i (00:21:14) zoom in 1 
+\i (00:21:14) setwindow pcb
+\i (00:21:14) zoom in 114.15 272.82
+\i (00:21:14) trapsize 38
+\i (00:21:15) zoom out 1 
+\i (00:21:15) setwindow pcb
+\i (00:21:15) zoom out 113.92 272.60
+\i (00:21:15) trapsize 75
+\i (00:21:15) zoom out 1 
+\i (00:21:15) setwindow pcb
+\i (00:21:15) zoom out 113.78 272.60
+\i (00:21:15) trapsize 150
+\i (00:21:15) zoom out 1 
+\i (00:21:15) setwindow pcb
+\i (00:21:15) zoom out 113.78 272.30
+\i (00:21:15) trapsize 300
+\i (00:21:15) zoom out 1 
+\i (00:21:15) setwindow pcb
+\i (00:21:15) zoom out 112.57 271.09
+\i (00:21:15) trapsize 600
+\i (00:21:16) zoom in 1 
+\i (00:21:16) setwindow pcb
+\i (00:21:16) zoom in -3.91 0.91
+\i (00:21:16) trapsize 300
+\i (00:21:16) zoom in 1 
+\i (00:21:16) setwindow pcb
+\i (00:21:16) zoom in -3.91 0.91
+\i (00:21:16) trapsize 150
+\i (00:21:16) zoom in 1 
+\i (00:21:16) setwindow pcb
+\i (00:21:16) zoom in -3.91 0.91
+\i (00:21:16) trapsize 75
+\i (00:21:17) zoom out 1 
+\i (00:21:17) setwindow pcb
+\i (00:21:17) zoom out 3.74 -2.39
+\i (00:21:17) trapsize 150
+\i (00:21:18) zoom out 1 
+\i (00:21:18) setwindow pcb
+\i (00:21:18) zoom out 4.05 -2.39
+\i (00:21:18) trapsize 300
+\i (00:21:18) zoom out 1 
+\i (00:21:18) setwindow pcb
+\i (00:21:18) zoom out 69.49 -6.58
+\i (00:21:18) trapsize 600
+\i (00:21:18) zoom out 1 
+\i (00:21:18) setwindow pcb
+\i (00:21:18) zoom out 71.89 -6.59
+\i (00:21:18) trapsize 1201
+\i (00:21:19) zoom in 1 
+\i (00:21:19) setwindow pcb
+\i (00:21:19) zoom in 143.94 -4.18
+\i (00:21:19) trapsize 600
+\i (00:21:19) zoom in 1 
+\i (00:21:19) setwindow pcb
+\i (00:21:19) zoom in 143.95 -6.58
+\i (00:21:19) trapsize 300
+\i (00:21:19) zoom in 1 
+\i (00:21:19) setwindow pcb
+\i (00:21:19) zoom in 152.36 -13.78
+\i (00:21:19) trapsize 150
+\i (00:21:19) zoom in 1 
+\i (00:21:19) setwindow pcb
+\i (00:21:19) zoom in 152.36 -14.08
+\i (00:21:19) trapsize 75
+\i (00:21:19) zoom out 1 
+\i (00:21:19) setwindow pcb
+\i (00:21:19) zoom out 38.58 -9.73
+\i (00:21:19) trapsize 150
+\i (00:21:19) zoom out 1 
+\i (00:21:19) setwindow pcb
+\i (00:21:19) zoom out -23.56 -6.72
+\i (00:21:19) trapsize 300
+\i (00:21:19) zoom out 1 
+\i (00:21:19) setwindow pcb
+\i (00:21:19) zoom out -24.17 -6.72
+\i (00:21:19) trapsize 600
+\i (00:21:20) zoom in 1 
+\i (00:21:20) setwindow pcb
+\i (00:21:20) zoom in -34.98 -55.96
+\i (00:21:20) trapsize 300
+\i (00:21:20) zoom in 1 
+\i (00:21:20) setwindow pcb
+\i (00:21:20) zoom in -25.37 -57.16
+\i (00:21:20) trapsize 150
+\i (00:21:21) zoom out 1 
+\i (00:21:21) setwindow pcb
+\i (00:21:21) zoom out -12.76 -45.15
+\i (00:21:21) trapsize 300
+\i (00:21:22) zoom in 1 
+\i (00:21:22) setwindow pcb
+\i (00:21:22) zoom in -11.57 -31.94
+\i (00:21:22) trapsize 150
+\i (00:21:25) setwindow form.mini
+\i (00:21:25) FORM mini subclass ASSEMBLY_BOTTOM 
+\i (00:21:25) setwindow pcb
+\i (00:21:25) updateport CVPane
+\i (00:21:26) setwindow form.mini
+\i (00:21:26) FORM mini subcolor 0 
+\i (00:21:26) setwindow pcb
+\i (00:21:26) updateport CVPane
+\i (00:21:27) setwindow form.mini
+\i (00:21:27) FORM mini subclass DISPLAY_BOTTOM 
+\i (00:21:27) setwindow pcb
+\i (00:21:27) updateport CVPane
+\i (00:21:28) setwindow form.mini
+\i (00:21:28) FORM mini subcolor 0 
+\i (00:21:28) setwindow pcb
+\i (00:21:28) updateport CVPane
+\i (00:21:30) setwindow form.mini
+\i (00:21:30) FORM mini subclass DISPLAY_TOP 
+\i (00:21:30) setwindow pcb
+\i (00:21:30) updateport CVPane
+\i (00:21:31) setwindow form.mini
+\i (00:21:31) FORM mini subcolor 0 
+\i (00:21:31) setwindow pcb
+\i (00:21:31) updateport CVPane
+\i (00:21:32) setwindow form.mini
+\i (00:21:32) FORM mini subclass SILKSCREEN_BOTTOM 
+\i (00:21:32) setwindow pcb
+\i (00:21:32) updateport CVPane
+\i (00:21:32) setwindow form.mini
+\i (00:21:32) FORM mini subcolor 0 
+\i (00:21:32) setwindow pcb
+\i (00:21:32) updateport CVPane
+\i (00:21:33) setwindow form.mini
+\i (00:21:33) FORM mini subclass SILKSCREEN_TOP 
+\i (00:21:33) setwindow pcb
+\i (00:21:33) updateport CVPane
+\i (00:21:34) setwindow form.mini
+\i (00:21:34) FORM mini subcolor 0 
+\i (00:21:34) setwindow pcb
+\i (00:21:34) updateport CVPane
+\i (00:21:35) zoom out 1 
+\i (00:21:35) setwindow pcb
+\i (00:21:35) zoom out 178.16 39.81
+\i (00:21:35) trapsize 300
+\i (00:21:35) zoom out 1 
+\i (00:21:35) setwindow pcb
+\i (00:21:35) zoom out 6.44 7.39
+\i (00:21:35) trapsize 600
+\i (00:21:36) zoom in 1 
+\i (00:21:36) setwindow pcb
+\i (00:21:36) zoom in 6.43 9.80
+\i (00:21:36) trapsize 300
+\i (00:21:44) setwindow form.mini
+\i (00:21:44) FORM mini class TOLERANCE 
+\i (00:21:45) FORM mini subcolor 0 
+\i (00:21:45) setwindow pcb
+\i (00:21:45) updateport CVPane
+\i (00:21:47) setwindow form.mini
+\i (00:21:47) FORM mini subclass ASSEMBLY_BOTTOM 
+\i (00:21:47) setwindow pcb
+\i (00:21:47) updateport CVPane
+\i (00:21:47) setwindow form.mini
+\i (00:21:47) FORM mini subcolor 0 
+\i (00:21:47) setwindow pcb
+\i (00:21:47) updateport CVPane
+\i (00:21:48) setwindow form.mini
+\i (00:21:48) FORM mini subclass ASSEMBLY_TOP 
+\i (00:21:48) setwindow pcb
+\i (00:21:48) updateport CVPane
+\i (00:21:49) setwindow form.mini
+\i (00:21:49) FORM mini subcolor 0 
+\i (00:21:49) setwindow pcb
+\i (00:21:49) updateport CVPane
+\i (00:21:50) setwindow form.mini
+\i (00:21:50) FORM mini subclass DISPLAY_BOTTOM 
+\i (00:21:50) setwindow pcb
+\i (00:21:50) updateport CVPane
+\i (00:21:51) setwindow form.mini
+\i (00:21:51) FORM mini subcolor 0 
+\i (00:21:51) setwindow pcb
+\i (00:21:51) updateport CVPane
+\i (00:21:52) setwindow form.mini
+\i (00:21:52) FORM mini subclass DISPLAY_TOP 
+\i (00:21:52) setwindow pcb
+\i (00:21:52) updateport CVPane
+\i (00:21:53) setwindow form.mini
+\i (00:21:53) FORM mini subcolor 0 
+\i (00:21:53) setwindow pcb
+\i (00:21:53) updateport CVPane
+\i (00:21:54) setwindow form.mini
+\i (00:21:54) FORM mini subclass SILKSCREEN_BOTTOM 
+\i (00:21:54) setwindow pcb
+\i (00:21:54) updateport CVPane
+\i (00:21:55) setwindow form.mini
+\i (00:21:55) FORM mini subcolor 0 
+\i (00:21:55) setwindow pcb
+\i (00:21:55) updateport CVPane
+\i (00:21:59) setwindow form.mini
+\i (00:21:59) FORM mini class 'SURFACE FINISHES' 
+\i (00:22:00) FORM mini subcolor 0 
+\i (00:22:00) setwindow pcb
+\i (00:22:00) updateport CVPane
+\i (00:22:01) setwindow form.mini
+\i (00:22:01) FORM mini subclass CARBON_BOTTOM 
+\i (00:22:01) setwindow pcb
+\i (00:22:01) updateport CVPane
+\i (00:22:02) setwindow form.mini
+\i (00:22:02) FORM mini subcolor 0 
+\i (00:22:02) setwindow pcb
+\i (00:22:02) updateport CVPane
+\i (00:22:03) setwindow form.mini
+\i (00:22:03) FORM mini subclass CARBON_TOP 
+\i (00:22:03) setwindow pcb
+\i (00:22:03) updateport CVPane
+\i (00:22:04) setwindow form.mini
+\i (00:22:04) FORM mini subcolor 0 
+\i (00:22:04) setwindow pcb
+\i (00:22:04) updateport CVPane
+\i (00:22:05) setwindow form.mini
+\i (00:22:05) FORM mini subclass ENEPIG_TOP 
+\i (00:22:05) setwindow pcb
+\i (00:22:05) updateport CVPane
+\i (00:22:06) setwindow form.mini
+\i (00:22:06) FORM mini subcolor 0 
+\i (00:22:06) setwindow pcb
+\i (00:22:06) updateport CVPane
+\i (00:22:07) setwindow form.mini
+\i (00:22:07) FORM mini subclass ENIG_BOTTOM 
+\i (00:22:07) setwindow pcb
+\i (00:22:07) updateport CVPane
+\i (00:22:08) setwindow form.mini
+\i (00:22:08) FORM mini subcolor 0 
+\i (00:22:08) setwindow pcb
+\i (00:22:08) updateport CVPane
+\i (00:22:10) setwindow form.mini
+\i (00:22:10) FORM mini subclass ENIG_TOP 
+\i (00:22:10) setwindow pcb
+\i (00:22:10) updateport CVPane
+\i (00:22:11) setwindow form.mini
+\i (00:22:11) FORM mini subcolor 0 
+\i (00:22:11) setwindow pcb
+\i (00:22:11) updateport CVPane
+\i (00:22:13) setwindow form.mini
+\i (00:22:13) FORM mini subclass CARBON_BOTTOM 
+\i (00:22:13) setwindow pcb
+\i (00:22:13) updateport CVPane
+\i (00:22:15) setwindow form.mini
+\i (00:22:15) FORM mini class 'SUBSTRATE GEOMETRY' 
+\i (00:22:16) FORM mini subcolor 0 
+\i (00:22:16) setwindow pcb
+\i (00:22:16) updateport CVPane
+\i (00:22:17) setwindow form.mini
+\i (00:22:17) FORM mini subcolor 1 
+\i (00:22:17) setwindow pcb
+\i (00:22:17) updateport CVPane
+\i (00:22:19) setwindow form.mini
+\i (00:22:19) FORM mini subclass ASSEMBLY_DETAIL 
+\i (00:22:19) setwindow pcb
+\i (00:22:19) updateport CVPane
+\i (00:22:20) setwindow form.mini
+\i (00:22:20) FORM mini subcolor 0 
+\i (00:22:20) setwindow pcb
+\i (00:22:20) updateport CVPane
+\i (00:22:21) setwindow form.mini
+\i (00:22:21) FORM mini subcolor 1 
+\i (00:22:21) setwindow pcb
+\i (00:22:21) updateport CVPane
+\i (00:22:21) setwindow form.mini
+\i (00:22:21) FORM mini subcolor 0 
+\i (00:22:21) setwindow pcb
+\i (00:22:21) updateport CVPane
+\i (00:22:23) setwindow form.mini
+\i (00:22:23) FORM mini subclass ASSEMBLY_NOTES 
+\i (00:22:23) setwindow pcb
+\i (00:22:23) updateport CVPane
+\i (00:22:23) setwindow form.mini
+\i (00:22:23) FORM mini subcolor 0 
+\i (00:22:23) setwindow pcb
+\i (00:22:23) updateport CVPane
+\i (00:22:24) setwindow form.mini
+\i (00:22:24) FORM mini subclass BOTH_ROOMS 
+\i (00:22:24) setwindow pcb
+\i (00:22:24) updateport CVPane
+\i (00:22:25) setwindow form.mini
+\i (00:22:25) FORM mini subcolor 0 
+\i (00:22:25) setwindow pcb
+\i (00:22:25) updateport CVPane
+\i (00:22:27) setwindow form.mini
+\i (00:22:27) FORM mini subclass BOTTOM_ROOM 
+\i (00:22:27) setwindow pcb
+\i (00:22:27) updateport CVPane
+\i (00:22:27) setwindow form.mini
+\i (00:22:27) FORM mini subcolor 0 
+\i (00:22:27) setwindow pcb
+\i (00:22:27) updateport CVPane
+\i (00:22:28) setwindow form.mini
+\i (00:22:28) FORM mini subclass CUTOUT 
+\i (00:22:28) setwindow pcb
+\i (00:22:28) updateport CVPane
+\i (00:22:29) setwindow form.mini
+\i (00:22:29) FORM mini subcolor 0 
+\i (00:22:29) setwindow pcb
+\i (00:22:29) updateport CVPane
+\i (00:22:30) setwindow form.mini
+\i (00:22:30) FORM mini subcolor 1 
+\i (00:22:30) setwindow pcb
+\i (00:22:30) updateport CVPane
+\i (00:22:30) setwindow form.mini
+\i (00:22:30) FORM mini subcolor 0 
+\i (00:22:30) setwindow pcb
+\i (00:22:30) updateport CVPane
+\i (00:22:32) setwindow form.mini
+\i (00:22:32) FORM mini subclass DESIGN_OUTLINE 
+\i (00:22:32) setwindow pcb
+\i (00:22:32) updateport CVPane
+\i (00:22:33) setwindow form.mini
+\i (00:22:33) FORM mini subcolor 0 
+\i (00:22:33) setwindow pcb
+\i (00:22:33) updateport CVPane
+\i (00:22:33) setwindow form.mini
+\i (00:22:33) FORM mini subcolor 1 
+\i (00:22:33) setwindow pcb
+\i (00:22:33) updateport CVPane
+\i (00:22:34) setwindow form.mini
+\i (00:22:34) FORM mini subcolor 0 
+\i (00:22:34) setwindow pcb
+\i (00:22:34) updateport CVPane
+\i (00:22:35) setwindow form.mini
+\i (00:22:35) FORM mini subclass DIMENSION 
+\i (00:22:35) setwindow pcb
+\i (00:22:35) updateport CVPane
+\i (00:22:36) setwindow form.mini
+\i (00:22:36) FORM mini subcolor 0 
+\i (00:22:36) setwindow pcb
+\i (00:22:36) updateport CVPane
+\i (00:22:37) setwindow form.mini
+\i (00:22:37) FORM mini subclass NCROUTE_PATH 
+\i (00:22:37) setwindow pcb
+\i (00:22:37) updateport CVPane
+\i (00:22:38) setwindow form.mini
+\i (00:22:38) FORM mini subcolor 0 
+\i (00:22:38) setwindow pcb
+\i (00:22:38) updateport CVPane
+\i (00:22:39) setwindow form.mini
+\i (00:22:39) FORM mini subclass OFF_GRID_AREA 
+\i (00:22:39) setwindow pcb
+\i (00:22:39) updateport CVPane
+\i (00:22:40) setwindow form.mini
+\i (00:22:40) FORM mini subcolor 0 
+\i (00:22:40) setwindow pcb
+\i (00:22:40) updateport CVPane
+\i (00:22:42) setwindow form.mini
+\i (00:22:42) FORM mini subclass OUTLINE 
+\i (00:22:42) setwindow pcb
+\i (00:22:42) updateport CVPane
+\i (00:22:42) setwindow form.mini
+\i (00:22:42) FORM mini subcolor 0 
+\i (00:22:42) setwindow pcb
+\i (00:22:42) updateport CVPane
+\i (00:22:44) setwindow form.mini
+\i (00:22:44) FORM mini subclass PLACE_GRID_BOTTOM 
+\i (00:22:44) setwindow pcb
+\i (00:22:44) updateport CVPane
+\i (00:22:45) setwindow form.mini
+\i (00:22:45) FORM mini subcolor 0 
+\i (00:22:45) setwindow pcb
+\i (00:22:45) updateport CVPane
+\i (00:22:46) setwindow form.mini
+\i (00:22:46) FORM mini subclass PLACE_GRID_TOP 
+\i (00:22:46) setwindow pcb
+\i (00:22:46) updateport CVPane
+\i (00:22:47) setwindow form.mini
+\i (00:22:47) FORM mini subcolor 0 
+\i (00:22:47) setwindow pcb
+\i (00:22:47) updateport CVPane
+\i (00:22:49) setwindow form.mini
+\i (00:22:49) FORM mini subclass PLATING_BAR 
+\i (00:22:49) setwindow pcb
+\i (00:22:49) updateport CVPane
+\i (00:22:50) setwindow form.mini
+\i (00:22:50) FORM mini subcolor 0 
+\i (00:22:50) setwindow pcb
+\i (00:22:50) updateport CVPane
+\i (00:22:52) setwindow form.mini
+\i (00:22:52) FORM mini subclass SILKSCREEN_BOTTOM 
+\i (00:22:52) setwindow pcb
+\i (00:22:52) updateport CVPane
+\i (00:22:53) setwindow form.mini
+\i (00:22:53) FORM mini subcolor 0 
+\i (00:22:53) setwindow pcb
+\i (00:22:53) updateport CVPane
+\i (00:22:55) setwindow form.mini
+\i (00:22:55) FORM mini subclass SOLDERMASK_BOTTOM 
+\i (00:22:55) setwindow pcb
+\i (00:22:55) updateport CVPane
+\i (00:22:56) setwindow form.mini
+\i (00:22:56) FORM mini subcolor 0 
+\i (00:22:56) setwindow pcb
+\i (00:22:56) updateport CVPane
+\i (00:22:57) setwindow form.mini
+\i (00:22:57) FORM mini subclass SILKSCREEN_TOP 
+\i (00:22:57) setwindow pcb
+\i (00:22:57) updateport CVPane
+\i (00:22:58) setwindow form.mini
+\i (00:22:58) FORM mini subcolor 0 
+\i (00:22:58) setwindow pcb
+\i (00:22:58) updateport CVPane
+\i (00:22:59) setwindow form.mini
+\i (00:22:59) FORM mini subclass SOLDERMASK_TOP 
+\i (00:22:59) setwindow pcb
+\i (00:22:59) updateport CVPane
+\i (00:22:59) setwindow form.mini
+\i (00:22:59) FORM mini subcolor 0 
+\i (00:22:59) setwindow pcb
+\i (00:22:59) updateport CVPane
+\i (00:23:01) setwindow form.mini
+\i (00:23:01) FORM mini subclass SWITCH_AREA_BOTTOM 
+\i (00:23:01) setwindow pcb
+\i (00:23:01) updateport CVPane
+\i (00:23:01) setwindow form.mini
+\i (00:23:01) FORM mini subcolor 0 
+\i (00:23:01) setwindow pcb
+\i (00:23:01) updateport CVPane
+\i (00:23:03) setwindow form.mini
+\i (00:23:03) FORM mini subclass SWITCH_AREA_TOP 
+\i (00:23:03) setwindow pcb
+\i (00:23:03) updateport CVPane
+\i (00:23:03) setwindow form.mini
+\i (00:23:03) FORM mini subcolor 0 
+\i (00:23:03) setwindow pcb
+\i (00:23:03) updateport CVPane
+\i (00:23:04) setwindow form.mini
+\i (00:23:04) FORM mini subclass TOOLING_CORNERS 
+\i (00:23:04) setwindow pcb
+\i (00:23:04) updateport CVPane
+\i (00:23:05) setwindow form.mini
+\i (00:23:05) FORM mini subcolor 0 
+\i (00:23:05) setwindow pcb
+\i (00:23:05) updateport CVPane
+\i (00:23:07) setwindow form.mini
+\i (00:23:07) FORM mini subclass TOP_ROOM 
+\i (00:23:07) setwindow pcb
+\i (00:23:07) updateport CVPane
+\i (00:23:07) setwindow form.mini
+\i (00:23:07) FORM mini subcolor 0 
+\i (00:23:07) setwindow pcb
+\i (00:23:07) updateport CVPane
+\i (00:23:08) setwindow form.mini
+\i (00:23:08) FORM mini subclass WB_GUIDE_LINE 
+\i (00:23:09) setwindow pcb
+\i (00:23:09) updateport CVPane
+\i (00:23:09) setwindow form.mini
+\i (00:23:09) FORM mini subcolor 0 
+\i (00:23:09) setwindow pcb
+\i (00:23:09) updateport CVPane
+\i (00:23:15) setwindow form.mini
+\i (00:23:15) FORM mini class 'REF DES' 
+\i (00:23:17) FORM mini subcolor 0 
+\i (00:23:17) setwindow pcb
+\i (00:23:17) updateport CVPane
+\i (00:23:17) setwindow form.mini
+\i (00:23:17) FORM mini subcolor 1 
+\i (00:23:17) setwindow pcb
+\i (00:23:17) updateport CVPane
+\i (00:23:18) setwindow form.mini
+\i (00:23:18) FORM mini subcolor 0 
+\i (00:23:18) setwindow pcb
+\i (00:23:18) updateport CVPane
+\i (00:23:18) setwindow form.mini
+\i (00:23:18) FORM mini subcolor 1 
+\i (00:23:18) setwindow pcb
+\i (00:23:18) updateport CVPane
+\i (00:23:19) setwindow form.mini
+\i (00:23:19) FORM mini subcolor 0 
+\i (00:23:19) setwindow pcb
+\i (00:23:19) updateport CVPane
+\i (00:23:19) setwindow form.mini
+\i (00:23:19) FORM mini subcolor 1 
+\i (00:23:19) setwindow pcb
+\i (00:23:19) updateport CVPane
+\i (00:23:22) roam start
+\i (00:23:22) roam y 16
+\i (00:23:22) roam y 16
+\i (00:23:22) roam y 16
+\i (00:23:22) roam y 16
+\i (00:23:22) roam y 16
+\i (00:23:22) roam y 16
+\i (00:23:22) roam y 16
+\i (00:23:22) roam y 16
+\i (00:23:22) roam y 16
+\i (00:23:22) roam y 16
+\i (00:23:22) roam y 16
+\i (00:23:22) roam y 32
+\i (00:23:22) roam y 16
+\i (00:23:22) roam y 16
+\i (00:23:22) roam y 32
+\i (00:23:22) roam y 16
+\i (00:23:22) roam y 16
+\i (00:23:22) roam y 16
+\i (00:23:22) roam y 16
+\i (00:23:22) roam y 16
+\i (00:23:22) roam y 16
+\i (00:23:22) roam y 16
+\i (00:23:22) roam y 16
+\i (00:23:22) roam y 16
+\i (00:23:22) roam y 16
+\i (00:23:22) roam y 16
+\i (00:23:22) roam y 16
+\i (00:23:22) roam y 32
+\i (00:23:22) roam y 16
+\i (00:23:22) roam x -16
+\i (00:23:22) roam y 16
+\i (00:23:22) roam y -16
+\i (00:23:22) roam y -16
+\i (00:23:22) roam x -16
+\i (00:23:22) roam y -16
+\i (00:23:22) roam y -16
+\i (00:23:22) roam y -16
+\i (00:23:22) roam y -16
+\i (00:23:22) roam y -16
+\i (00:23:22) roam y -16
+\i (00:23:22) roam x 16
+\i (00:23:22) roam y -16
+\i (00:23:22) roam y -16
+\i (00:23:22) roam y -16
+\i (00:23:22) roam y -16
+\i (00:23:22) roam y -16
+\i (00:23:23) roam y -16
+\i (00:23:23) roam y -16
+\i (00:23:23) roam y -16
+\i (00:23:23) roam y -16
+\i (00:23:23) roam y -16
+\i (00:23:23) roam y -16
+\i (00:23:23) roam y -16
+\i (00:23:23) roam y -16
+\i (00:23:23) roam y -16
+\i (00:23:23) roam y -16
+\i (00:23:23) roam x -16
+\i (00:23:23) roam y -16
+\i (00:23:23) roam y -16
+\i (00:23:23) roam y -16
+\i (00:23:23) roam y -16
+\i (00:23:23) roam y -16
+\i (00:23:24) roam y -16
+\i (00:23:24) roam y -16
+\i (00:23:24) roam x -16
+\i (00:23:24) roam y -16
+\i (00:23:24) roam y -16
+\i (00:23:24) roam y -16
+\i (00:23:24) roam y -16
+\i (00:23:24) roam y -16
+\i (00:23:24) roam y -16
+\i (00:23:24) roam y -16
+\i (00:23:24) roam y -16
+\i (00:23:24) roam y -16
+\i (00:23:24) roam x 16
+\i (00:23:24) roam y -16
+\i (00:23:24) roam x 16
+\i (00:23:24) roam x 16
+\i (00:23:24) roam x 16
+\i (00:23:25) roam x 16
+\i (00:23:25) roam y -16
+\i (00:23:25) roam x 16
+\i (00:23:25) roam x 16
+\i (00:23:25) roam y -16
+\i (00:23:25) roam y -16
+\i (00:23:25) roam y -16
+\i (00:23:25) roam y -16
+\i (00:23:25) roam y -16
+\i (00:23:25) roam y -16
+\i (00:23:25) roam end
+\i (00:23:32) setwindow form.mini
+\i (00:23:32) FORM mini subcolor 0 
+\i (00:23:32) setwindow pcb
+\i (00:23:32) updateport CVPane
+\i (00:23:32) setwindow form.mini
+\i (00:23:32) FORM mini subcolor 1 
+\i (00:23:32) setwindow pcb
+\i (00:23:32) updateport CVPane
+\i (00:23:44) setwindow form.mini
+\i (00:23:44) FORM mini subcolor 0 
+\i (00:23:44) setwindow pcb
+\i (00:23:44) updateport CVPane
+\i (00:23:45) setwindow form.mini
+\i (00:23:45) FORM mini subclass ASSEMBLY_BOTTOM 
+\i (00:23:45) setwindow pcb
+\i (00:23:45) updateport CVPane
+\i (00:23:46) setwindow form.mini
+\i (00:23:46) FORM mini subcolor 0 
+\i (00:23:46) setwindow pcb
+\i (00:23:46) updateport CVPane
+\i (00:23:46) setwindow form.mini
+\i (00:23:46) FORM mini subcolor 1 
+\i (00:23:46) setwindow pcb
+\i (00:23:46) updateport CVPane
+\i (00:24:00) setwindow form.mini
+\i (00:24:00) FORM mini subcolor 0 
+\i (00:24:00) setwindow pcb
+\i (00:24:00) updateport CVPane
+\i (00:24:05) roam start
+\i (00:24:05) roam y -16
+\i (00:24:05) roam y -16
+\i (00:24:05) roam y -16
+\i (00:24:05) roam y -16
+\i (00:24:05) roam y -16
+\i (00:24:05) roam y -16
+\i (00:24:05) roam y -16
+\i (00:24:05) roam y -16
+\i (00:24:05) roam y -16
+\i (00:24:05) roam y -16
+\i (00:24:05) roam y -16
+\i (00:24:05) roam y -32
+\i (00:24:05) roam y -16
+\i (00:24:05) roam y -16
+\i (00:24:05) roam y -32
+\i (00:24:05) roam y -16
+\i (00:24:05) roam y -16
+\i (00:24:05) roam y -16
+\i (00:24:05) roam y -16
+\i (00:24:05) roam y -16
+\i (00:24:05) roam y -16
+\i (00:24:05) roam y -16
+\i (00:24:05) roam y -16
+\i (00:24:05) roam y -16
+\i (00:24:05) roam y -16
+\i (00:24:05) roam y -16
+\i (00:24:05) roam y -16
+\i (00:24:05) roam y -16
+\i (00:24:05) roam y -16
+\i (00:24:05) roam y -32
+\i (00:24:05) roam y -16
+\i (00:24:05) roam y -32
+\i (00:24:05) roam y -16
+\i (00:24:06) roam y -16
+\i (00:24:06) roam y -16
+\i (00:24:06) roam y -16
+\i (00:24:06) roam y -16
+\i (00:24:06) roam y -16
+\i (00:24:06) roam x -16
+\i (00:24:06) roam y -16
+\i (00:24:06) roam y -16
+\i (00:24:06) roam x -16
+\i (00:24:06) roam y -16
+\i (00:24:06) roam x -16
+\i (00:24:06) roam y -16
+\i (00:24:06) roam x -16
+\i (00:24:06) roam y -16
+\i (00:24:06) roam x -16
+\i (00:24:06) roam x -16
+\i (00:24:06) roam x -16
+\i (00:24:06) roam y 16
+\i (00:24:06) roam x -16
+\i (00:24:06) roam y 16
+\i (00:24:06) roam y 16
+\i (00:24:06) roam x -16
+\i (00:24:06) roam y 16
+\i (00:24:06) roam x -16
+\i (00:24:06) roam y 16
+\i (00:24:06) roam y 16
+\i (00:24:06) roam x -16
+\i (00:24:06) roam y 16
+\i (00:24:06) roam y 16
+\i (00:24:06) roam x -16
+\i (00:24:06) roam y 16
+\i (00:24:06) roam y 16
+\i (00:24:06) roam x -16
+\i (00:24:06) roam y 16
+\i (00:24:06) roam y 16
+\i (00:24:06) roam y 16
+\i (00:24:06) roam x -16
+\i (00:24:06) roam y 16
+\i (00:24:06) roam y 16
+\i (00:24:06) roam y 16
+\i (00:24:06) roam y 16
+\i (00:24:06) roam y 16
+\i (00:24:06) roam y 16
+\i (00:24:06) roam y 16
+\i (00:24:06) roam y 16
+\i (00:24:06) roam y 16
+\i (00:24:06) roam y 16
+\i (00:24:06) roam y 16
+\i (00:24:06) roam x 16
+\i (00:24:06) roam y 16
+\i (00:24:06) roam y 16
+\i (00:24:06) roam x 16
+\i (00:24:06) roam y 16
+\i (00:24:06) roam y 16
+\i (00:24:06) roam y 16
+\i (00:24:06) roam x 16
+\i (00:24:06) roam y 16
+\i (00:24:06) roam x 16
+\i (00:24:06) roam y 16
+\i (00:24:06) roam y 16
+\i (00:24:06) roam y 16
+\i (00:24:06) roam x 16
+\i (00:24:07) roam x 16
+\i (00:24:07) roam y 16
+\i (00:24:07) roam y 16
+\i (00:24:07) roam y 16
+\i (00:24:07) roam y 16
+\i (00:24:07) roam y 16
+\i (00:24:07) roam y 16
+\i (00:24:07) roam y 16
+\i (00:24:07) roam x 16
+\i (00:24:07) roam y 16
+\i (00:24:07) roam y 16
+\i (00:24:07) roam x 16
+\i (00:24:07) roam y 16
+\i (00:24:07) roam y 16
+\i (00:24:07) roam y 16
+\i (00:24:07) roam y 16
+\i (00:24:08) roam x 16
+\i (00:24:08) roam y 16
+\i (00:24:08) roam y 16
+\i (00:24:08) roam x 16
+\i (00:24:08) roam y 16
+\i (00:24:08) roam y 16
+\i (00:24:08) roam y 16
+\i (00:24:08) roam y 16
+\i (00:24:08) roam y 16
+\i (00:24:08) roam y 16
+\i (00:24:08) roam y 16
+\i (00:24:08) roam y 16
+\i (00:24:08) roam y 16
+\i (00:24:08) roam y 16
+\i (00:24:08) roam y 16
+\i (00:24:08) roam y 16
+\i (00:24:08) roam y 16
+\i (00:24:08) roam end
+\i (00:24:10) setwindow form.mini
+\i (00:24:10) FORM mini subclass DISPLAY_BOTTOM 
+\i (00:24:10) setwindow pcb
+\i (00:24:10) updateport CVPane
+\i (00:24:11) setwindow form.mini
+\i (00:24:11) FORM mini subcolor 0 
+\i (00:24:11) setwindow pcb
+\i (00:24:11) updateport CVPane
+\i (00:24:11) setwindow form.mini
+\i (00:24:11) FORM mini subclass DISPLAY_TOP 
+\i (00:24:11) setwindow pcb
+\i (00:24:11) updateport CVPane
+\i (00:24:12) setwindow form.mini
+\i (00:24:12) FORM mini subcolor 0 
+\i (00:24:12) setwindow pcb
+\i (00:24:12) updateport CVPane
+\i (00:24:14) setwindow form.mini
+\i (00:24:14) FORM mini subcolor 1 
+\i (00:24:14) setwindow pcb
+\i (00:24:14) updateport CVPane
+\i (00:24:14) setwindow form.mini
+\i (00:24:14) FORM mini subcolor 0 
+\i (00:24:14) setwindow pcb
+\i (00:24:14) updateport CVPane
+\i (00:24:14) setwindow form.mini
+\i (00:24:14) FORM mini subcolor 1 
+\i (00:24:14) setwindow pcb
+\i (00:24:14) updateport CVPane
+\i (00:24:15) setwindow form.mini
+\i (00:24:15) FORM mini subcolor 0 
+\i (00:24:15) setwindow pcb
+\i (00:24:15) updateport CVPane
+\i (00:24:16) setwindow form.mini
+\i (00:24:16) FORM mini subcolor 1 
+\i (00:24:16) setwindow pcb
+\i (00:24:16) updateport CVPane
+\i (00:24:16) setwindow form.mini
+\i (00:24:16) FORM mini subcolor 0 
+\i (00:24:16) setwindow pcb
+\i (00:24:16) updateport CVPane
+\i (00:24:17) setwindow form.mini
+\i (00:24:17) FORM mini subclass SILKSCREEN_BOTTOM 
+\i (00:24:17) setwindow pcb
+\i (00:24:17) updateport CVPane
+\i (00:24:18) setwindow form.mini
+\i (00:24:18) FORM mini subcolor 0 
+\i (00:24:18) setwindow pcb
+\i (00:24:18) updateport CVPane
+\i (00:24:19) setwindow form.mini
+\i (00:24:19) FORM mini subcolor 1 
+\i (00:24:19) setwindow pcb
+\i (00:24:19) updateport CVPane
+\i (00:24:19) setwindow form.mini
+\i (00:24:19) FORM mini subcolor 0 
+\i (00:24:19) setwindow pcb
+\i (00:24:19) updateport CVPane
+\i (00:24:20) zoom out 1 
+\i (00:24:20) setwindow pcb
+\i (00:24:20) zoom out 251.10 48.62
+\i (00:24:20) trapsize 600
+\i (00:24:21) setwindow form.mini
+\i (00:24:21) FORM mini subcolor 1 
+\i (00:24:21) setwindow pcb
+\i (00:24:21) updateport CVPane
+\i (00:24:21) setwindow form.mini
+\i (00:24:21) FORM mini subcolor 0 
+\i (00:24:21) setwindow pcb
+\i (00:24:21) updateport CVPane
+\i (00:24:22) setwindow form.mini
+\i (00:24:22) FORM mini subcolor 1 
+\i (00:24:22) setwindow pcb
+\i (00:24:22) updateport CVPane
+\i (00:24:22) setwindow form.mini
+\i (00:24:22) FORM mini subcolor 0 
+\i (00:24:22) setwindow pcb
+\i (00:24:22) updateport CVPane
+\i (00:24:24) setwindow form.mini
+\i (00:24:24) FORM mini subclass SILKSCREEN_TOP 
+\i (00:24:24) setwindow pcb
+\i (00:24:24) updateport CVPane
+\i (00:24:24) setwindow form.mini
+\i (00:24:24) FORM mini subcolor 0 
+\i (00:24:24) setwindow pcb
+\i (00:24:24) updateport CVPane
+\i (00:24:25) setwindow form.mini
+\i (00:24:25) FORM mini subcolor 1 
+\i (00:24:25) setwindow pcb
+\i (00:24:25) updateport CVPane
+\i (00:24:25) setwindow form.mini
+\i (00:24:25) FORM mini subcolor 0 
+\i (00:24:25) setwindow pcb
+\i (00:24:25) updateport CVPane
+\i (00:24:29) setwindow form.mini
+\i (00:24:29) FORM mini class 'RIGID FLEX' 
+\i (00:24:30) FORM mini subcolor 0 
+\i (00:24:30) setwindow pcb
+\i (00:24:30) updateport CVPane
+\i (00:24:30) setwindow form.mini
+\i (00:24:30) FORM mini subcolor 1 
+\i (00:24:30) setwindow pcb
+\i (00:24:30) updateport CVPane
+\i (00:24:31) setwindow form.mini
+\i (00:24:31) FORM mini subcolor 0 
+\i (00:24:31) setwindow pcb
+\i (00:24:31) updateport CVPane
+\i (00:24:32) setwindow form.mini
+\i (00:24:32) FORM mini subclass BEND_AREA 
+\i (00:24:32) setwindow pcb
+\i (00:24:32) updateport CVPane
+\i (00:24:32) setwindow form.mini
+\i (00:24:32) FORM mini subcolor 0 
+\i (00:24:32) setwindow pcb
+\i (00:24:32) updateport CVPane
+\i (00:24:33) setwindow form.mini
+\i (00:24:33) FORM mini subclass COVERLAY_BOTTOM 
+\i (00:24:33) setwindow pcb
+\i (00:24:33) updateport CVPane
+\i (00:24:34) setwindow form.mini
+\i (00:24:34) FORM mini subcolor 0 
+\i (00:24:34) setwindow pcb
+\i (00:24:34) updateport CVPane
+\i (00:24:35) setwindow form.mini
+\i (00:24:35) FORM mini subclass COVERLAY_TOP 
+\i (00:24:35) setwindow pcb
+\i (00:24:35) updateport CVPane
+\i (00:24:36) setwindow form.mini
+\i (00:24:36) FORM mini subcolor 0 
+\i (00:24:36) setwindow pcb
+\i (00:24:36) updateport CVPane
+\i (00:24:37) setwindow form.mini
+\i (00:24:37) FORM mini subclass EMI_SHIELD_BOTTOM 
+\i (00:24:37) setwindow pcb
+\i (00:24:37) updateport CVPane
+\i (00:24:38) setwindow form.mini
+\i (00:24:38) FORM mini subcolor 0 
+\i (00:24:38) setwindow pcb
+\i (00:24:38) updateport CVPane
+\i (00:24:39) setwindow form.mini
+\i (00:24:39) FORM mini subclass EMI_SHIELD_TOP 
+\i (00:24:39) setwindow pcb
+\i (00:24:39) updateport CVPane
+\i (00:24:39) setwindow form.mini
+\i (00:24:39) FORM mini subcolor 0 
+\i (00:24:39) setwindow pcb
+\i (00:24:39) updateport CVPane
+\i (00:24:41) setwindow form.mini
+\i (00:24:41) FORM mini subclass STIFFENER_BOTTOM 
+\i (00:24:41) setwindow pcb
+\i (00:24:41) updateport CVPane
+\i (00:24:41) setwindow form.mini
+\i (00:24:41) FORM mini subcolor 0 
+\i (00:24:41) setwindow pcb
+\i (00:24:41) updateport CVPane
+\i (00:24:42) setwindow form.mini
+\i (00:24:42) FORM mini subclass STIFFENER_METAL_BOTTOM 
+\i (00:24:42) setwindow pcb
+\i (00:24:42) updateport CVPane
+\i (00:24:43) setwindow form.mini
+\i (00:24:43) FORM mini subcolor 0 
+\i (00:24:43) setwindow pcb
+\i (00:24:43) updateport CVPane
+\i (00:24:44) setwindow form.mini
+\i (00:24:44) FORM mini subclass STIFFENER_METAL_TOP 
+\i (00:24:44) setwindow pcb
+\i (00:24:44) updateport CVPane
+\i (00:24:45) setwindow form.mini
+\i (00:24:45) FORM mini subcolor 0 
+\i (00:24:45) setwindow pcb
+\i (00:24:45) updateport CVPane
+\i (00:24:46) setwindow form.mini
+\i (00:24:46) FORM mini subclass STIFFENER_TOP 
+\i (00:24:46) setwindow pcb
+\i (00:24:46) updateport CVPane
+\i (00:24:46) setwindow form.mini
+\i (00:24:46) FORM mini subcolor 0 
+\i (00:24:46) setwindow pcb
+\i (00:24:46) updateport CVPane
+\i (00:24:47) setwindow form.mini
+\i (00:24:47) FORM mini subclass TRANSITION_ZONE 
+\i (00:24:47) setwindow pcb
+\i (00:24:47) updateport CVPane
+\i (00:24:48) setwindow form.mini
+\i (00:24:48) FORM mini subcolor 0 
+\i (00:24:48) setwindow pcb
+\i (00:24:48) updateport CVPane
+\i (00:24:49) setwindow form.mini
+\i (00:24:49) FORM mini subclass ZONE_OUTLINE 
+\i (00:24:49) setwindow pcb
+\i (00:24:49) updateport CVPane
+\i (00:24:50) setwindow form.mini
+\i (00:24:50) FORM mini subcolor 0 
+\i (00:24:50) setwindow pcb
+\i (00:24:50) updateport CVPane
+\i (00:24:53) setwindow form.mini
+\i (00:24:53) FORM mini class PLAN 
+\i (00:25:00) FORM mini subclass M1 
+\i (00:25:00) setwindow pcb
+\i (00:25:00) updateport CVPane
+\i (00:25:01) setwindow form.mini
+\i (00:25:01) FORM mini subcolor 0 
+\i (00:25:01) setwindow pcb
+\i (00:25:01) updateport CVPane
+\i (00:25:01) setwindow form.mini
+\i (00:25:01) FORM mini subcolor 1 
+\i (00:25:01) setwindow pcb
+\i (00:25:01) updateport CVPane
+\i (00:25:02) setwindow form.mini
+\i (00:25:02) FORM mini subcolor 0 
+\i (00:25:02) setwindow pcb
+\i (00:25:02) updateport CVPane
+\i (00:25:03) zoom in 1 
+\i (00:25:03) setwindow pcb
+\i (00:25:03) zoom in 309.94 -81.07
+\i (00:25:03) trapsize 300
+\i (00:25:03) zoom in 1 
+\i (00:25:03) setwindow pcb
+\i (00:25:03) zoom in 309.94 -81.06
+\i (00:25:03) trapsize 150
+\i (00:25:03) zoom in 1 
+\i (00:25:03) setwindow pcb
+\i (00:25:03) zoom in 309.94 -81.06
+\i (00:25:03) trapsize 75
+\i (00:25:03) zoom out 1 
+\i (00:25:03) setwindow pcb
+\i (00:25:03) zoom out 313.69 -78.06
+\i (00:25:03) trapsize 150
+\i (00:25:03) zoom out 1 
+\i (00:25:03) setwindow pcb
+\i (00:25:03) zoom out 313.69 -78.05
+\i (00:25:03) trapsize 300
+\i (00:25:04) zoom in 1 
+\i (00:25:04) setwindow pcb
+\i (00:25:04) zoom in 385.74 25.82
+\i (00:25:04) trapsize 150
+\i (00:25:05) setwindow form.mini
+\i (00:25:05) FORM mini subcolor 1 
+\i (00:25:05) setwindow pcb
+\i (00:25:05) updateport CVPane
+\i (00:25:05) setwindow form.mini
+\i (00:25:05) FORM mini subcolor 0 
+\i (00:25:05) setwindow pcb
+\i (00:25:05) updateport CVPane
+\i (00:25:06) setwindow form.mini
+\i (00:25:06) FORM mini subcolor 1 
+\i (00:25:06) setwindow pcb
+\i (00:25:06) updateport CVPane
+\i (00:25:06) setwindow form.mini
+\i (00:25:06) FORM mini subcolor 0 
+\i (00:25:06) setwindow pcb
+\i (00:25:06) updateport CVPane
+\i (00:25:08) setwindow form.mini
+\i (00:25:08) FORM mini subclass DENSITY_VERY_HIGH 
+\i (00:25:08) setwindow pcb
+\i (00:25:08) updateport CVPane
+\i (00:25:08) setwindow form.mini
+\i (00:25:08) FORM mini subcolor 0 
+\i (00:25:08) setwindow pcb
+\i (00:25:08) updateport CVPane
+\i (00:25:09) setwindow form.mini
+\i (00:25:09) FORM mini subcolor 1 
+\i (00:25:09) setwindow pcb
+\i (00:25:09) updateport CVPane
+\i (00:25:09) setwindow form.mini
+\i (00:25:09) FORM mini subcolor 0 
+\i (00:25:09) setwindow pcb
+\i (00:25:09) updateport CVPane
+\i (00:25:11) setwindow form.mini
+\i (00:25:11) FORM mini subclass DENSITY_HIGH 
+\i (00:25:11) setwindow pcb
+\i (00:25:11) updateport CVPane
+\i (00:25:12) setwindow form.mini
+\i (00:25:12) FORM mini subcolor 0 
+\i (00:25:12) setwindow pcb
+\i (00:25:12) updateport CVPane
+\i (00:25:12) setwindow form.mini
+\i (00:25:12) FORM mini subcolor 1 
+\i (00:25:12) setwindow pcb
+\i (00:25:12) updateport CVPane
+\i (00:25:13) setwindow form.mini
+\i (00:25:13) FORM mini subcolor 0 
+\i (00:25:13) setwindow pcb
+\i (00:25:13) updateport CVPane
+\i (00:25:14) setwindow form.mini
+\i (00:25:14) FORM mini subclass DENSITY_MEDIUM 
+\i (00:25:14) setwindow pcb
+\i (00:25:14) updateport CVPane
+\i (00:25:15) setwindow form.mini
+\i (00:25:15) FORM mini subcolor 0 
+\i (00:25:15) setwindow pcb
+\i (00:25:15) updateport CVPane
+\i (00:25:15) setwindow form.mini
+\i (00:25:15) FORM mini subcolor 1 
+\i (00:25:15) setwindow pcb
+\i (00:25:15) updateport CVPane
+\i (00:25:16) setwindow form.mini
+\i (00:25:16) FORM mini subcolor 0 
+\i (00:25:16) setwindow pcb
+\i (00:25:16) updateport CVPane
+\i (00:25:17) setwindow form.mini
+\i (00:25:17) FORM mini subclass DENSITY_LOW 
+\i (00:25:17) setwindow pcb
+\i (00:25:17) updateport CVPane
+\i (00:25:17) setwindow form.mini
+\i (00:25:17) FORM mini subcolor 0 
+\i (00:25:17) setwindow pcb
+\i (00:25:17) updateport CVPane
+\i (00:25:18) setwindow form.mini
+\i (00:25:18) FORM mini subcolor 1 
+\i (00:25:18) setwindow pcb
+\i (00:25:18) updateport CVPane
+\i (00:25:18) setwindow form.mini
+\i (00:25:18) FORM mini subcolor 0 
+\i (00:25:18) setwindow pcb
+\i (00:25:18) updateport CVPane
+\i (00:25:19) setwindow form.mini
+\i (00:25:19) FORM mini subclass DENSITY_VERY_LOW 
+\i (00:25:19) setwindow pcb
+\i (00:25:19) updateport CVPane
+\i (00:25:20) setwindow form.mini
+\i (00:25:20) FORM mini subcolor 0 
+\i (00:25:20) setwindow pcb
+\i (00:25:20) updateport CVPane
+\i (00:25:21) setwindow form.mini
+\i (00:25:21) FORM mini subcolor 1 
+\i (00:25:21) setwindow pcb
+\i (00:25:21) updateport CVPane
+\i (00:25:21) setwindow form.mini
+\i (00:25:21) FORM mini subcolor 0 
+\i (00:25:21) setwindow pcb
+\i (00:25:21) updateport CVPane
+\i (00:25:23) setwindow form.mini
+\i (00:25:23) FORM mini class PIN 
+\i (00:25:24) FORM mini subclass M1 
+\i (00:25:24) setwindow pcb
+\i (00:25:24) updateport CVPane
+\i (00:25:25) setwindow form.mini
+\i (00:25:25) FORM mini subcolor 0 
+\i (00:25:25) setwindow pcb
+\i (00:25:25) updateport CVPane
+\i (00:25:26) setwindow form.mini
+\i (00:25:26) FORM mini subcolor 1 
+\i (00:25:26) setwindow pcb
+\i (00:25:26) updateport CVPane
+\i (00:25:28) setwindow form.mini
+\i (00:25:28) FORM mini subclass SOLDERMASK_TOP 
+\i (00:25:28) setwindow pcb
+\i (00:25:28) updateport CVPane
+\i (00:25:29) setwindow form.mini
+\i (00:25:29) FORM mini subcolor 0 
+\i (00:25:29) setwindow pcb
+\i (00:25:29) updateport CVPane
+\i (00:25:31) zoom out 1 
+\i (00:25:31) setwindow pcb
+\i (00:25:31) zoom out 190.30 -2.40
+\i (00:25:31) trapsize 300
+\i (00:25:31) zoom out 1 
+\i (00:25:31) setwindow pcb
+\i (00:25:31) zoom out 181.89 -1.19
+\i (00:25:31) trapsize 600
+\i (00:25:32) setwindow form.mini
+\i (00:25:32) FORM mini subcolor 1 
+\i (00:25:32) setwindow pcb
+\i (00:25:32) updateport CVPane
+\i (00:25:34) setwindow form.mini
+\i (00:25:34) FORM mini subcolor 0 
+\i (00:25:34) setwindow pcb
+\i (00:25:34) updateport CVPane
+\i (00:25:34) zoom in 1 
+\i (00:25:34) setwindow pcb
+\i (00:25:34) zoom in 527.73 153.72
+\i (00:25:34) trapsize 300
+\i (00:25:36) setwindow form.mini
+\i (00:25:36) FORM mini subclass SOLDERMASK_BOTTOM 
+\i (00:25:36) setwindow pcb
+\i (00:25:36) updateport CVPane
+\i (00:25:37) setwindow form.mini
+\i (00:25:37) FORM mini subcolor 0 
+\i (00:25:37) setwindow pcb
+\i (00:25:37) updateport CVPane
+\i (00:25:37) setwindow form.mini
+\i (00:25:37) FORM mini subcolor 1 
+\i (00:25:37) setwindow pcb
+\i (00:25:37) updateport CVPane
+\i (00:25:38) setwindow form.mini
+\i (00:25:38) FORM mini subcolor 0 
+\i (00:25:38) setwindow pcb
+\i (00:25:38) updateport CVPane
+\i (00:25:39) setwindow form.mini
+\i (00:25:39) FORM mini subclass PASTEMASK_TOP 
+\i (00:25:39) setwindow pcb
+\i (00:25:39) updateport CVPane
+\i (00:25:40) setwindow form.mini
+\i (00:25:40) FORM mini subcolor 0 
+\i (00:25:40) setwindow pcb
+\i (00:25:40) updateport CVPane
+\i (00:25:40) setwindow form.mini
+\i (00:25:40) FORM mini subcolor 1 
+\i (00:25:40) setwindow pcb
+\i (00:25:40) updateport CVPane
+\i (00:25:41) setwindow form.mini
+\i (00:25:41) FORM mini subcolor 0 
+\i (00:25:41) setwindow pcb
+\i (00:25:41) updateport CVPane
+\i (00:25:42) setwindow form.mini
+\i (00:25:42) FORM mini subclass PASTEMASK_BOTTOM 
+\i (00:25:42) setwindow pcb
+\i (00:25:42) updateport CVPane
+\i (00:25:43) setwindow form.mini
+\i (00:25:43) FORM mini subcolor 0 
+\i (00:25:43) setwindow pcb
+\i (00:25:43) updateport CVPane
+\i (00:25:43) setwindow form.mini
+\i (00:25:43) FORM mini subcolor 1 
+\i (00:25:43) setwindow pcb
+\i (00:25:43) updateport CVPane
+\i (00:25:44) setwindow form.mini
+\i (00:25:44) FORM mini subcolor 0 
+\i (00:25:44) setwindow pcb
+\i (00:25:44) updateport CVPane
+\i (00:25:45) setwindow form.mini
+\i (00:25:45) FORM mini subclass FILMMASKTOP 
+\i (00:25:45) setwindow pcb
+\i (00:25:45) updateport CVPane
+\i (00:25:46) setwindow form.mini
+\i (00:25:46) FORM mini subcolor 0 
+\i (00:25:46) setwindow pcb
+\i (00:25:46) updateport CVPane
+\i (00:25:47) setwindow form.mini
+\i (00:25:47) FORM mini subcolor 1 
+\i (00:25:47) setwindow pcb
+\i (00:25:47) updateport CVPane
+\i (00:25:47) setwindow form.mini
+\i (00:25:47) FORM mini subcolor 0 
+\i (00:25:47) setwindow pcb
+\i (00:25:47) updateport CVPane
+\i (00:25:49) setwindow form.mini
+\i (00:25:49) FORM mini subclass FILMMASKBOTTOM 
+\i (00:25:49) setwindow pcb
+\i (00:25:49) updateport CVPane
+\i (00:25:49) setwindow form.mini
+\i (00:25:49) FORM mini subcolor 0 
+\i (00:25:49) setwindow pcb
+\i (00:25:49) updateport CVPane
+\i (00:25:50) setwindow form.mini
+\i (00:25:50) FORM mini subcolor 1 
+\i (00:25:50) setwindow pcb
+\i (00:25:50) updateport CVPane
+\i (00:25:50) setwindow form.mini
+\i (00:25:50) FORM mini subcolor 0 
+\i (00:25:50) setwindow pcb
+\i (00:25:50) updateport CVPane
+\i (00:25:54) setwindow form.mini
+\i (00:25:54) FORM mini class MANUFACTURING 
+\i (00:25:55) FORM mini subcolor 0 
+\i (00:25:55) setwindow pcb
+\i (00:25:55) updateport CVPane
+\i (00:25:56) setwindow form.mini
+\i (00:25:56) FORM mini subcolor 1 
+\i (00:25:56) setwindow pcb
+\i (00:25:56) updateport CVPane
+\i (00:25:56) setwindow form.mini
+\i (00:25:56) FORM mini subcolor 0 
+\i (00:25:56) setwindow pcb
+\i (00:25:56) updateport CVPane
+\i (00:25:58) setwindow form.mini
+\i (00:25:58) FORM mini subclass AUTOSILK_BOTTOM 
+\i (00:25:58) setwindow pcb
+\i (00:25:58) updateport CVPane
+\i (00:25:58) setwindow form.mini
+\i (00:25:58) FORM mini subcolor 0 
+\i (00:25:58) setwindow pcb
+\i (00:25:58) updateport CVPane
+\i (00:25:59) setwindow form.mini
+\i (00:25:59) FORM mini subcolor 1 
+\i (00:25:59) setwindow pcb
+\i (00:25:59) updateport CVPane
+\i (00:25:59) setwindow form.mini
+\i (00:25:59) FORM mini subcolor 0 
+\i (00:25:59) setwindow pcb
+\i (00:25:59) updateport CVPane
+\i (00:26:00) setwindow form.mini
+\i (00:26:00) FORM mini subclass AUTOSILK_TOP 
+\i (00:26:00) setwindow pcb
+\i (00:26:00) updateport CVPane
+\i (00:26:01) setwindow form.mini
+\i (00:26:01) FORM mini subcolor 0 
+\i (00:26:01) setwindow pcb
+\i (00:26:01) updateport CVPane
+\i (00:26:02) setwindow form.mini
+\i (00:26:02) FORM mini subcolor 1 
+\i (00:26:02) setwindow pcb
+\i (00:26:02) updateport CVPane
+\i (00:26:02) setwindow form.mini
+\i (00:26:02) FORM mini subcolor 0 
+\i (00:26:02) setwindow pcb
+\i (00:26:02) updateport CVPane
+\i (00:26:03) setwindow form.mini
+\i (00:26:03) FORM mini subclass NCDRILL_FIGURE 
+\i (00:26:03) setwindow pcb
+\i (00:26:03) updateport CVPane
+\i (00:26:04) setwindow form.mini
+\i (00:26:04) FORM mini subcolor 0 
+\i (00:26:04) setwindow pcb
+\i (00:26:04) updateport CVPane
+\i (00:26:05) setwindow form.mini
+\i (00:26:05) FORM mini subcolor 1 
+\i (00:26:05) setwindow pcb
+\i (00:26:05) updateport CVPane
+\i (00:26:05) setwindow form.mini
+\i (00:26:05) FORM mini subcolor 0 
+\i (00:26:05) setwindow pcb
+\i (00:26:05) updateport CVPane
+\i (00:26:07) setwindow form.mini
+\i (00:26:07) FORM mini subclass NO_GLOSS_ALL 
+\i (00:26:07) setwindow pcb
+\i (00:26:07) updateport CVPane
+\i (00:26:07) setwindow form.mini
+\i (00:26:07) FORM mini subcolor 0 
+\i (00:26:07) setwindow pcb
+\i (00:26:07) updateport CVPane
+\i (00:26:08) setwindow form.mini
+\i (00:26:08) FORM mini subcolor 1 
+\i (00:26:08) setwindow pcb
+\i (00:26:08) updateport CVPane
+\i (00:26:08) setwindow form.mini
+\i (00:26:08) FORM mini subcolor 0 
+\i (00:26:08) setwindow pcb
+\i (00:26:08) updateport CVPane
+\i (00:26:10) setwindow form.mini
+\i (00:26:10) FORM mini subclass NO_GLOSS_BOTTOM 
+\i (00:26:10) setwindow pcb
+\i (00:26:10) updateport CVPane
+\i (00:26:11) setwindow form.mini
+\i (00:26:11) FORM mini subcolor 0 
+\i (00:26:11) setwindow pcb
+\i (00:26:11) updateport CVPane
+\i (00:26:11) setwindow form.mini
+\i (00:26:11) FORM mini subcolor 1 
+\i (00:26:11) setwindow pcb
+\i (00:26:11) updateport CVPane
+\i (00:26:12) setwindow form.mini
+\i (00:26:12) FORM mini subcolor 0 
+\i (00:26:12) setwindow pcb
+\i (00:26:12) updateport CVPane
+\i (00:26:13) setwindow form.mini
+\i (00:26:13) FORM mini subclass NO_GLOSS_INTERNAL 
+\i (00:26:13) setwindow pcb
+\i (00:26:13) updateport CVPane
+\i (00:26:13) setwindow form.mini
+\i (00:26:13) FORM mini subcolor 0 
+\i (00:26:13) setwindow pcb
+\i (00:26:13) updateport CVPane
+\i (00:26:14) setwindow form.mini
+\i (00:26:14) FORM mini subcolor 1 
+\i (00:26:14) setwindow pcb
+\i (00:26:14) updateport CVPane
+\i (00:26:15) setwindow form.mini
+\i (00:26:15) FORM mini subcolor 0 
+\i (00:26:15) setwindow pcb
+\i (00:26:15) updateport CVPane
+\i (00:26:16) setwindow form.mini
+\i (00:26:16) FORM mini subclass NO_GLOSS_TOP 
+\i (00:26:16) setwindow pcb
+\i (00:26:16) updateport CVPane
+\i (00:26:17) setwindow form.mini
+\i (00:26:17) FORM mini subcolor 0 
+\i (00:26:17) setwindow pcb
+\i (00:26:17) updateport CVPane
+\i (00:26:18) setwindow form.mini
+\i (00:26:18) FORM mini subclass NO_PROBE_BOTTOM 
+\i (00:26:18) setwindow pcb
+\i (00:26:18) updateport CVPane
+\i (00:26:19) setwindow form.mini
+\i (00:26:19) FORM mini subcolor 0 
+\i (00:26:19) setwindow pcb
+\i (00:26:19) updateport CVPane
+\i (00:26:20) setwindow form.mini
+\i (00:26:20) FORM mini subclass NO_PROBE_TOP 
+\i (00:26:20) setwindow pcb
+\i (00:26:20) updateport CVPane
+\i (00:26:21) setwindow form.mini
+\i (00:26:21) FORM mini subcolor 0 
+\i (00:26:21) setwindow pcb
+\i (00:26:21) updateport CVPane
+\i (00:26:22) setwindow form.mini
+\i (00:26:22) FORM mini subclass PHOTOPLOT_OUTLINE 
+\i (00:26:22) setwindow pcb
+\i (00:26:22) updateport CVPane
+\i (00:26:22) setwindow form.mini
+\i (00:26:22) FORM mini subcolor 0 
+\i (00:26:22) setwindow pcb
+\i (00:26:22) updateport CVPane
+\i (00:26:23) setwindow form.mini
+\i (00:26:23) FORM mini subclass PROBE_BOTTOM 
+\i (00:26:23) setwindow pcb
+\i (00:26:23) updateport CVPane
+\i (00:26:24) setwindow form.mini
+\i (00:26:24) FORM mini subcolor 0 
+\i (00:26:24) setwindow pcb
+\i (00:26:24) updateport CVPane
+\i (00:26:25) setwindow form.mini
+\i (00:26:25) FORM mini subclass PROBE_TOP 
+\i (00:26:25) setwindow pcb
+\i (00:26:25) updateport CVPane
+\i (00:26:25) setwindow form.mini
+\i (00:26:25) FORM mini subcolor 0 
+\i (00:26:25) setwindow pcb
+\i (00:26:25) updateport CVPane
+\i (00:26:26) setwindow form.mini
+\i (00:26:26) FORM mini subclass XSECTION_CHART 
+\i (00:26:26) setwindow pcb
+\i (00:26:26) updateport CVPane
+\i (00:26:28) setwindow form.mini
+\i (00:26:28) FORM mini subcolor 0 
+\i (00:26:28) setwindow pcb
+\i (00:26:28) updateport CVPane
+\i (00:26:30) setwindow form.mini
+\i (00:26:30) FORM mini class 'DRC ERROR CLASS' 
+\i (00:26:33) FORM mini class 'DRAWING FORMAT' 
+\i (00:26:34) FORM mini subcolor 0 
+\i (00:26:34) setwindow pcb
+\i (00:26:34) updateport CVPane
+\i (00:26:35) setwindow form.mini
+\i (00:26:35) FORM mini subcolor 1 
+\i (00:26:35) setwindow pcb
+\i (00:26:35) updateport CVPane
+\i (00:26:36) setwindow form.mini
+\i (00:26:36) FORM mini subcolor 0 
+\i (00:26:36) setwindow pcb
+\i (00:26:36) updateport CVPane
+\i (00:26:37) setwindow form.mini
+\i (00:26:37) FORM mini subcolor 1 
+\i (00:26:37) setwindow pcb
+\i (00:26:37) updateport CVPane
+\i (00:26:37) setwindow form.mini
+\i (00:26:37) FORM mini subcolor 0 
+\i (00:26:37) setwindow pcb
+\i (00:26:37) updateport CVPane
+\i (00:26:38) setwindow form.mini
+\i (00:26:38) FORM mini subclass REVISION_BLOCK 
+\i (00:26:38) setwindow pcb
+\i (00:26:38) updateport CVPane
+\i (00:26:40) setwindow form.mini
+\i (00:26:40) FORM mini subcolor 0 
+\i (00:26:40) setwindow pcb
+\i (00:26:40) updateport CVPane
+\i (00:26:41) setwindow form.mini
+\i (00:26:41) FORM mini subclass REVISION_DATA 
+\i (00:26:41) setwindow pcb
+\i (00:26:41) updateport CVPane
+\i (00:26:43) setwindow form.mini
+\i (00:26:43) FORM mini subcolor 0 
+\i (00:26:43) setwindow pcb
+\i (00:26:43) updateport CVPane
+\i (00:26:43) setwindow form.mini
+\i (00:26:43) FORM mini subcolor 1 
+\i (00:26:43) setwindow pcb
+\i (00:26:43) updateport CVPane
+\i (00:26:44) setwindow form.mini
+\i (00:26:44) FORM mini subcolor 0 
+\i (00:26:44) setwindow pcb
+\i (00:26:44) updateport CVPane
+\i (00:26:45) setwindow form.mini
+\i (00:26:45) FORM mini subcolor 1 
+\i (00:26:45) setwindow pcb
+\i (00:26:45) updateport CVPane
+\i (00:26:46) setwindow form.mini
+\i (00:26:46) FORM mini subcolor 0 
+\i (00:26:46) setwindow pcb
+\i (00:26:46) updateport CVPane
+\i (00:26:47) setwindow form.mini
+\i (00:26:47) FORM mini subclass TITLE_BLOCK 
+\i (00:26:47) setwindow pcb
+\i (00:26:47) updateport CVPane
+\i (00:26:48) setwindow form.mini
+\i (00:26:48) FORM mini subcolor 0 
+\i (00:26:48) setwindow pcb
+\i (00:26:48) updateport CVPane
+\i (00:26:49) setwindow form.mini
+\i (00:26:49) FORM mini subclass TITLE_DATA 
+\i (00:26:49) setwindow pcb
+\i (00:26:49) updateport CVPane
+\i (00:26:49) setwindow form.mini
+\i (00:26:49) FORM mini subcolor 0 
+\i (00:26:49) setwindow pcb
+\i (00:26:49) updateport CVPane
+\i (00:26:52) setwindow form.mini
+\i (00:26:52) FORM mini class 'DEVICE TYPE' 
+\i (00:26:53) FORM mini subcolor 0 
+\i (00:26:53) setwindow pcb
+\i (00:26:53) updateport CVPane
+\i (00:26:54) setwindow form.mini
+\i (00:26:54) FORM mini subclass ASSEMBLY_BOTTOM 
+\i (00:26:54) setwindow pcb
+\i (00:26:54) updateport CVPane
+\i (00:26:55) setwindow form.mini
+\i (00:26:55) FORM mini subcolor 0 
+\i (00:26:55) setwindow pcb
+\i (00:26:55) updateport CVPane
+\i (00:26:56) setwindow form.mini
+\i (00:26:56) FORM mini subclass ASSEMBLY_TOP 
+\i (00:26:56) setwindow pcb
+\i (00:26:56) updateport CVPane
+\i (00:26:56) setwindow form.mini
+\i (00:26:56) FORM mini subcolor 0 
+\i (00:26:56) setwindow pcb
+\i (00:26:56) updateport CVPane
+\i (00:26:57) setwindow form.mini
+\i (00:26:57) FORM mini subclass DISPLAY_BOTTOM 
+\i (00:26:57) setwindow pcb
+\i (00:26:57) updateport CVPane
+\i (00:26:58) setwindow form.mini
+\i (00:26:58) FORM mini subcolor 0 
+\i (00:26:58) setwindow pcb
+\i (00:26:58) updateport CVPane
+\i (00:26:59) setwindow form.mini
+\i (00:26:59) FORM mini subclass DISPLAY_TOP 
+\i (00:26:59) setwindow pcb
+\i (00:26:59) updateport CVPane
+\i (00:26:59) setwindow form.mini
+\i (00:26:59) FORM mini subcolor 0 
+\i (00:26:59) setwindow pcb
+\i (00:26:59) updateport CVPane
+\i (00:27:00) setwindow form.mini
+\i (00:27:00) FORM mini subclass SILKSCREEN_BOTTOM 
+\i (00:27:00) setwindow pcb
+\i (00:27:00) updateport CVPane
+\i (00:27:01) setwindow form.mini
+\i (00:27:01) FORM mini subcolor 0 
+\i (00:27:01) setwindow pcb
+\i (00:27:01) updateport CVPane
+\i (00:27:04) setwindow form.mini
+\i (00:27:04) FORM mini class 'CONSTRAINT REGION' 
+\i (00:27:11) FORM mini class CONDUCTOR 
+\i (00:27:14) FORM mini class 'COMPONENT VALUE' 
+\i (00:27:15) FORM mini subcolor 0 
+\i (00:27:15) setwindow pcb
+\i (00:27:15) updateport CVPane
+\i (00:27:16) setwindow form.mini
+\i (00:27:16) FORM mini subclass ASSEMBLY_BOTTOM 
+\i (00:27:16) setwindow pcb
+\i (00:27:16) updateport CVPane
+\i (00:27:17) setwindow form.mini
+\i (00:27:17) FORM mini subcolor 0 
+\i (00:27:17) setwindow pcb
+\i (00:27:17) updateport CVPane
+\i (00:27:18) setwindow form.mini
+\i (00:27:18) FORM mini subclass DISPLAY_BOTTOM 
+\i (00:27:18) setwindow pcb
+\i (00:27:18) updateport CVPane
+\i (00:27:18) setwindow form.mini
+\i (00:27:18) FORM mini subcolor 0 
+\i (00:27:18) setwindow pcb
+\i (00:27:18) updateport CVPane
+\i (00:27:19) setwindow form.mini
+\i (00:27:19) FORM mini subclass DISPLAY_TOP 
+\i (00:27:19) setwindow pcb
+\i (00:27:19) updateport CVPane
+\i (00:27:20) setwindow form.mini
+\i (00:27:20) FORM mini subcolor 0 
+\i (00:27:20) setwindow pcb
+\i (00:27:20) updateport CVPane
+\i (00:27:21) setwindow form.mini
+\i (00:27:21) FORM mini subclass SILKSCREEN_BOTTOM 
+\i (00:27:21) setwindow pcb
+\i (00:27:21) updateport CVPane
+\i (00:27:21) setwindow form.mini
+\i (00:27:21) FORM mini subcolor 0 
+\i (00:27:21) setwindow pcb
+\i (00:27:21) updateport CVPane
+\i (00:27:23) setwindow form.mini
+\i (00:27:23) FORM mini subclass SILKSCREEN_TOP 
+\i (00:27:23) setwindow pcb
+\i (00:27:23) updateport CVPane
+\i (00:27:23) setwindow form.mini
+\i (00:27:23) FORM mini subcolor 0 
+\i (00:27:23) setwindow pcb
+\i (00:27:23) updateport CVPane
+\i (00:27:26) setwindow form.mini
+\i (00:27:26) FORM mini class 'COMPONENT KEEPOUT' 
+\i (00:27:28) FORM mini class 'COMPONENT KEEPIN' 
+\i (00:27:31) FORM mini class 'COMPONENT GEOMETRY' 
+\i (00:27:33) FORM mini class CAVITY 
+\i (00:27:37) FORM mini subclass M2 
+\i (00:27:37) setwindow pcb
+\i (00:27:37) updateport CVPane
+\i (00:27:37) setwindow form.mini
+\i (00:27:37) FORM mini subcolor 0 
+\i (00:27:37) setwindow pcb
+\i (00:27:37) updateport CVPane
+\i (00:27:38) setwindow form.mini
+\i (00:27:38) FORM mini subcolor 1 
+\i (00:27:38) setwindow pcb
+\i (00:27:38) updateport CVPane
+\i (00:27:39) setwindow form.mini
+\i (00:27:39) FORM mini subclass M1 
+\i (00:27:39) setwindow pcb
+\i (00:27:39) updateport CVPane
+\i (00:27:39) setwindow form.mini
+\i (00:27:39) FORM mini subcolor 0 
+\i (00:27:39) setwindow pcb
+\i (00:27:39) updateport CVPane
+\i (00:27:40) setwindow form.mini
+\i (00:27:40) FORM mini subcolor 1 
+\i (00:27:40) setwindow pcb
+\i (00:27:40) updateport CVPane
+\i (00:27:40) setwindow form.mini
+\i (00:27:40) FORM mini subcolor 0 
+\i (00:27:40) setwindow pcb
+\i (00:27:40) updateport CVPane
+\i (00:27:41) setwindow form.mini
+\i (00:27:41) FORM mini subcolor 1 
+\i (00:27:41) setwindow pcb
+\i (00:27:41) updateport CVPane
+\i (00:27:43) setwindow form.mini
+\i (00:27:43) FORM mini class BOUNDARY 
+\i (00:27:47) FORM mini subclass ALL 
+\i (00:27:47) setwindow pcb
+\i (00:27:47) updateport CVPane
+\i (00:27:47) setwindow form.mini
+\i (00:27:47) FORM mini subcolor 0 
+\i (00:27:47) setwindow pcb
+\i (00:27:47) updateport CVPane
+\i (00:27:48) setwindow form.mini
+\i (00:27:48) FORM mini subcolor 1 
+\i (00:27:48) setwindow pcb
+\i (00:27:48) updateport CVPane
+\i (00:27:48) setwindow form.mini
+\i (00:27:48) FORM mini subcolor 0 
+\i (00:27:48) setwindow pcb
+\i (00:27:48) updateport CVPane
+\i (00:27:50) setwindow form.mini
+\i (00:27:50) FORM mini subclass M1 
+\i (00:27:50) setwindow pcb
+\i (00:27:50) updateport CVPane
+\i (00:27:50) setwindow form.mini
+\i (00:27:50) FORM mini subcolor 0 
+\i (00:27:50) setwindow pcb
+\i (00:27:50) updateport CVPane
+\i (00:27:51) setwindow form.mini
+\i (00:27:51) FORM mini subcolor 1 
+\i (00:27:51) setwindow pcb
+\i (00:27:51) updateport CVPane
+\i (00:27:51) setwindow form.mini
+\i (00:27:51) FORM mini subcolor 0 
+\i (00:27:51) setwindow pcb
+\i (00:27:51) updateport CVPane
+\i (00:27:52) setwindow form.mini
+\i (00:27:52) FORM mini subcolor 1 
+\i (00:27:52) setwindow pcb
+\i (00:27:52) updateport CVPane
+\i (00:27:53) setwindow form.mini
+\i (00:27:53) FORM mini class 'ANTI CONDUCTOR' 
+\i (00:27:56) FORM mini subclass ALL 
+\i (00:27:56) setwindow pcb
+\i (00:27:56) updateport CVPane
+\i (00:27:57) setwindow form.mini
+\i (00:27:57) FORM mini subcolor 0 
+\i (00:27:57) setwindow pcb
+\i (00:27:57) updateport CVPane
+\i (00:27:58) setwindow form.mini
+\i (00:27:58) FORM mini subcolor 1 
+\i (00:27:58) setwindow pcb
+\i (00:27:58) updateport CVPane
+\i (00:28:01) setwindow form.mini
+\i (00:28:01) FORM mini class ANALYSIS 
+\i (00:28:03) FORM mini subcolor 0 
+\i (00:28:03) setwindow pcb
+\i (00:28:03) updateport CVPane
+\i (00:28:03) setwindow form.mini
+\i (00:28:03) FORM mini subclass HIGH_ISOCONTOUR 
+\i (00:28:03) setwindow pcb
+\i (00:28:03) updateport CVPane
+\i (00:28:04) setwindow form.mini
+\i (00:28:04) FORM mini subcolor 0 
+\i (00:28:04) setwindow pcb
+\i (00:28:04) updateport CVPane
+\i (00:28:05) setwindow form.mini
+\i (00:28:05) FORM mini subclass MEDIUM1_ISOCONTOUR 
+\i (00:28:05) setwindow pcb
+\i (00:28:05) updateport CVPane
+\i (00:28:05) setwindow form.mini
+\i (00:28:05) FORM mini subcolor 0 
+\i (00:28:05) setwindow pcb
+\i (00:28:05) updateport CVPane
+\i (00:28:06) setwindow form.mini
+\i (00:28:06) FORM mini subclass MEDIUM2_ISOCONTOUR 
+\i (00:28:06) setwindow pcb
+\i (00:28:06) updateport CVPane
+\i (00:28:07) setwindow form.mini
+\i (00:28:07) FORM mini subcolor 0 
+\i (00:28:07) setwindow pcb
+\i (00:28:07) updateport CVPane
+\i (00:28:08) setwindow form.mini
+\i (00:28:08) FORM mini subclass MEDIUM3_ISOCONTOUR 
+\i (00:28:08) setwindow pcb
+\i (00:28:08) updateport CVPane
+\i (00:28:09) setwindow form.mini
+\i (00:28:09) FORM mini subcolor 0 
+\i (00:28:09) setwindow pcb
+\i (00:28:09) updateport CVPane
+\i (00:28:09) setwindow form.mini
+\i (00:28:09) FORM mini subclass MODULE_TEMPERATURE 
+\i (00:28:09) setwindow pcb
+\i (00:28:09) updateport CVPane
+\i (00:28:10) setwindow form.mini
+\i (00:28:10) FORM mini subcolor 0 
+\i (00:28:10) setwindow pcb
+\i (00:28:10) updateport CVPane
+\i (00:28:13) setwindow form.mini
+\i (00:28:13) FORM mini class 'VIA KEEPOUT' 
+\i (00:28:16) setwindow pcb
+\i (00:28:16) zoom in 1 
+\i (00:28:16) setwindow pcb
+\i (00:28:16) zoom in 53.40 -31.21
+\i (00:28:16) trapsize 150
+\i (00:28:16) zoom in 1 
+\i (00:28:16) setwindow pcb
+\i (00:28:16) zoom in 53.40 -27.00
+\i (00:28:16) trapsize 75
+\i (00:28:18) prepopup 70.21 0.17
+\i (00:28:19) prepopup 67.51 0.47
+\i (00:28:23) prepopup 64.51 0.17
+\i (00:28:27) setwindow form.find
+\i (00:28:27) FORM find all_on  
+\i (00:28:29) setwindow pcb
+\i (00:28:29) prepopup 150.07 0.17
+\i (00:28:29) prepopup 149.32 -0.13
+\i (00:28:30) pick grid 144.51 0.02
+\t (00:28:30) last pick:  100.00 0.00
+\i (00:28:30) zoom in 1 
+\i (00:28:30) setwindow pcb
+\i (00:28:30) zoom in 144.06 -0.58
+\i (00:28:30) trapsize 38
+\i (00:28:30) zoom in 1 
+\i (00:28:30) setwindow pcb
+\i (00:28:30) zoom in 143.99 -0.72
+\i (00:28:30) trapsize 19
+\i (00:28:31) zoom in 1 
+\i (00:28:31) setwindow pcb
+\i (00:28:31) zoom in 144.00 -0.80
+\i (00:28:31) trapsize 9
+\i (00:28:31) zoom in 1 
+\i (00:28:31) setwindow pcb
+\i (00:28:31) zoom in 144.15 -0.49
+\i (00:28:31) trapsize 5
+\i (00:28:31) zoom in 1 
+\i (00:28:31) setwindow pcb
+\i (00:28:31) zoom in 144.15 -0.49
+\i (00:28:31) trapsize 2
+\i (00:28:33) prepopup 143.36 0.00
+\i (00:28:38) pick grid 142.54 -0.92
+\t (00:28:38) last pick:  100.00 0.00
+\i (00:28:38) zoom out 1 
+\i (00:28:38) setwindow pcb
+\i (00:28:38) zoom out 142.67 -0.58
+\i (00:28:38) trapsize 5
+\i (00:28:38) zoom out 1 
+\i (00:28:38) setwindow pcb
+\i (00:28:38) zoom out 142.67 -0.58
+\i (00:28:38) trapsize 9
+\i (00:28:38) zoom out 1 
+\i (00:28:38) setwindow pcb
+\i (00:28:38) zoom out 142.66 -0.57
+\i (00:28:38) trapsize 19
+\i (00:28:38) zoom out 1 
+\i (00:28:38) setwindow pcb
+\i (00:28:38) zoom out 142.67 -0.57
+\i (00:28:38) trapsize 38
+\i (00:28:39) zoom out 1 
+\i (00:28:39) setwindow pcb
+\i (00:28:39) zoom out 142.67 -0.56
+\i (00:28:39) trapsize 75
+\i (00:28:39) zoom out 1 
+\i (00:28:39) setwindow pcb
+\i (00:28:39) zoom out 142.66 -0.72
+\i (00:28:39) trapsize 150
+\i (00:28:39) zoom out 1 
+\i (00:28:39) setwindow pcb
+\i (00:28:39) zoom out 171.48 -1.02
+\i (00:28:39) trapsize 300
+\i (00:28:40) pick grid 193.70 -0.41
+\t (00:28:40) last pick:  200.00 0.00
+\i (00:28:43) zoom out 1 
+\i (00:28:43) setwindow pcb
+\i (00:28:43) zoom out 0.36 -21.42
+\i (00:28:43) trapsize 600
+\i (00:28:54) pick grid 324.59 -571.42
+\t (00:28:54) last pick:  300.00 -600.00
+\i (00:28:55) zoom out 1 
+\i (00:28:55) setwindow pcb
+\i (00:28:55) zoom out 210.51 -570.22
+\i (00:28:55) trapsize 1201
+\i (00:28:59) setwindow form.find
+\i (00:28:59) FORM find bondwires NO 
+\i (00:28:59) FORM find all_off  
+\i (00:29:00) setwindow pcb
+\i (00:29:00) pick grid 402.65 -469.34
+\t (00:29:00) last pick:  400.00 -500.00
+\i (00:29:01) zoom in 1 
+\i (00:29:01) setwindow pcb
+\i (00:29:01) zoom in 196.10 -541.40
+\i (00:29:01) trapsize 600
+\i (00:29:01) zoom in 1 
+\i (00:29:01) setwindow pcb
+\i (00:29:01) zoom in 181.69 -542.60
+\i (00:29:01) trapsize 300
+\i (00:29:01) drag_start grid 134.86 -507.77
+\i (00:29:02) drag_stop 144.47 -507.17
+\i (00:29:02) drag_start grid 109.65 -471.74
+\i (00:29:02) drag_stop 340.81 -529.99
+\i (00:29:03) pick grid 65.81 -412.90
+\t (00:29:03) last pick:  100.00 -400.00
+\i (00:29:03) drag_start grid -32.65 -353.46
+\i (00:29:03) drag_stop 328.20 -561.81
+\i (00:29:04) zoom in 1 
+\i (00:29:04) setwindow pcb
+\i (00:29:04) zoom in 74.22 -304.23
+\i (00:29:04) trapsize 150
+\i (00:29:04) zoom in 1 
+\i (00:29:04) setwindow pcb
+\i (00:29:04) zoom in 74.22 -304.22
+\i (00:29:04) trapsize 75
+\i (00:29:05) zoom out 1 
+\i (00:29:05) setwindow pcb
+\i (00:29:05) zoom out 100.04 -331.54
+\i (00:29:05) trapsize 150
+\i (00:29:06) zoom out 1 
+\i (00:29:06) setwindow pcb
+\i (00:29:06) zoom out 102.14 -324.33
+\i (00:29:06) trapsize 300
+\i (00:29:08) zoom in 1 
+\i (00:29:08) setwindow pcb
+\i (00:29:08) zoom in -243.72 -33.12
+\i (00:29:08) trapsize 150
+\i (00:29:09) zoom out 1 
+\i (00:29:09) setwindow pcb
+\i (00:29:09) zoom out -241.91 -34.62
+\i (00:29:09) trapsize 300
+\i (00:29:14) zoom in 1 
+\i (00:29:14) setwindow pcb
+\i (00:29:14) zoom in 3.65 24.83
+\i (00:29:14) trapsize 150
+\i (00:29:15) zoom in 1 
+\i (00:29:15) setwindow pcb
+\i (00:29:15) zoom in -1.45 19.43
+\i (00:29:15) trapsize 75
+\i (00:29:16) zoom out 1 
+\i (00:29:16) setwindow pcb
+\i (00:29:16) zoom out -3.25 11.33
+\i (00:29:16) trapsize 150
+\i (00:29:16) zoom out 1 
+\i (00:29:16) setwindow pcb
+\i (00:29:16) zoom out -4.15 8.93
+\i (00:29:16) trapsize 300
+\i (02:13:39) setwindow form.mini
+\i (02:13:39) FORM mini class 'ROUTE KEEPIN' 
+\i (02:13:41) setwindow pcb
+\i (02:13:41) zoom out 1 
+\i (02:13:41) setwindow pcb
+\i (02:13:41) zoom out 23.45 -262.46
+\i (02:13:41) trapsize 600
+\i (02:13:42) zoom out 1 
+\i (02:13:42) setwindow pcb
+\i (02:13:42) zoom out -149.46 -93.14
+\i (02:13:42) trapsize 1201
+\i (02:13:44) zoom in 1 
+\i (02:13:44) setwindow pcb
+\i (02:13:44) zoom in -980.46 692.21
+\i (02:13:44) trapsize 600
+\i (02:13:45) zoom out 1 
+\i (02:13:45) setwindow pcb
+\i (02:13:45) zoom out -785.92 600.95
+\i (02:13:45) trapsize 1201
+\i (02:13:45) zoom out 1 
+\i (02:13:45) setwindow pcb
+\i (02:13:45) zoom out -781.12 567.32
+\i (02:13:45) trapsize 2402
+\i (02:14:28) grid toggle 
+\i (02:14:28) etchedit 
+\i (02:14:29) grid toggle 
+\i (02:14:29) etchedit 
+\i (02:15:26) color192 
+\i (02:15:27) etchedit 
+\i (02:15:36) QtSignal CVDLayerContainer CVDVisibilityOff clicked
+\i (02:15:43) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (02:15:43) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (02:15:43) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (02:15:43) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (02:15:43) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (02:15:43) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (02:15:43) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (02:15:45) QtSignal CVDLayerTable VertHeader clickedCheckBox "Inter_Layer" 1
+\i (02:15:45) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 15 0
+\i (02:15:46) QtSignal CVDLayerTable VertHeader clickedCheckBox "Inter_Layer" 0
+\i (02:15:46) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 15 0
+\i (02:15:48) QtSignal CVDLayerTable VertHeader clickedButton M1
+\i (02:15:48) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 0
+\i (02:15:48) QtSignal CVDLayerTable VertHeader clickedButton M1
+\i (02:15:48) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 0
+\i (02:15:49) QtSignal CVDLayerTable VertHeader sectionDoubleClicked 0
+\i (02:15:50) QtSignal CVDLayerTable VertHeader clickedButton M1
+\i (02:15:50) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 0
+\i (02:15:50) QtSignal CVDLayerTable VertHeader sectionDoubleClicked 0
+\i (02:15:50) QtSignal CVDLayerTable VertHeader clickedCheckBox M1 1
+\i (02:15:50) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 0
+\i (02:15:51) QtSignal CVDLayerTable VertHeader clickedCheckBox M1 0
+\i (02:15:51) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 0
+\i (02:15:52) QtSignal CVDLayerTable VertHeader clickedButton M1
+\i (02:15:52) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 0
+\i (02:15:52) QtSignal CVDLayerTable VertHeader sectionDoubleClicked 0
+\i (02:15:55) QtSignal CVDLayerTable VertHeader clickedButton M1
+\i (02:15:55) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 0
+\i (02:15:55) QtSignal CVDLayerTable VertHeader sectionDoubleClicked 0
+\i (02:15:55) QtSignal CVDLayerTable VertHeader clickedButton M1
+\i (02:15:55) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 0
+\i (02:15:56) QtSignal CVDLayerTable VertHeader sectionDoubleClicked 0
+\i (02:15:56) QtSignal CVDLayerTable VertHeader clickedButton M1
+\i (02:15:56) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 0
+\i (02:15:58) QtSignal CVDColorTable CVDColorButton0:23 clicked
+\i (02:15:59) QtSignal CVDLayerTable VertHeader clickedButton M1
+\i (02:15:59) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 0
+\i (02:16:01) QtSignal CVDLayerTable VertHeader clickedCheckBox M1 1
+\i (02:16:01) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 0
+\i (02:16:02) zoom in 1 
+\i (02:16:02) setwindow pcb
+\i (02:16:02) zoom in 419.74 221.48
+\i (02:16:02) trapsize 1201
+\i (02:16:02) zoom in 1 
+\i (02:16:02) setwindow pcb
+\i (02:16:02) zoom in 412.53 211.88
+\i (02:16:02) trapsize 600
+\i (02:16:03) zoom out 1 
+\i (02:16:03) setwindow pcb
+\i (02:16:03) zoom out 435.35 255.11
+\i (02:16:03) trapsize 1201
+\i (02:16:04) QtSignal CVDLayerTable VertHeader clickedCheckBox M1 0
+\i (02:16:04) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 0
+\i (02:16:05) QtSignal CVDLayerTable VertHeader clickedCheckBox Filmmasktop 1
+\i (02:16:05) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 9 0
+\i (02:16:08) QtSignal CVDLayerTable VertHeader clickedCheckBox Filmmasktop 0
+\i (02:16:08) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 9 0
+\i (02:16:10) QtSignal CVDLayerTable VertHeader clickedCheckBox Filmmasktop 1
+\i (02:16:10) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 9 0
+\i (02:16:10) QtSignal CVDLayerTable VertHeader sectionDoubleClicked 9
+\i (02:16:11) QtSignal CVDLayerTable VertHeader clickedCheckBox Filmmasktop 0
+\i (02:16:11) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 9 0
+\i (02:16:11) QtSignal CVDLayerTable VertHeader clickedCheckBox Filmmasktop 1
+\i (02:16:11) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 9 0
+\i (02:16:12) QtSignal CVDLayerTable VertHeader clickedCheckBox Filmmasktop 0
+\i (02:16:12) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 9 0
+\i (02:16:14) QtSignal CVDLayerTable VertHeader clickedCheckBox "Package_Top" 1
+\i (02:16:14) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 12 0
+\i (02:16:14) QtSignal CVDLayerTable VertHeader clickedCheckBox "Package_Top" 0
+\i (02:16:14) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 12 0
+\i (02:16:14) QtSignal CVDLayerTable VertHeader clickedCheckBox "Package_Bottom" 1
+\i (02:16:14) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 13 0
+\i (02:16:15) QtSignal CVDLayerTable VertHeader sectionDoubleClicked 13
+\i (02:16:16) QtSignal CVDLayerTable VertHeader clickedCheckBox "Package_Bottom" 0
+\i (02:16:16) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 13 0
+\i (02:16:17) QtSignal CVDLayerTable VertHeader clickedCheckBox Wire 1
+\i (02:16:17) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 14 0
+\i (02:16:18) QtSignal CVDLayerTable VertHeader clickedCheckBox "Inter_Layer" 1
+\i (02:16:18) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 15 0
+\i (02:16:18) QtSignal CVDLayerTable VertHeader clickedCheckBox "Density_Very_High" 1
+\i (02:16:18) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 16 0
+\i (02:16:19) QtSignal CVDLayerTable VertHeader clickedCheckBox "Density_High" 1
+\i (02:16:19) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 17 0
+\i (02:16:19) QtSignal CVDLayerTable VertHeader clickedCheckBox "Density_Medium" 1
+\i (02:16:19) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 18 0
+\i (02:16:21) QtSignal CVDLayerTable VertHeader clickedCheckBox "Density_Very_Low" 1
+\i (02:16:21) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 20 0
+\i (02:16:23) QtSignal CVDLayerTable VertHeader clickedCheckBox "Density_Low" 1
+\i (02:16:23) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 19 0
+\i (02:16:24) QtSignal CVDLayerTable VertHeader sectionDoubleClicked 13
+\i (02:16:25) QtSignal CVDLayerTable VertHeader clickedCheckBox "Package_Top" 1
+\i (02:16:25) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 12 0
+\i (02:16:25) QtSignal CVDLayerTable VertHeader clickedCheckBox "Package_Bottom" 1
+\i (02:16:25) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 13 0
+\i (02:16:26) QtSignal CVDLayerTable VertHeader clickedCheckBox Filmmaskbottom 1
+\i (02:16:26) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 10 0
+\i (02:16:26) QtSignal CVDLayerTable VertHeader clickedCheckBox Filmmasktop 1
+\i (02:16:26) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 9 0
+\i (02:16:27) QtSignal CVDLayerTable VertHeader clickedCheckBox "Pastemask_Bottom" 1
+\i (02:16:27) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 8 0
+\i (02:16:28) QtSignal CVDLayerTable VertHeader clickedCheckBox "Pastemask_Top" 1
+\i (02:16:28) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 7 0
+\i (02:16:29) QtSignal CVDLayerTable VertHeader clickedCheckBox "Soldermask_Bottom" 1
+\i (02:16:29) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 6 0
+\i (02:16:30) QtSignal CVDLayerTable VertHeader clickedCheckBox "Soldermask_Top" 1
+\i (02:16:30) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 5 0
+\i (02:16:35) QtSignal CVDLayerTable VertHeader clickedCheckBox Ubm 1
+\i (02:16:35) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 4 0
+\i (02:16:35) QtSignal CVDLayerTable VertHeader clickedCheckBox Ubm 0
+\i (02:16:35) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 4 0
+\i (02:16:36) QtSignal CVDLayerTable VertHeader clickedCheckBox "Soldermask_Top" 0
+\i (02:16:36) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 5 0
+\i (02:16:37) QtSignal CVDLayerTable VertHeader sectionDoubleClicked 6
+\i (02:16:38) QtSignal CVDLayerTable VertHeader clickedCheckBox "Soldermask_Bottom" 0
+\i (02:16:38) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 6 0
+\i (02:16:39) QtSignal CVDLayerContainer CVDVisibilityOff clicked
+\i (02:16:45) QtSignal ColorVisibilityDialog CVDTabs currentChanged Nets
+\i (02:16:47) QtSignal CVDNetTable CVDNetTableDelegate clickedBox "[Net] Clk" Net 1
+\i (02:16:47) QtSignal CVDNetSplitter CVDNetTable dataChanged 0 0
+\i (02:16:47) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:48) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:48) QtSignal CVDNetTable CVDNetTableDelegate clickedBox "[Net] Clk" Net 1
+\i (02:16:48) QtSignal CVDNetSplitter CVDNetTable dataChanged 0 0
+\i (02:16:48) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:48) QtSignal CVDNetTable CVDNetTableDelegate clickedBox "[Net] Clk" Net 1
+\i (02:16:48) QtSignal CVDNetSplitter CVDNetTable dataChanged 0 0
+\i (02:16:49) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:49) QtSignal CVDNetTable CVDNetTableDelegate clickedBox "[Net] Clk" Net 1
+\i (02:16:49) QtSignal CVDNetSplitter CVDNetTable dataChanged 0 0
+\i (02:16:49) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:49) QtSignal CVDNetTable CVDNetTableDelegate clickedBox "[Net] Clk" Net 1
+\i (02:16:49) QtSignal CVDNetSplitter CVDNetTable dataChanged 0 0
+\i (02:16:49) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:50) QtSignal CVDNetTable CVDNetTableDelegate clickedBox "[Net] Clk" Net 1
+\i (02:16:50) QtSignal CVDNetSplitter CVDNetTable dataChanged 0 0
+\i (02:16:50) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:50) QtSignal CVDNetTable CVDNetTableDelegate clickedBox "[Net] Clk" Net 1
+\i (02:16:50) QtSignal CVDNetSplitter CVDNetTable dataChanged 0 0
+\i (02:16:50) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:50) QtSignal CVDNetTable CVDNetTableDelegate clickedBox "[Net] Clk" Net 1
+\i (02:16:50) QtSignal CVDNetSplitter CVDNetTable dataChanged 0 0
+\i (02:16:50) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:50) QtSignal CVDNetTable CVDNetTableDelegate clickedBox "[Net] Clk" Net 1
+\i (02:16:50) QtSignal CVDNetSplitter CVDNetTable dataChanged 0 0
+\i (02:16:50) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:51) QtSignal CVDNetTable CVDNetTableDelegate clickedBox "[Net] Clk" Net 1
+\i (02:16:51) QtSignal CVDNetSplitter CVDNetTable dataChanged 0 0
+\i (02:16:51) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:51) QtSignal CVDNetTable CVDNetTableHorzHeader clickedCheckBox Net 1
+\i (02:16:51) QtSignal CVDNetSplitter CVDNetTable dataChanged 0 0
+\i (02:16:51) QtSignal CVDNetTable CVDNetTableHorzHeader sectionDoubleClicked 0
+\i (02:16:52) QtSignal CVDNetTable CVDNetTableDelegate clickedBox "[Net] Clk" Net 1
+\i (02:16:52) QtSignal CVDNetSplitter CVDNetTable dataChanged 0 0
+\i (02:16:52) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:52) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:52) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:53) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:53) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:53) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:53) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:53) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:53) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:53) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:53) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:53) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:53) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:53) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:53) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:53) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:53) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:53) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:53) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:53) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:53) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:53) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:53) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:54) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:54) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:54) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:54) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:54) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:54) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:54) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:54) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:54) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:54) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:54) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:55) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:55) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:55) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:55) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:55) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:55) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:55) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:55) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:55) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:55) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:55) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:55) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:55) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:55) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:55) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:55) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:55) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:55) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:55) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:55) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:55) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:55) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:55) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:55) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:56) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:56) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:16:56) QtSignal CVDNetTable CVDNetTableDelegate clickedColor "[Net] Clk" Net
+\i (02:16:56) QtSignal CVDNetSplitter CVDNetTable dataChanged 0 0
+\i (02:16:56) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:17:00) QtSignal ColorVisibilityDialog CVDTabs currentChanged Layers
+\i (02:17:01) QtSignal ColorVisibilityDialog CVDTabs currentChanged Nets
+\i (02:17:04) QtSignal CVDNetTable CVDNetTableHorzHeader clickedButton Net
+\i (02:17:04) QtSignal CVDNetSplitter CVDNetTable dataChanged 0 0
+\i (02:17:04) QtSignal CVDNetTable CVDNetTableHorzHeader clickedButton Net
+\i (02:17:04) QtSignal CVDNetSplitter CVDNetTable dataChanged 0 0
+\i (02:17:05) QtSignal CVDNetTable CVDNetTableHorzHeader sectionDoubleClicked 0
+\i (02:17:05) QtSignal CVDNetTable CVDNetTableHorzHeader clickedCheckBox Net 0
+\i (02:17:05) QtSignal CVDNetSplitter CVDNetTable dataChanged 0 0
+\i (02:17:06) QtSignal CVDNetTable CVDNetTableHorzHeader clickedCheckBox Net 1
+\i (02:17:06) QtSignal CVDNetSplitter CVDNetTable dataChanged 0 0
+\i (02:17:06) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:17:07) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:17:07) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:17:07) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:17:07) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:17:07) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:17:07) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:17:07) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:17:07) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:17:07) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:17:07) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:17:07) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:17:07) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:17:07) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:17:08) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:17:08) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:17:08) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:17:08) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:17:08) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:17:08) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:17:08) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:17:08) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:17:08) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:17:08) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:17:08) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:17:08) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:17:08) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:17:08) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:17:08) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:17:08) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:17:08) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:17:08) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (02:17:12) QtSignal ColorVisibilityDialog CVDTabs currentChanged Display
+\i (02:17:15) QtSignal ColorVisibilityDialog CVDTabs currentChanged Favorites
+\i (02:17:15) QtSignal ColorVisibilityDialog CVDTabs currentChanged "Visibility Pane"
+\i (02:17:20) QtSignal ColorVisibilityDialog CVDTabs currentChanged Nets
+\i (04:08:46) pick grid 1787.51 449.65
+\t (04:08:46) last pick:  1800.00 400.00
+\i (04:33:12) QtFillin No
+\i (04:33:12) trapsize 1201
+\i (04:33:12) trapsize 1201
+\i (04:33:14) zoom in 1 
+\i (04:33:14) setwindow pcb
+\i (04:33:14) zoom in -422.06 -568.67
+\i (04:33:14) trapsize 600
+\i (04:33:26) exit 
+\e (04:33:26) Do you want to save the changes you made to tutorial.sip?
+\i (04:33:27) fillin no 
+\t (04:33:28)     Journal end - Mon Mar  4 14:29:46 2024

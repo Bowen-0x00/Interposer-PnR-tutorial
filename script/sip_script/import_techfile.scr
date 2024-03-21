@@ -1,0 +1,17 @@
+### Import techfile script
+version 17.2
+
+setwindow pcb
+trapsize 76805
+generaledit
+techfile in
+setwindow form.tech_in
+FORM tech_in browse
+fillin "C:/Projects/Cadence/Interposer-PnR-tutorial/script/techfile/tutorial.tcfx"
+FORM tech_in execute  
+setwindow pcb
+trapsize 76805
+setwindow form.tech_in
+FORM tech_in cancel  
+setwindow pcb
+generaledit 

@@ -1,0 +1,15 @@
+### Set grid script.
+
+version 17.2
+
+setwindow pcb
+generaledit
+define grid 
+generaledit 
+
+setwindow form.grid
+FORM grid all_etch all_etch_x_grids 0.01 
+FORM grid all_etch all_etch_y_grids 0.01 
+FORM grid done  
+setwindow pcb
+generaledit 

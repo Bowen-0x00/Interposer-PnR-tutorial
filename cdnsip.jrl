@@ -1,0 +1,25 @@
+\t (00:00:03) cdnsip 22.1 S005 Windows SPB 64-bit Edition
+\t (00:00:03)     Journal start - Thu Feb 29 10:54:14 2024
+\t (00:00:03)         Host=BOWEN-FLOW User=Bowen Pid=31376 CPUs=16
+\t (00:00:03) CmdLine= D:\Cadence\Cadence_SPB_22.1\tools\bin\allegro.exe -product SiP_Layout_XL tutorial.sip -s ../script/sip_script/import_all.scr
+\t (00:00:03) 
+   (00:00:03) Loading axlcore.cxt 
+\t (00:00:06) Starting new design...
+\i (00:00:07) trapsize 25840
+\i (00:00:07) trapsize 26316
+\i (00:00:07) trapsize 26810
+\i (00:00:07) trapsize 26316
+\i (00:00:07) trapsize 48780
+\t (00:00:07) Loading NV GPU Plugin
+\i (00:00:07) replay ../script/sip_script/import_all.scr 
+\e (00:00:07) Cannot open script file; 'C:/Projects/Cadence/script/sip_script/import_all.scr' does not exist.
+\i (00:00:07) trapsize 50761
+\i (00:00:07) trapsize 52632
+\i (00:00:07) trapsize 54645
+\i (00:00:07) trapsize 52632
+\i (00:00:07) trapsize 54645
+\i (00:00:07) trapsize 52632
+\i (00:00:08) trapsize 48780
+\i (00:00:08) etchedit 
+\i (00:00:23) exit 
+\t (00:00:23)     Journal end - Thu Feb 29 10:54:34 2024

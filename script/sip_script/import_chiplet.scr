@@ -1,0 +1,76 @@
+### Import chiplet script
+version 17.2
+
+setwindow pcb
+trapsize 4147
+generaledit
+die text in
+fillin "C:/Projects/Cadence/Interposer-PnR-tutorial/die_data/T1_data.txt"
+setwindow form.ptwdselection
+FORM ptwdselection next
+setwindow form.ptwdspecifypininfo
+FORM ptwdspecifypininfo next
+setwindow form.ptwdpadstack
+FORM ptwdpadstack pad_circle YES
+FORM ptwdpadstack pad_width 20
+FORM ptwdpadstack next
+setwindow form.ptwdpackagedimensions
+FORM ptwdpackagedimensions package_layer M1
+FORM ptwdpackagedimensions next
+setwindow pcb
+trapsize 756
+setwindow form.ptwdfinish
+FORM ptwdfinish done
+setwindow pcb
+generaledit
+die text in
+fillin "C:/Projects/Cadence/Interposer-PnR-tutorial/die_data/T2_data.txt"
+setwindow form.ptwdselection
+FORM ptwdselection next
+setwindow form.ptwdspecifypininfo
+FORM ptwdspecifypininfo next
+setwindow form.ptwdpackagedimensions
+FORM ptwdpackagedimensions package_layer M1
+FORM ptwdpackagedimensions next
+setwindow pcb
+trapsize 756
+setwindow form.ptwdfinish
+FORM ptwdfinish done
+setwindow pcb
+generaledit
+die text in
+fillin "C:/Projects/Cadence/Interposer-PnR-tutorial/die_data/U_data.txt"
+setwindow form.ptwdselection
+FORM ptwdselection next
+setwindow form.ptwdspecifypininfo
+FORM ptwdspecifypininfo next
+setwindow form.ptwdpackagedimensions
+FORM ptwdpackagedimensions package_layer M1
+FORM ptwdpackagedimensions next
+setwindow pcb
+trapsize 756
+setwindow form.ptwdfinish
+FORM ptwdfinish done
+setwindow pcb
+generaledit
+die text in
+fillin "C:/Projects/Cadence/Interposer-PnR-tutorial/die_data/INTERPOSER_data.txt"
+setwindow form.ptwdselection
+FORM ptwdselection next
+setwindow form.ptwdspecifypininfo
+FORM ptwdspecifypininfo next
+setwindow form.ptwdpadstack
+FORM ptwdpadstack pad_circle YES
+FORM ptwdpadstack pad_width 90
+FORM ptwdpadstack next
+setwindow form.ptwdpackagedimensions
+FORM ptwdpackagedimensions package_layer UBM
+FORM ptwdpackagedimensions next
+setwindow pcb
+trapsize 756
+setwindow form.ptwdfinish
+FORM ptwdfinish done
+setwindow pcb
+generaledit
+unrats all
+generaledit

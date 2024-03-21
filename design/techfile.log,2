@@ -1,0 +1,36 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Technology File READ                                             )
+(                                                                     )
+(    Drawing          : tutorial.sip                                  )
+(    Software Version : unreleased                                    )
+(    Date/Time        : Thu Feb 29 16:35:34 2024                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+techfile name: C:/Projects/Cadence/Interposer-PnR-tutorial/script/techfile/tutorial.tcfx
+  layout name: C:/Projects/Cadence/Interposer-PnR-tutorial/design/tutorial.sip
+
+Technology Difference Report
+============================
+
+Design        : tutorial
+Input File    : C:/Projects/Cadence/Interposer-PnR-tutorial/script/techfile/tutorial.tcfx
+Update Mode   : Merge (no deletions will be done)
+Constraint Information : CrossSection, Electrical, Physical, Spacing, Same Net Spacing, Assembly, Properties
+Notes:
+------
+  - Attribute updates are reported as additions, deletions, or changes.
+  - Association updates are reported as additions or deletions. Associations
+    are the members of a MatchGroup, Constraint Set references, the PinPairs
+    of a Net, the members of a Differential Pair, etc.
+  - Clearing an object implies that the object does not exist so all attributes
+    and associations for the object will be deleted. These attribute and association
+    deletions are not included in the Summary totals. Objects are Constraint Sets,
+    Buses, XNets, Nets, etc.
+
+
+No objects were updated.
+
+

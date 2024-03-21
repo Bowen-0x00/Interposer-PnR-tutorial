@@ -1,0 +1,474 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Die Text-In Wizard                                               )
+(                                                                     )
+(    Drawing          : tutorial.sip                                  )
+(    Software Version : 17.4P001                                      )
+(    Date/Time        : Thu Feb 29 16:37:04 2024                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+WARNING(SPMHII-22):  is not a recognized units string for length measurement. [help]
+Text file contains a column header line. This has been used to pre-configure the columns for import.
+Beginning import of data. This may take some time.
+Beginning creation of logical component.
+Logical component creation completed.
+
+Attaching pins to their nets (creating new nets as required).
+   Pin U.1 was added to net T2_O_6.
+   Pin U.2 was added to net T2_O_7.
+   Pin U.3 was added to net T2_O_8.
+   Pin U.4 was added to net T2_O_9.
+   Pin U.5 was added to net T2_O_10.
+   Pin U.6 was added to net T2_I_10.
+   Pin U.7 was added to net T2_I_9.
+   Pin U.8 was added to net T2_I_8.
+   Pin U.9 was added to net T2_I_7.
+   Pin U.10 was added to net T2_I_6.
+   Pin U.11 was added to net T1_O_6.
+   Pin U.12 was added to net T1_O_7.
+   Pin U.13 was added to net T1_O_8.
+   Pin U.14 was added to net T1_O_9.
+   Pin U.15 was added to net T1_O_10.
+   Pin U.16 was added to net T1_I_10.
+   Pin U.17 was added to net T1_I_9.
+   Pin U.18 was added to net T1_I_8.
+   Pin U.19 was added to net T1_I_7.
+   Pin U.20 was added to net T1_I_6.
+   Pin U.21 was added to net T2_O_5.
+   Pin U.22 was added to net T2_O_4.
+   Pin U.23 was added to net T2_O_3.
+   Pin U.24 was added to net T2_O_2.
+   Pin U.25 was added to net T2_O_1.
+   Pin U.26 was added to net T2_I_1.
+   Pin U.27 was added to net T2_I_2.
+   Pin U.28 was added to net T2_I_3.
+   Pin U.29 was added to net T2_I_4.
+   Pin U.30 was added to net T2_I_5.
+   Pin U.31 was added to net T1_O_5.
+   Pin U.32 was added to net T1_O_4.
+   Pin U.33 was added to net T1_O_3.
+   Pin U.34 was added to net T1_O_2.
+   Pin U.35 was added to net T1_O_1.
+   Pin U.36 was added to net T1_I_1.
+   Pin U.37 was added to net T1_I_2.
+   Pin U.38 was added to net T1_I_3.
+   Pin U.39 was added to net T1_I_4.
+   Pin U.40 was added to net T1_I_5.
+   Pin U.41 was added to net T2_INT_1.
+   Pin U.42 was added to net T2_F_I.
+   Pin U.43 was added to net VDD.
+   Pin U.44 was added to net VSS.
+   Pin U.45 was added to net VDD.
+   Pin U.46 was added to net VSS.
+   Pin U.47 was added to net VDD.
+   Pin U.48 was added to net VSS.
+   Pin U.49 was added to net VDD.
+   Pin U.50 was added to net RESET.
+   Pin U.51 was added to net CLK.
+   Pin U.52 was added to net VSS.
+   Pin U.53 was added to net VDD.
+   Pin U.54 was added to net VSS.
+   Pin U.55 was added to net VDD.
+   Pin U.56 was added to net VSS.
+   Pin U.57 was added to net VDD.
+   Pin U.58 was added to net VSS.
+   Pin U.59 was added to net T1_F_O.
+   Pin U.60 was added to net T1_INT_5.
+   Pin U.61 was added to net T2_INT_2.
+   Pin U.62 was added to net T2_F_O.
+   Pin U.63 was added to net VSS.
+   Pin U.64 was added to net VDD.
+   Pin U.65 was added to net VSS.
+   Pin U.66 was added to net VDD.
+   Pin U.67 was added to net VSS.
+   Pin U.68 was added to net VDD.
+   Pin U.69 was added to net VSS.
+   Pin U.70 was added to net VDD.
+   Pin U.71 was added to net VSS.
+   Pin U.72 was added to net VDD.
+   Pin U.73 was added to net VSS.
+   Pin U.74 was added to net VDD.
+   Pin U.75 was added to net VSS.
+   Pin U.76 was added to net VDD.
+   Pin U.77 was added to net VSS.
+   Pin U.78 was added to net VDD.
+   Pin U.79 was added to net T1_F_I.
+   Pin U.80 was added to net T1_INT_4.
+   Pin U.81 was added to net T2_INT_3.
+   Pin U.82 was added to net VSS.
+   Pin U.83 was added to net VDD.
+   Pin U.84 was added to net VSS.
+   Pin U.85 was added to net VDD.
+   Pin U.86 was added to net VSS.
+   Pin U.87 was added to net VDD.
+   Pin U.88 was added to net VSS.
+   Pin U.89 was added to net VDD.
+   Pin U.90 was added to net VSS.
+   Pin U.91 was added to net VDD.
+   Pin U.92 was added to net VSS.
+   Pin U.93 was added to net VDD.
+   Pin U.94 was added to net VSS.
+   Pin U.95 was added to net VDD.
+   Pin U.96 was added to net VSS.
+   Pin U.97 was added to net VDD.
+   Pin U.98 was added to net VSS.
+   Pin U.99 was added to net VDD.
+   Pin U.100 was added to net T1_INT_3.
+   Pin U.101 was added to net T2_INT_4.
+   Pin U.102 was added to net VDD.
+   Pin U.103 was added to net VSS.
+   Pin U.104 was added to net VDD.
+   Pin U.105 was added to net VSS.
+   Pin U.106 was added to net VDD.
+   Pin U.107 was added to net VSS.
+   Pin U.108 was added to net VDD.
+   Pin U.109 was added to net VSS.
+   Pin U.110 was added to net VDD.
+   Pin U.111 was added to net VSS.
+   Pin U.112 was added to net VDD.
+   Pin U.113 was added to net VSS.
+   Pin U.114 was added to net VDD.
+   Pin U.115 was added to net VSS.
+   Pin U.116 was added to net VDD.
+   Pin U.117 was added to net VSS.
+   Pin U.118 was added to net VDD.
+   Pin U.119 was added to net VSS.
+   Pin U.120 was added to net T1_INT_2.
+   Pin U.121 was added to net T2_INT_5.
+   Pin U.122 was added to net VSS.
+   Pin U.123 was added to net VDD.
+   Pin U.124 was added to net VSS.
+   Pin U.125 was added to net VDD.
+   Pin U.126 was added to net VSS.
+   Pin U.127 was added to net VDD.
+   Pin U.128 was added to net VSS.
+   Pin U.129 was added to net VDD.
+   Pin U.130 was added to net VSS.
+   Pin U.131 was added to net VDD.
+   Pin U.132 was added to net VSS.
+   Pin U.133 was added to net VDD.
+   Pin U.134 was added to net VSS.
+   Pin U.135 was added to net VDD.
+   Pin U.136 was added to net VSS.
+   Pin U.137 was added to net VDD.
+   Pin U.138 was added to net VSS.
+   Pin U.139 was added to net VDD.
+   Pin U.140 was added to net T1_INT_1.
+Created new net E_ID_O_2 from net name E_ID_O_2.
+   Pin U.141 was added to net E_ID_O_2.
+Created new net E_ID_O_1 from net name E_ID_O_1.
+   Pin U.142 was added to net E_ID_O_1.
+   Pin U.143 was added to net VSS.
+   Pin U.144 was added to net VDD.
+   Pin U.145 was added to net VSS.
+   Pin U.146 was added to net VDD.
+   Pin U.147 was added to net VSS.
+   Pin U.148 was added to net VDD.
+   Pin U.149 was added to net VSS.
+   Pin U.150 was added to net VDD.
+   Pin U.151 was added to net VSS.
+   Pin U.152 was added to net VDD.
+   Pin U.153 was added to net VSS.
+   Pin U.154 was added to net VDD.
+   Pin U.155 was added to net VSS.
+   Pin U.156 was added to net VDD.
+   Pin U.157 was added to net VSS.
+   Pin U.158 was added to net VDD.
+Created new net E_ID_I_2 from net name E_ID_I_2.
+   Pin U.159 was added to net E_ID_I_2.
+Created new net E_ID_I_1 from net name E_ID_I_1.
+   Pin U.160 was added to net E_ID_I_1.
+Created new net E_F_O from net name E_F_O.
+   Pin U.161 was added to net E_F_O.
+Created new net DEBUG_O_8 from net name DEBUG_O_8.
+   Pin U.162 was added to net DEBUG_O_8.
+Created new net DEBUG_O_7 from net name DEBUG_O_7.
+   Pin U.163 was added to net DEBUG_O_7.
+Created new net DEBUG_O_6 from net name DEBUG_O_6.
+   Pin U.164 was added to net DEBUG_O_6.
+Created new net DEBUG_O_5 from net name DEBUG_O_5.
+   Pin U.165 was added to net DEBUG_O_5.
+Created new net DEBUG_O_4 from net name DEBUG_O_4.
+   Pin U.166 was added to net DEBUG_O_4.
+Created new net DEBUG_O_3 from net name DEBUG_O_3.
+   Pin U.167 was added to net DEBUG_O_3.
+Created new net DEBUG_O_2 from net name DEBUG_O_2.
+   Pin U.168 was added to net DEBUG_O_2.
+Created new net DEBUG_O_1 from net name DEBUG_O_1.
+   Pin U.169 was added to net DEBUG_O_1.
+Created new net DRESET from net name DRESET.
+   Pin U.170 was added to net DRESET.
+Created new net DCLK from net name DCLK.
+   Pin U.171 was added to net DCLK.
+Created new net DEBUG_I_8 from net name DEBUG_I_8.
+   Pin U.172 was added to net DEBUG_I_8.
+Created new net DEBUG_I_7 from net name DEBUG_I_7.
+   Pin U.173 was added to net DEBUG_I_7.
+Created new net DEBUG_I_6 from net name DEBUG_I_6.
+   Pin U.174 was added to net DEBUG_I_6.
+Created new net DEBUG_I_5 from net name DEBUG_I_5.
+   Pin U.175 was added to net DEBUG_I_5.
+Created new net DEBUG_I_4 from net name DEBUG_I_4.
+   Pin U.176 was added to net DEBUG_I_4.
+Created new net DEBUG_I_3 from net name DEBUG_I_3.
+   Pin U.177 was added to net DEBUG_I_3.
+Created new net DEBUG_I_2 from net name DEBUG_I_2.
+   Pin U.178 was added to net DEBUG_I_2.
+Created new net DEBUG_I_1 from net name DEBUG_I_1.
+   Pin U.179 was added to net DEBUG_I_1.
+Created new net E_F_I from net name E_F_I.
+   Pin U.180 was added to net E_F_I.
+Created new net E_O_10 from net name E_O_10.
+   Pin U.181 was added to net E_O_10.
+Created new net E_O_9 from net name E_O_9.
+   Pin U.182 was added to net E_O_9.
+Created new net E_O_8 from net name E_O_8.
+   Pin U.183 was added to net E_O_8.
+Created new net E_O_7 from net name E_O_7.
+   Pin U.184 was added to net E_O_7.
+Created new net E_O_6 from net name E_O_6.
+   Pin U.185 was added to net E_O_6.
+Created new net E_O_5 from net name E_O_5.
+   Pin U.186 was added to net E_O_5.
+Created new net E_O_4 from net name E_O_4.
+   Pin U.187 was added to net E_O_4.
+Created new net E_O_3 from net name E_O_3.
+   Pin U.188 was added to net E_O_3.
+Created new net E_O_2 from net name E_O_2.
+   Pin U.189 was added to net E_O_2.
+Created new net E_O_1 from net name E_O_1.
+   Pin U.190 was added to net E_O_1.
+Created new net E_I_1 from net name E_I_1.
+   Pin U.191 was added to net E_I_1.
+Created new net E_I_2 from net name E_I_2.
+   Pin U.192 was added to net E_I_2.
+Created new net E_I_3 from net name E_I_3.
+   Pin U.193 was added to net E_I_3.
+Created new net E_I_4 from net name E_I_4.
+   Pin U.194 was added to net E_I_4.
+Created new net E_I_5 from net name E_I_5.
+   Pin U.195 was added to net E_I_5.
+Created new net E_I_6 from net name E_I_6.
+   Pin U.196 was added to net E_I_6.
+Created new net E_I_7 from net name E_I_7.
+   Pin U.197 was added to net E_I_7.
+Created new net E_I_8 from net name E_I_8.
+   Pin U.198 was added to net E_I_8.
+Created new net E_I_9 from net name E_I_9.
+   Pin U.199 was added to net E_I_9.
+Created new net E_I_10 from net name E_I_10.
+   Pin U.200 was added to net E_I_10.
+Net attachment phase completed.
+
+Beginning creation of physical symbol.
+The following symbol pins were created (coordinates relative to symbol origin):
+   "1" at (-380 180).
+   "2" at (-340 180).
+   "3" at (-300 180).
+   "4" at (-260 180).
+   "5" at (-220 180).
+   "6" at (-180 180).
+   "7" at (-140 180).
+   "8" at (-100 180).
+   "9" at (-60 180).
+   "10" at (-20 180).
+   "11" at (20 180).
+   "12" at (60 180).
+   "13" at (100 180).
+   "14" at (140 180).
+   "15" at (180 180).
+   "16" at (220 180).
+   "17" at (260 180).
+   "18" at (300 180).
+   "19" at (340 180).
+   "20" at (380 180).
+   "21" at (-380 140).
+   "22" at (-340 140).
+   "23" at (-300 140).
+   "24" at (-260 140).
+   "25" at (-220 140).
+   "26" at (-180 140).
+   "27" at (-140 140).
+   "28" at (-100 140).
+   "29" at (-60 140).
+   "30" at (-20 140).
+   "31" at (20 140).
+   "32" at (60 140).
+   "33" at (100 140).
+   "34" at (140 140).
+   "35" at (180 140).
+   "36" at (220 140).
+   "37" at (260 140).
+   "38" at (300 140).
+   "39" at (340 140).
+   "40" at (380 140).
+   "41" at (-380 100).
+   "42" at (-340 100).
+   "43" at (-300 100).
+   "44" at (-260 100).
+   "45" at (-220 100).
+   "46" at (-180 100).
+   "47" at (-140 100).
+   "48" at (-100 100).
+   "49" at (-60 100).
+   "50" at (-20 100).
+   "51" at (20 100).
+   "52" at (60 100).
+   "53" at (100 100).
+   "54" at (140 100).
+   "55" at (180 100).
+   "56" at (220 100).
+   "57" at (260 100).
+   "58" at (300 100).
+   "59" at (340 100).
+   "60" at (380 100).
+   "61" at (-380 60).
+   "62" at (-340 60).
+   "63" at (-300 60).
+   "64" at (-260 60).
+   "65" at (-220 60).
+   "66" at (-180 60).
+   "67" at (-140 60).
+   "68" at (-100 60).
+   "69" at (-60 60).
+   "70" at (-20 60).
+   "71" at (20 60).
+   "72" at (60 60).
+   "73" at (100 60).
+   "74" at (140 60).
+   "75" at (180 60).
+   "76" at (220 60).
+   "77" at (260 60).
+   "78" at (300 60).
+   "79" at (340 60).
+   "80" at (380 60).
+   "81" at (-380 20).
+   "82" at (-340 20).
+   "83" at (-300 20).
+   "84" at (-260 20).
+   "85" at (-220 20).
+   "86" at (-180 20).
+   "87" at (-140 20).
+   "88" at (-100 20).
+   "89" at (-60 20).
+   "90" at (-20 20).
+   "91" at (20 20).
+   "92" at (60 20).
+   "93" at (100 20).
+   "94" at (140 20).
+   "95" at (180 20).
+   "96" at (220 20).
+   "97" at (260 20).
+   "98" at (300 20).
+   "99" at (340 20).
+   "100" at (380 20).
+   "101" at (-380 -20).
+   "102" at (-340 -20).
+   "103" at (-300 -20).
+   "104" at (-260 -20).
+   "105" at (-220 -20).
+   "106" at (-180 -20).
+   "107" at (-140 -20).
+   "108" at (-100 -20).
+   "109" at (-60 -20).
+   "110" at (-20 -20).
+   "111" at (20 -20).
+   "112" at (60 -20).
+   "113" at (100 -20).
+   "114" at (140 -20).
+   "115" at (180 -20).
+   "116" at (220 -20).
+   "117" at (260 -20).
+   "118" at (300 -20).
+   "119" at (340 -20).
+   "120" at (380 -20).
+   "121" at (-380 -60).
+   "122" at (-340 -60).
+   "123" at (-300 -60).
+   "124" at (-260 -60).
+   "125" at (-220 -60).
+   "126" at (-180 -60).
+   "127" at (-140 -60).
+   "128" at (-100 -60).
+   "129" at (-60 -60).
+   "130" at (-20 -60).
+   "131" at (20 -60).
+   "132" at (60 -60).
+   "133" at (100 -60).
+   "134" at (140 -60).
+   "135" at (180 -60).
+   "136" at (220 -60).
+   "137" at (260 -60).
+   "138" at (300 -60).
+   "139" at (340 -60).
+   "140" at (380 -60).
+   "141" at (-380 -100).
+   "142" at (-340 -100).
+   "143" at (-300 -100).
+   "144" at (-260 -100).
+   "145" at (-220 -100).
+   "146" at (-180 -100).
+   "147" at (-140 -100).
+   "148" at (-100 -100).
+   "149" at (-60 -100).
+   "150" at (-20 -100).
+   "151" at (20 -100).
+   "152" at (60 -100).
+   "153" at (100 -100).
+   "154" at (140 -100).
+   "155" at (180 -100).
+   "156" at (220 -100).
+   "157" at (260 -100).
+   "158" at (300 -100).
+   "159" at (340 -100).
+   "160" at (380 -100).
+   "161" at (-380 -140).
+   "162" at (-340 -140).
+   "163" at (-300 -140).
+   "164" at (-260 -140).
+   "165" at (-220 -140).
+   "166" at (-180 -140).
+   "167" at (-140 -140).
+   "168" at (-100 -140).
+   "169" at (-60 -140).
+   "170" at (-20 -140).
+   "171" at (20 -140).
+   "172" at (60 -140).
+   "173" at (100 -140).
+   "174" at (140 -140).
+   "175" at (180 -140).
+   "176" at (220 -140).
+   "177" at (260 -140).
+   "178" at (300 -140).
+   "179" at (340 -140).
+   "180" at (380 -140).
+   "181" at (-380 -180).
+   "182" at (-340 -180).
+   "183" at (-300 -180).
+   "184" at (-260 -180).
+   "185" at (-220 -180).
+   "186" at (-180 -180).
+   "187" at (-140 -180).
+   "188" at (-100 -180).
+   "189" at (-60 -180).
+   "190" at (-20 -180).
+   "191" at (20 -180).
+   "192" at (60 -180).
+   "193" at (100 -180).
+   "194" at (140 -180).
+   "195" at (180 -180).
+   "196" at (220 -180).
+   "197" at (260 -180).
+   "198" at (300 -180).
+   "199" at (340 -180).
+   "200" at (380 -180).
+Physical symbol creation completed.
+
+Adding required pin and net properties.
+Property attachment phase completed.
+
+INFO(SPMHII-42): The data import successfully completed.
+Die Text-In Wizard completed.
+Thu Feb 29 16:37:04 2024
